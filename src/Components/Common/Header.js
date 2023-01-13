@@ -18,7 +18,7 @@ function Header () {
             <header>
                 <Container fluid>
                     <Row className='row align-items-center'>
-                        <Col className='col-4 col-sm-5 col-md-6 col-lg-6 text-left'>
+                        <Col className='col-5 col-sm-5 col-md-6 col-lg-6 text-left'>
                             <a className="navbar-brand" href="/#">
                                 <img src='images/tj.jpg' className='img-fluid d-none d-md-block' alt='logo'></img>
                                 <img src='images/tj-sm.png' className='img-fluid d-block d-md-none' alt='logo'></img>
@@ -57,7 +57,7 @@ function Header () {
                                 </Offcanvas.Body>
                             </Offcanvas>                           
                         </Col>                       
-                        <Col className='col-8 col-sm-7 col-md-6 col-lg-6 align-items-center justify-content-center pe-0 px-0 pe-sm-0 px-sm-0'>                            
+                        <Col className='col-7 col-sm-7 col-md-6 col-lg-6 align-items-center justify-content-center pe-0 px-0 pe-sm-0 px-sm-0'>                            
                             <Topbanner/>
                         </Col>
                     </Row>
