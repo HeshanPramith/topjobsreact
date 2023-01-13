@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Latestcat from './Latestcat/Latestcat';
-import Jobcategory from './Jobcategory/Jobcategory';
 import Joblist from './Joblist/Joblist';
 import Searchjob from './Home/Searchjob';
 import Leftbanner from './Banners/Leftbanner';
