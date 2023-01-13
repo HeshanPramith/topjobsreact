@@ -24,7 +24,7 @@ function Jobcategory () {
                     </InputGroup>
                 </Form>
                 <ListGroup variant="flush">
-                    {Array.from({ length: 20 }).map((_, idx) => (
+                    {Array.from({ length: 10 }).map((_, idx) => (
                         <>
                         <ListGroup.Item as="li" className="">
                             <div className="me-auto">

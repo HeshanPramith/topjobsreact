@@ -5,23 +5,34 @@ import Col from 'react-bootstrap/Col';
 import Latestcat from './Latestcat/Latestcat';
 import Jobcategory from './Jobcategory/Jobcategory';
 import Joblist from './Joblist/Joblist';
+import Searchjob from './Home/Searchjob';
+import Leftbanner from './Banners/Leftbanner';
+import Rightbanner from './Banners/Right banner';
 
 function Home () {
-    
+
     return (
         <React.Fragment>
             <Container fluid>
                 <Row>
-                    <Col xs={12}>
+                    <Col xs={12} className='px-0'>
+                        <Searchjob/>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs={12} className='text-center mt-minus'>
                         <Latestcat/>
                     </Col>
                 </Row>
                 <Row>
-                    <Col xs={12} sm={5} md={4} lg={3} xl={3} xxl={3} className='ps-sm-0'>
-                        <Jobcategory/>
+                    <Col xs={12} sm={2} md={2} lg={2} xl={1} xxl={1} className='text-center'>
+                        <Leftbanner/>
                     </Col>
-                    <Col xs={12} sm={7} md={8} lg={9} xl={9} xxl={9}>
+                    <Col xs={12} sm={8} md={8} lg={8} xl={10} xxl={10}>
                         <Joblist/>
+                    </Col>
+                    <Col xs={12} sm={2} md={2} lg={2} xl={1} xxl={1} className='text-center'>
+                        <Rightbanner/>
                     </Col>
                 </Row>
             </Container>
