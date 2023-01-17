@@ -130,7 +130,7 @@ header {
     width: 100%;
     position: relative;
     background: #a00a10;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 .jbseeker-block {
@@ -384,13 +384,23 @@ footer {
     float: left; 
 
     .card {
+        // margin-bottom: 15px;
+        // width: 100%;
+        // float: left;
+        // border-radius: 5px;
+        // background: #efefef;
+        // transition:all 0.3s ease-out;
+        // cursor: pointer;
         margin-bottom: 15px;
         width: 100%;
         float: left;
         border-radius: 5px;
-        background: #efefef;
-        transition:all 0.3s ease-out;
+        background: #ffffff;
+        transition: all 0.3s ease-out;
         cursor: pointer;
+        border: solid 1px #c3c3c3;
+        box-shadow: 0px 0px 5px -2px #2e2e2e;
+        margin-top: 3px;
 
         &:hover {
             background: #580000;
@@ -431,9 +441,9 @@ footer {
             a {
                 float: left;
                 text-decoration: none;
-                color: #580000;
-                font-size: 14px;
-                font-weight: 600;
+                color: #262626;
+                font-size: 12px;
+                font-weight: 500;
             }
         }
 
@@ -441,8 +451,126 @@ footer {
             float: left;
             width: 100%;
             font-size: 12px;
-            font-weight: 500;
-            color: #4a4a4a;
+            font-weight: 400;
+            color: #838383;
+        }
+
+        .card-footer {
+            width: 100%;
+            float: left;
+            padding: 5px 10px;
+
+            small {
+                width: 100%;
+                float: left;
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+#jbvac-wrapper {
+    // max-height: calc(100vh + -260px);
+    overflow: auto;
+    float: left;
+
+    .card {
+        // margin-bottom: 15px;
+        // width: 100%;
+        // float: left;
+        // border-radius: 5px;
+        // background: #efefef;
+        // transition:all 0.3s ease-out;
+        // cursor: pointer;
+        margin-bottom: 15px;
+        width: 100%;
+        float: left;
+        border-radius: 5px;
+        background: #ffffff;
+        transition: all 0.3s ease-out;
+        cursor: pointer;
+        border: solid 1px #c3c3c3;
+        box-shadow: 0px 0px 5px -2px #2e2e2e;
+        margin-top: 3px;
+
+        &:hover {
+            background: #580000;
+            transition:all 0.3s ease-out;
+
+            .card-title {
+                
+                a {
+                    color: #FFFFFF;
+                }
+            }
+
+            .card-text {
+                color: #ffa7a7;
+                color: #FFFFFF !important;
+            }
+
+            .card-footer {
+                
+                small {
+                    color: #ffa7a7 !important;
+                }
+            }
+        }
+
+        .card-body {
+            padding: 10px;
+            width: 100%;
+            float: left;
+            border-radius: 5px;
+        }
+
+        .card-title {
+            width: 100%;
+            float: left;
+            position: relative;
+            margin-bottom: 4px !important;
+
+            a {
+                float: left;
+                text-decoration: none;
+                color: #2a2727;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+
+        .card-text {
+            float: left;
+            width: 100%;
+            font-size: 11px;
+            font-weight: 400;
+            color: #939393;
+            margin: 0;
+
+            &.cp-name {
+                color: #000000;
+                font-size: 13px;
+                margin-bottom: 5px;
+            }
+
+            &.od {
+                color: #358735;
+                float: left;
+                width: auto !important;
+                margin-right: 10px;
+            }
+
+            &.cd {
+                color: #e55f5f;
+                float: left;
+                width: auto !important;
+            }
+
+            &.jb-desc {
+                font-size: 13px;
+                margin-bottom: 5px;
+                color: #707070;
+            }
         }
 
         .card-footer {
@@ -496,6 +624,19 @@ footer {
 
 .menu-offcanvas {
     width: 400px !important;
+    background: url(../public/images/wave-haikei.svg) top center no-repeat #FFFFFF;
+    background-size: contain;
+
+    .offcanvas-header {
+        padding-bottom: 30px;
+        color: #FFFFFF;
+
+        .btn-close {
+            color: #FFFFFF;
+            background-color: #FFFFFF;
+            opacity: 1;
+        }
+    }
 
     .offcanvas-header {
         padding-bottom: 0 !important;
@@ -615,6 +756,62 @@ button {
     }
 }
 
+.vacbytop {
+    border-radius: 0 !important;
+    border: none;
+    // background: url(../public/images/wave-2.jpg) center center no-repeat;
+    // background-size: 100%;
+    background: linear-gradient(0deg, #0061a6 10%, #01295e 100%);
+    height: auto;
+    padding: 30px 0;
+    margin-bottom: 30px;
+
+    .card-title {
+        font-size: 16px;
+        font-weight: 400;
+        padding-bottom: 5px;
+    }
+
+    .card-text {
+        font-size: 11px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif !important;
+        color: #64beff;
+    }
+
+    .search-form {
+        max-width: 300px;
+        display: inline-block;
+        width: 100%;
+
+        input {
+            font-size: 12px;
+            border: none;
+        }
+
+        button {
+            font-size: 12px;
+            border: none;
+            text-transform: uppercase;
+            background: #a00a10 !important;
+        }
+    }
+
+    .category-btn {
+        margin-left: 15px;
+        font-size: 12px;
+        line-height: 20px
+    }
+}
+
+input {
+    box-shadow: none !important;
+}
+
+.green-jb {
+    border-left: solid 5px #009966 !important;
+}
+
 @media (min-width: 0px) and (max-width: 767px) {
     
     #main-cont {
@@ -640,5 +837,12 @@ button {
 
     .card-hm-title {
         margin-top: 15px !important;
+    }
+
+    .vacbytop {
+
+        .search-form {
+            max-width: 200px;
+        }
     }
 }

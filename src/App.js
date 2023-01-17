@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Common/Header';
 import Footer from './Components/Common/Footer';
 import Home from './Components/Home';
@@ -14,6 +15,7 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Vacancybyfunctionalarea from './Components/Vacancybyfunctionalarea';
 
 
 function App() {
@@ -44,7 +46,12 @@ function App() {
             </Row>
           </Container>          
         </div>
-        <Home/>
+        <Router>
+          <Routes>
+            <Route path='/'  element={<Home/>}/>
+            <Route path='/vacancybyfunctionalarea'  element={<Vacancybyfunctionalarea/>}/>
+          </Routes>
+        </Router>
       </div>      
       <Footer/>
     </div>

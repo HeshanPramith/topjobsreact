@@ -26,7 +26,7 @@ function Latestcat () {
             <h2 className='sub-title'>Popular Categorys</h2>
             <Slider {...settings}>
                 <div>
-                    <a href='/#'>IT-Sware/DB/QA/Web/Graphics/GIS</a>
+                    <a href='/Vacancybyfunctionalarea'>IT-Sware/DB/QA/Web/Graphics/GIS</a>
                 </div>
                 <div>
                     <a href='/#'>IT-HWare/Networks/Systems</a>
