@@ -12,7 +12,7 @@ function Joblist () {
                     <CardGroup>
                         <Card className='green-jb'>
                             <Card.Body>
-                                <Card.Title><a href='/Vacancybyfunctionalarea'>Software Architect / Associate Software Architect - Full Stack  </a></Card.Title>
+                                <Card.Title><a href='/Adview'>Software Architect / Associate Software Architect - Full Stack  </a></Card.Title>
                                 <Card.Text className='cp-name'>Calcey Technologies (Pvt) Ltd</Card.Text>
                                 <Card.Text className='jb-desc'>A Degree in Computer Science, Information Systems, Software Engineering or 3/4 Yrs exp</Card.Text>
                                 <Card.Text className='od'>Opening Date - Tue Jan 17 2023</Card.Text>
