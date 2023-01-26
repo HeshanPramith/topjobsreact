@@ -49,8 +49,7 @@ function Adview () {
                                 </Card.Text>
                                 <Card.Text>Last updated 3 mins ago</Card.Text>
                             </Card.Body>                            
-                        </Card>
-                        
+                        </Card>                        
                     </Col>
                     <Col xs={12} sm={12} md={8} lg={9} xl={9} xxl={9} className='pt-3'>                                               
                         <ButtonToolbar className="align-items-center justify-content-between advbtngrp" aria-label="Toolbar with Button groups">
@@ -63,6 +62,9 @@ function Adview () {
                                 <Button variant="secondary" size='sm' className='flag-btn'>Flag</Button>
                             </ButtonGroup>
                         </ButtonToolbar>
+                        <div className='addview'>
+                            <Adviewbanner/>
+                        </div>
                         <ButtonToolbar className="align-items-center justify-content-between advbtngrp" aria-label="Toolbar with Button groups">
                             <ButtonGroup aria-label="First group">
                                 <Button className='jb-nav' variant="secondary" size='sm' ><i class="fa-solid fa-arrow-left"></i></Button>
@@ -74,10 +76,7 @@ function Adview () {
                         </ButtonToolbar>
                         <div className='addview'>
                             <img src="images/1669cdsz.png" alt="" className='img-fluid'/>
-                        </div>
-                        <div className='addview'>
-                            <Adviewbanner/>
-                        </div>
+                        </div>                        
                     </Col>
                 </Row>
             </Container>

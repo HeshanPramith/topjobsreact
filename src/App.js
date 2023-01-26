@@ -16,6 +16,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Vacancybyfunctionalarea from './Components/Vacancybyfunctionalarea';
+import Vacancybyfunctionalarealist from './Components/Vacancybyfunctionalarealist';
 import Adview from './Components/Adview';
 
 
@@ -51,6 +52,7 @@ function App() {
           <Routes>
             <Route path='/'  element={<Home/>}/>
             <Route path='/vacancybyfunctionalarea'  element={<Vacancybyfunctionalarea/>}/>
+            <Route path='/Vacancybyfunctionalarealist'  element={<Vacancybyfunctionalarealist/>}/>
             <Route path='/Adview'  element={<Adview/>}/>
           </Routes>
         </Router>
