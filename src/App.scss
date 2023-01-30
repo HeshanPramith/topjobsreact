@@ -1464,6 +1464,12 @@ select {
             height: auto;
         }
     }
+
+    .js-signup {
+        .signup-box {
+            margin-bottom: 30px;
+        }
+    }
 }
 
 @media (min-width: 0px) and (max-width: 564px) {
