@@ -74,20 +74,22 @@ function App() {
           <Modal.Title className='text-center'>&nbsp;</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Container fluid>
-            <Row>
-              <Col xs={12} sm={12} md={5} lg={4} xl={3} xxl={3} className='prel'>
-                <div className='login-box login-box d-flex flex-column align-items-center justify-content-center'>
-                    <div className='jslog-wrp'>
-                      <img src='images/tj.jpg' className='img-fluid jslog-img' alt='logo'></img>
-                    </div>
-                    <h3>Welcome Back</h3>
-                    <p>Don't have a topjobs account?</p>
-                    <a href='/#'>Sign Up Now! <i class="fa-solid fa-arrow-right-long"></i></a>
+          <Container fluid className='h-100'>
+            <Row className='h-100'>
+              <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6} className='prel'>
+                <div className='d-flex align-items-center justify-content-center h-100'>
+                  <div className='login-box login-box d-flex flex-column align-items-center justify-content-center'>
+                      <div className='jslog-wrp'>
+                        <img src='images/tj.jpg' className='img-fluid jslog-img' alt='logo'></img>
+                      </div>
+                      <h3>Welcome Back</h3>
+                      <p>Don't have a topjobs account?</p>
+                      <a href='/#'>Sign Up Now! <i class="fa-solid fa-arrow-right-long"></i></a>
+                  </div>
                 </div>
               </Col>
-              <Col xs={12} sm={12} md={7} lg={8} xl={9} xxl={9} className='prel'>
-                <div className='js-login-form-inner d-flex align-items-center justify-content-center'>
+              <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6} className='prel'>
+                <div className='js-login-form-inner d-flex align-items-center justify-content-center h-100'>
                   <Form className='js-login-form'>
                     <h2>Login</h2>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -122,21 +124,23 @@ function App() {
           <Modal.Title className='text-center'>&nbsp;</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Container fluid>
-            <Row>
-              <Col xs={12} sm={12} md={5} lg={4} xl={3} xxl={3} className='prel'>
-                <div className='signup-box login-box d-flex flex-column align-items-center justify-content-center'>
-                    <div className='jslog-wrp'>
-                      <img src='images/tj.jpg' className='img-fluid jslog-img' alt='logo'></img>
-                    </div>
-                    <h3>Welcome Back</h3>
-                    <p>Please fill in the information below to create an account with topjobs. Once your account has been created, you can login at any time and use your own Workspace in the system. From this workspace, you can apply for jobs, build up your employment profile, upload your CV, search for vacancies, see your list of applied jobs, and most importantly be given feedback on the progress of your vacancy applications.</p>
-                    <p>Please try to use strong credentials (User ID and Password). Strong credentials should have a minimum of 6 characters, with a mix of upper/lower case letters and numbers. We encourage you to use your email address as your user name. If you don't have an email address, get one easily from Yahoo</p>
-                    <a href='/#'>Login <i class="fa-solid fa-arrow-right-long"></i></a>
+          <Container fluid className='h-100'>
+            <Row className='h-100'>
+              <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6} className='prel'>
+                <div className='d-flex align-items-center justify-content-center h-100'>
+                  <div className='signup-box login-box d-flex flex-column align-items-center justify-content-center'>
+                      <div className='jslog-wrp'>
+                        <img src='images/tj.jpg' className='img-fluid jslog-img' alt='logo'></img>
+                      </div>
+                      <h3>Welcome Back</h3>
+                      <p>Please fill in the information below to create an account with topjobs. Once your account has been created, you can login at any time and use your own Workspace in the system. From this workspace, you can apply for jobs, build up your employment profile, upload your CV, search for vacancies, see your list of applied jobs, and most importantly be given feedback on the progress of your vacancy applications.</p>
+                      <p>Please try to use strong credentials (User ID and Password). Strong credentials should have a minimum of 6 characters, with a mix of upper/lower case letters and numbers. We encourage you to use your email address as your user name. If you don't have an email address, get one easily from Yahoo</p>
+                      <a href='/#'>Login <i class="fa-solid fa-arrow-right-long"></i></a>
+                  </div>
                 </div>
               </Col>
-              <Col xs={12} sm={12} md={7} lg={8} xl={9} xxl={9} className='prel'>
-                <div className='js-signup-form-inner d-flex align-items-center justify-content-center'>
+              <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6} className='prel'>
+                <div className='js-signup-form-inner d-flex align-items-center justify-content-center h-100'>
                   <Form className='js-signup-form'>
                     <h2>Sign Up!</h2>
                     <Row>
