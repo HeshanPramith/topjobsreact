@@ -18,7 +18,7 @@ function Joblist () {
                     <CardGroup>
                         <Card>
                             <Card.Body>
-                                <Card.Title><a href='/Vacancybyfunctionalarealist'>Senior Executive - Talent Acquisition</a></Card.Title>
+                                <Card.Title><a href='/Adview'>Senior Executive - Talent Acquisition</a></Card.Title>
                                 <Card.Text>Native Way (Pvt) Ltd</Card.Text>
                             </Card.Body>
                         </Card>
