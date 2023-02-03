@@ -144,15 +144,15 @@ function App() {
                   <Form className='js-signup-form'>
                     <h2>Sign Up!</h2>
                     <Row>
-                      <Form.Group className="mb-3 col-12" controlId="exampleForm.ControlInput1">
+                      <Form.Group className="mb-3 col-6 col-sm-4" controlId="exampleForm.ControlInput1">
                         <Form.Label>User Name</Form.Label>
                         <Form.Control type="text" size='sm' />
                       </Form.Group>
-                      <Form.Group className="mb-3 col-6" controlId="exampleForm.ControlTextarea1">
+                      <Form.Group className="mb-3 col-6 col-sm-4" controlId="exampleForm.ControlTextarea1">
                         <Form.Label>Password</Form.Label>
                         <Form.Control type="password" size='sm' />                        
                       </Form.Group>
-                      <Form.Group className="mb-3 col-6" controlId="exampleForm.ControlTextarea1">
+                      <Form.Group className="mb-3 col-6 col-sm-4" controlId="exampleForm.ControlTextarea1">
                         <Form.Label>Confirm Password</Form.Label>
                         <Form.Control type="password" size='sm' />                        
                       </Form.Group>
@@ -176,7 +176,7 @@ function App() {
                       </Col>
                     </Row>
                     <Row>
-                      <Form.Group className="mb-3 col-12" controlId="exampleForm.ControlTextarea1">
+                      <Form.Group className="mb-3 col-6" controlId="exampleForm.ControlTextarea1">
                         <Form.Label>Secret Question</Form.Label>
                         <Form.Select size='sm'>
                           <option>Select a Question</option>
@@ -190,7 +190,7 @@ function App() {
                           <option>Where did you first meet your spouse?</option>
                         </Form.Select>                     
                       </Form.Group>
-                      <Form.Group className="mb-3 col-12" controlId="exampleForm.ControlTextarea1">
+                      <Form.Group className="mb-3 col-6" controlId="exampleForm.ControlTextarea1">
                         <Form.Label>Secret Answer</Form.Label>
                         <Form.Control type="text" size='sm' />                        
                       </Form.Group>
@@ -198,6 +198,19 @@ function App() {
                     <Row>
                       <Col className='col-12'>
                         <Button variant="primary" size="sm" className='mt-3'>Sign Up <i class="fa-solid fa-arrow-right-long"></i></Button>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col className='col-12 text-center'>
+                        <span className='sepe'><b>OR</b></span>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col className='col-12 mt-4 text-center'>
+                        <Button variant="primary" size="sm" className='cm-btn google'><i class="fa-brands fa-google"></i> Connect with Google</Button>
+                        <Button variant="primary" size="sm" className='cm-btn facebook'><i class="fa-brands fa-facebook-f"></i> Connect with Faceook</Button>
+                        <Button variant="primary" size="sm" className='cm-btn microsoft'><i class="fa-brands fa-microsoft"></i> Connect with Microsoft</Button>
+                        <Button variant="primary" size="sm" className='cm-btn apple'><i class="fa-brands fa-apple"></i> Connect with Apple</Button>
                       </Col>
                     </Row>
                   </Form>

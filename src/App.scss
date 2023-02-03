@@ -1001,7 +1001,7 @@ input {
         }
 
         &:nth-child(2) {
-            width: 60px;
+            width: 90px;
         }
 
         &:nth-child(3) {
@@ -1301,7 +1301,6 @@ input {
         padding: 30px 0;
         text-align: center;
         border-radius: 25px;
-        margin-bottom: 30px;
 
         h3 {
             color: #FFFFFF;
@@ -1340,7 +1339,7 @@ input {
 
     .js-signup-form {
         width: 100%;
-        max-width: 480px;
+        max-width: 100%;
         padding: 0 20px;
         background: #ffffffc9; 
         background-size: cover;
@@ -1407,9 +1406,14 @@ input {
     }
 }
 
+.form-control {
+    font-size: 12px !important;
+}
+
 select {
     box-shadow: none !important;
     outline: none;
+    font-size: 12px !important;
 
     &:focus {
         box-shadow: none !important;
@@ -1419,6 +1423,59 @@ select {
     &:focus {
         box-shadow: none;
         outline: none;
+    }
+}
+
+.cm-btn {
+    float: none !important;
+    margin: 0 5px;
+    text-transform: capitalize !important;
+    width: auto;
+    text-align: left;
+    padding-right: 15px;
+
+    &.google {
+        background: #4285F4 !important;
+    }
+
+    &.facebook {
+        background: #4267B2 !important;
+    }
+
+    &.microsoft {
+        background: #F25022 !important;
+    }
+
+    &.apple {
+        background: #000000 !important;
+    }
+
+    i {
+        margin-right: 5px;
+    }
+}
+
+.sepe {
+    float: left;
+    width: 100%;
+    border-bottom: solid 1px #FFFFFF;
+    margin-bottom: 15px;
+
+    b {
+        background: rgb(255 255 255);
+        position: relative;
+        top: 10px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 967px) {
+    .js-signup {
+        .signup-box {
+            margin-bottom: 30px;
+        }
     }
 }
 
