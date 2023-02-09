@@ -1721,6 +1721,18 @@ select {
             overflow: auto;
         }
 
+        th {
+            vertical-align: middle;
+
+            &:first-child {
+                border-top-left-radius: 5px;
+            }
+
+            &:last-child {
+                border-top-right-radius: 5px;
+            }
+        }
+
         td {
             vertical-align: middle;
 
@@ -1754,9 +1766,9 @@ select {
         position: relative;
         text-decoration: none;
         text-align: center;
-        background: #ED213A;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: url(../public/images/pattern.png) right center no-repeat #5d5d5d;
+        background-size: 260px;
+        background-position: 70px -60px;
         border-radius: 5px;
         line-height: auto;
         font-size: 14px;
@@ -1764,17 +1776,31 @@ select {
         vertical-align: middle;
         height: 60px;
         display: flex;
-        padding: 0 15px;
+        padding: 0 15px 0 15px;
         justify-content: first baseline;
         align-items: center;
-        transition:all 0.3s ease-out;
+        transition:all 0.2s ease-out;
         text-align: left;
+        overflow: hidden;
 
         &:hover {
-            transition:all 0.3s ease-out;
-            background: #00B4DB;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            transition:all 0.2s ease-out;
+            background: url(../public/images/pattern.png) right center no-repeat #ED213A;
+            background-size: 260px;
+            background-position: 70px -60px;
+            padding: 0 15px 0 30px;
+
+            i {
+                margin-left: -100px;
+                margin-right: 10px;
+            }
+        }
+
+        i {
+            margin-right: 30px;
+            margin-left: -120px;
+            position: relative;
+            font-size: 90px;
         }
     }
 }

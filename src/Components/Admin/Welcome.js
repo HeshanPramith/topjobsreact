@@ -96,59 +96,59 @@ function Welcome () {
                             <Col xs={12} sm={7} md={7} lg={8} xl={9}>
                                 <Row className='admin-dash-links'>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-1'>Applicant</a>
+                                        <a href='/#' className='color-1'><i className="fa-solid fa-arrow-right-long"></i> Applicant</a>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-2'>Vacancy</a>
+                                        <a href='/#' className='color-2'><i className="fa-solid fa-arrow-right-long"></i> Vacancy</a>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-3'>Master Data</a>
+                                        <a href='/#' className='color-3'><i className="fa-solid fa-arrow-right-long"></i> Master Data</a>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-4'>Email Config</a>
+                                        <a href='/#' className='color-4'><i className="fa-solid fa-arrow-right-long"></i> Email Config</a>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-5'>Company</a>
+                                        <a href='/#' className='color-5'><i className="fa-solid fa-arrow-right-long"></i> Company</a>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-6'>Employer</a>
+                                        <a href='/#' className='color-6'><i className="fa-solid fa-arrow-right-long"></i> Employer</a>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-7'>Payments</a>
+                                        <a href='/#' className='color-7'><i className="fa-solid fa-arrow-right-long"></i> Payments</a>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-8'>Page Contant Config</a>
+                                        <a href='/#' className='color-8'><i className="fa-solid fa-arrow-right-long"></i> Page Contant Config</a>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-9'>User Login</a>
+                                        <a href='/#' className='color-9'><i className="fa-solid fa-arrow-right-long"></i> User Login</a>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-10'>System Configuration</a>
+                                        <a href='/#' className='color-10'><i className="fa-solid fa-arrow-right-long"></i> System Configuration</a>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-11'>Shedule Interviews</a>
+                                        <a href='/#' className='color-11'><i className="fa-solid fa-arrow-right-long"></i> Shedule Interviews</a>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-12'>Tab Customization</a>
+                                        <a href='/#' className='color-12'><i className="fa-solid fa-arrow-right-long"></i> Tab Customization</a>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-13'>Reports</a>
+                                        <a href='/#' className='color-13'><i className="fa-solid fa-arrow-right-long"></i> Reports</a>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-14'>Profile Customization</a>
+                                        <a href='/#' className='color-14'><i className="fa-solid fa-arrow-right-long"></i> Profile Customization</a>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-15'>Email Alert</a>
+                                        <a href='/#' className='color-15'><i className="fa-solid fa-arrow-right-long"></i> Email Alert</a>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-16'>Campus Applicants</a>
+                                        <a href='/#' className='color-16'><i className="fa-solid fa-arrow-right-long"></i> Campus Applicants</a>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-17'>Advertisement Templates</a>
+                                        <a href='/#' className='color-17'><i className="fa-solid fa-arrow-right-long"></i> Advertisement Templates</a>
                                     </Col>
                                 </Row>
                                 <Row>
-                                    <Col xs={12} sm={6}>
+                                    <Col xs={12} sm={12} md={12} lg={6}>
                                         <div className='admin-tbl-wrap mb-3'>
                                             <Table striped hover responsive>
                                                 <thead>
@@ -164,7 +164,7 @@ function Welcome () {
                                             </Table>   
                                         </div>                             
                                     </Col>
-                                    <Col xs={12} sm={6}>
+                                    <Col xs={12} sm={12} md={12} lg={6}>
                                         <div className='admin-tbl-wrap mb-3'>
                                             <Table striped hover responsive>
                                                 <thead>
