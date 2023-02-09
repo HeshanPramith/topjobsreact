@@ -20,11 +20,11 @@ function Header () {
                     <Row className='row align-items-center'>
                         <Col className='col-5 col-sm-5 col-md-6 col-lg-6 text-left'>
                             <a className="navbar-brand" href="/#">
-                                <img src='images/tj.jpg' className='img-fluid d-none d-md-block' alt='logo'></img>
-                                <img src='images/tj-sm.png' className='img-fluid d-block d-md-none' alt='logo'></img>
+                                <img src='../images/tj.jpg' className='img-fluid d-none d-md-block' alt='logo'></img>
+                                <img src='../images/tj-sm.png' className='img-fluid d-block d-md-none' alt='logo'></img>
                             </a>  
                             <Button variant="primary" onClick={handleShow} size="sm" className='menu-btn'>
-                                <i class="fa-solid fa-bars"></i> <span className='d-none d-sm-block'>Menu</span>
+                                <i className="fa-solid fa-bars"></i> <span className='d-none d-sm-block'>Menu</span>
                             </Button>
                             <Offcanvas show={show} onHide={handleClose} placement="start" className='menu-offcanvas'>
                                 <Offcanvas.Header closeButton>

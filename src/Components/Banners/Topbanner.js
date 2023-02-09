@@ -25,22 +25,22 @@ function Topbanner() {
         <Slider {...settings}>
         <div>
             <div className='d-flex align-items-center justify-content-end tpbanner'>
-                <img src='images/top_banner/BAN0000000500.jpg' className='img-fluid' alt='banner'></img>
+                <img src='../images/top_banner/BAN0000000500.jpg' className='img-fluid' alt='banner'></img>
             </div>
         </div>
         <div>
             <div className='d-flex align-items-center justify-content-end tpbanner'>
-                <img src='images/top_banner/BAN0000000508.png' className='img-fluid' alt='banner'></img>
+                <img src='../images/top_banner/BAN0000000508.png' className='img-fluid' alt='banner'></img>
             </div>
         </div>
         <div>
             <div className='d-flex align-items-center justify-content-end tpbanner'>
-                <img src='images/top_banner/BAN0000000565.gif' className='img-fluid' alt='banner'></img>
+                <img src='../images/top_banner/BAN0000000565.gif' className='img-fluid' alt='banner'></img>
             </div>
         </div>
         <div>
             <div className='d-flex align-items-center justify-content-end tpbanner'>
-                <img src='images/top_banner/BAN0000000722.gif' className='img-fluid' alt='banner'></img>
+                <img src='../images/top_banner/BAN0000000722.gif' className='img-fluid' alt='banner'></img>
             </div>
         </div>
         </Slider>

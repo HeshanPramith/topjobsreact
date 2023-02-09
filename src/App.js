@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './Components/Common/Header';
-import Footer from './Components/Common/Footer';
 import Home from './Components/Home';
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,9 +16,13 @@ import Col from 'react-bootstrap/Col';
 import Vacancybyfunctionalarea from './Components/Vacancybyfunctionalarea';
 import Vacancybyfunctionalarealist from './Components/Vacancybyfunctionalarealist';
 import Adview from './Components/Adview';
+import Login from './Components/Admin/Login';
+import Welcome from './Components/Admin/Welcome';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import Toast from 'react-bootstrap/Toast';
+import ToastContainer from 'react-bootstrap/ToastContainer';
 
 function App() {
 
@@ -32,10 +34,20 @@ function App() {
   const handleClose2 = () => setShow2(false);
   const handleShow2 = () => setShow2(true);
 
+  const [showA, setShowA] = useState(true);
+  const toggleShowA = () => setShowA(!showA);
+
   return (
-    <div className="App">
-      <Header/>      
-      <div id='main-cont'>
+    <div className="App">   
+      <ToastContainer position="top-center" containerPosition="fixed">
+        <Toast show={showA} onClose={toggleShowA} delay={5000} autohide bg='primary'>
+          <Toast.Header>
+            <strong className="me-auto">topjobs alert!</strong>
+          </Toast.Header>
+          <Toast.Body className='text-white'>topjobs will be temporarily out of service between 9 PM to 9.15 PM for maintenance.</Toast.Body>
+        </Toast>        
+      </ToastContainer>
+      <div id='main-cont' className='main-cont'>
         <div className='loginblock'>
           <Container fluid>
             <Row>
@@ -64,11 +76,12 @@ function App() {
             <Route path='/vacancybyfunctionalarea'  element={<Vacancybyfunctionalarea/>}/>
             <Route path='/Vacancybyfunctionalarealist'  element={<Vacancybyfunctionalarealist/>}/>
             <Route path='/Adview'  element={<Adview/>}/>
+            <Route path='/Admin/Login'  element={<Login/>}/>
+            <Route path='/Admin/Welcome'  element={<Welcome/>}/>
           </Routes>
         </Router>
       </div>      
-      <Footer/>
-
+      
       <Modal show={show} fullscreen={fullscreen} onHide={handleClose} className='js-login'>
         <Modal.Header closeButton>
           <Modal.Title className='text-center'>&nbsp;</Modal.Title>
@@ -84,7 +97,7 @@ function App() {
                       </div>
                       <h3>Welcome Back</h3>
                       <p>Don't have a topjobs account?</p>
-                      <a href='/#'>Sign Up Now! <i class="fa-solid fa-arrow-right-long"></i></a>
+                      <a href='/#'>Sign Up Now! <i className="fa-solid fa-arrow-right-long"></i></a>
                   </div>
                 </div>
               </Col>
@@ -99,7 +112,7 @@ function App() {
                     <Form.Group className="" controlId="exampleForm.ControlTextarea1">
                       <Form.Label>Password</Form.Label>
                       <Form.Control type="password" size='sm' />
-                      <Button variant="primary" size="sm" className='mt-3'>Login <i class="fa-solid fa-arrow-right-long"></i></Button>
+                      <Button variant="primary" size="sm" className='mt-3'>Login <i className="fa-solid fa-arrow-right-long"></i></Button>
                     </Form.Group>                    
                     <div className='radio-grp'>
                       <input type="radio" value="Male" name="gender" /> Remember my user name
@@ -135,7 +148,7 @@ function App() {
                       <h3>Welcome Back</h3>
                       <p>Please fill in the information below to create an account with topjobs. Once your account has been created, you can login at any time and use your own Workspace in the system. From this workspace, you can apply for jobs, build up your employment profile, upload your CV, search for vacancies, see your list of applied jobs, and most importantly be given feedback on the progress of your vacancy applications.</p>
                       <p>Please try to use strong credentials (User ID and Password). Strong credentials should have a minimum of 6 characters, with a mix of upper/lower case letters and numbers. We encourage you to use your email address as your user name. If you don't have an email address, get one easily from Yahoo</p>
-                      <a href='/#'>Login <i class="fa-solid fa-arrow-right-long"></i></a>
+                      <a href='/#'>Login <i className="fa-solid fa-arrow-right-long"></i></a>
                   </div>
                 </div>
               </Col>
@@ -197,7 +210,7 @@ function App() {
                     </Row>
                     <Row>
                       <Col className='col-12'>
-                        <Button variant="primary" size="sm" className='mt-3'>Sign Up <i class="fa-solid fa-arrow-right-long"></i></Button>
+                        <Button variant="primary" size="sm" className='mt-3'>Sign Up <i className="fa-solid fa-arrow-right-long"></i></Button>
                       </Col>
                     </Row>
                     <Row>
@@ -207,10 +220,10 @@ function App() {
                     </Row>
                     <Row>
                       <Col className='col-12 mt-4 text-center'>
-                        <Button variant="primary" size="sm" className='cm-btn google'><i class="fa-brands fa-google"></i> Connect with Google</Button>
-                        <Button variant="primary" size="sm" className='cm-btn facebook'><i class="fa-brands fa-facebook-f"></i> Connect with Faceook</Button>
-                        <Button variant="primary" size="sm" className='cm-btn microsoft'><i class="fa-brands fa-microsoft"></i> Connect with Microsoft</Button>
-                        <Button variant="primary" size="sm" className='cm-btn apple'><i class="fa-brands fa-apple"></i> Connect with Apple</Button>
+                        <Button variant="primary" size="sm" className='cm-btn google'><i className="fa-brands fa-google"></i> Connect with Google</Button>
+                        <Button variant="primary" size="sm" className='cm-btn facebook'><i className="fa-brands fa-facebook-f"></i> Connect with Faceook</Button>
+                        <Button variant="primary" size="sm" className='cm-btn microsoft'><i className="fa-brands fa-microsoft"></i> Connect with Microsoft</Button>
+                        <Button variant="primary" size="sm" className='cm-btn apple'><i className="fa-brands fa-apple"></i> Connect with Apple</Button>
                       </Col>
                     </Row>
                   </Form>

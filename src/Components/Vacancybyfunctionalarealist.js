@@ -10,6 +10,8 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Table from 'react-bootstrap/Table';
+import Header from './Common/Header';
+import Footer from './Common/Footer';
 
 function Vacancybyfunctionalarea () {
 
@@ -19,6 +21,7 @@ function Vacancybyfunctionalarea () {
 
     return (
         <React.Fragment>
+            <Header/>
             <Container fluid>
                 <Row>
                     <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12} className='p-0 text-center'>
@@ -85,8 +88,8 @@ function Vacancybyfunctionalarea () {
                         </div>
                     </Col>
                     <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>                        
-                        <a href='/Vacancybyfunctionalarea' type='button' size='sm' className='btn switchbutton'><i class="fa-solid fa-grip"></i> Grid View</a>
-                        <a href='/Vacancybyfunctionalarealist' type='button' size='sm' className='btn switchbutton'><i class="fa-solid fa-bars"></i> List View</a>
+                        <a href='/Vacancybyfunctionalarea' type='button' size='sm' className='btn switchbutton'><i className="fa-solid fa-grip"></i> Grid View</a>
+                        <a href='/Vacancybyfunctionalarealist' type='button' size='sm' className='btn switchbutton'><i className="fa-solid fa-bars"></i> List View</a>
                     </Col>
                 </Row>
                 <Row>
@@ -183,6 +186,7 @@ function Vacancybyfunctionalarea () {
                     </Col>
                 </Row>
             </Container>
+            <Footer/>
         </React.Fragment>
     );
 }

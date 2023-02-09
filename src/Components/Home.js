@@ -7,11 +7,14 @@ import Joblist from './Joblist/Joblist';
 import Searchjob from './Home/Searchjob';
 import Leftbanner from './Banners/Leftbanner';
 import Rightbanner from './Banners/Right banner';
+import Header from './Common/Header';
+import Footer from './Common/Footer';
 
 function Home () {
 
     return (
         <React.Fragment>
+            <Header/> 
             <Container fluid>
                 <Row>
                     <Col xs={12} className='px-0'>
@@ -35,6 +38,7 @@ function Home () {
                     </Col>
                 </Row>
             </Container>
+            <Footer/>
         </React.Fragment>
     );
 }

@@ -10,6 +10,8 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Badge from 'react-bootstrap/Badge';
 import Collapse from 'react-bootstrap/Collapse';
 import Form from 'react-bootstrap/Form';
+import Header from './Common/Header';
+import Footer from './Common/Footer';
 
 function simulateNetworkRequest() {
     return new Promise((resolve) => setTimeout(resolve, 3000));
@@ -31,6 +33,7 @@ function Adview () {
 
     return (
         <React.Fragment>
+            <Header/> 
             <Container fluid>
                 <Row>
                     <Col xs={12} sm={12} md={4} lg={3} xl={3} xxl={3} className='pt-3'>
@@ -69,11 +72,11 @@ function Adview () {
                         </div>
                         <ButtonToolbar className="align-items-center justify-content-between advbtngrp" aria-label="Toolbar with Button groups">
                             <ButtonGroup aria-label="First group">
-                                <Button className='jb-nav' variant="secondary" size='sm' ><i class="fa-solid fa-arrow-left"></i></Button>
+                                <Button className='jb-nav' variant="secondary" size='sm' ><i className="fa-solid fa-arrow-left"></i></Button>
                             </ButtonGroup> 
                             <h5 className='addtitle-top'>Power Engineer - Northern Region</h5>
                             <ButtonGroup aria-label="Last group">
-                                <Button className='jb-nav' variant="secondary" size='sm' ><i class="fa-solid fa-arrow-right"></i></Button>
+                                <Button className='jb-nav' variant="secondary" size='sm' ><i className="fa-solid fa-arrow-right"></i></Button>
                             </ButtonGroup>
                         </ButtonToolbar>
                         <div className='addview'>
@@ -129,6 +132,7 @@ function Adview () {
                     </Col>
                 </Row>
             </Container>
+            <Footer/>
         </React.Fragment>
     );
 }
