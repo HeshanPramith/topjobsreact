@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -19,10 +20,10 @@ function Header () {
                 <Container fluid>
                     <Row className='row align-items-center'>
                         <Col className='col-5 col-sm-5 col-md-6 col-lg-6 text-left'>
-                            <a className="navbar-brand" href="/#">
+                            <Link className="navbar-brand" to="/#">
                                 <img src='../images/tj.jpg' className='img-fluid d-none d-md-block' alt='logo'></img>
                                 <img src='../images/tj-sm.png' className='img-fluid d-block d-md-none' alt='logo'></img>
-                            </a>  
+                            </Link>  
                             <Button variant="primary" onClick={handleShow} size="sm" className='menu-btn'>
                                 <i className="fa-solid fa-bars"></i> <span className='d-none d-sm-block'>Menu</span>
                             </Button>

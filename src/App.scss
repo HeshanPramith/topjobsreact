@@ -552,7 +552,7 @@ footer {
 
             &.cp-name {
                 color: #000000;
-                font-size: 13px;
+                font-size: 12px;
                 margin-bottom: 5px;
             }
 
@@ -570,7 +570,7 @@ footer {
             }
 
             &.jb-desc {
-                font-size: 13px;
+                font-size: 12px;
                 margin-bottom: 5px;
                 color: #707070;
             }
@@ -1645,6 +1645,7 @@ select {
 
         a {
             color: #FFFFFF;
+            margin: 0 10px 0 0;
 
             i {
                 font-size: 14px;
@@ -1823,6 +1824,58 @@ select {
             }
         }
     }
+}
+
+.add-btn {
+    font-size: 12px;
+    background: #0b9843;
+    border: none;
+
+    &:hover {
+        background: green;
+    }
+
+    i {
+        margin-right: 5px;
+    }
+}
+
+.filter-frm {
+    float: left;
+    width: 100%;
+    border: dashed 1px #EEEEEE;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.form-label {
+    float: left;
+    width: 100%;
+}
+
+.w-60 {
+    width: calc(60% + -5px);
+    float: left;
+    margin-right: 10px;
+}
+
+.w-40 {
+    width: calc(40% + -5px);
+    float: left;
+}
+
+.form-check {
+    float: left;
+    margin: 5px 10px 0 0;
+}
+
+.form-label {
+    margin-bottom: 5px !important;
+}
+
+.filter-btn {
+    font-size: 12px;
+    margin-left: 5px;
 }
 
 @media (min-width: 0px) and (max-width: 967px) {

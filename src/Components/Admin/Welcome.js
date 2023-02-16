@@ -9,6 +9,7 @@ import Alert from 'react-bootstrap/Alert';
 import Accordion from 'react-bootstrap/Accordion';
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
+import { Link } from "react-router-dom";
 
 function Welcome () {  
 
@@ -96,55 +97,55 @@ function Welcome () {
                             <Col xs={12} sm={7} md={7} lg={8} xl={9}>
                                 <Row className='admin-dash-links'>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-1'><i className="fa-solid fa-arrow-right-long"></i> Applicant</a>
+                                        <Link to='/Admin/Applicantsearch' className='color-1'><i className="fa-solid fa-arrow-right-long"></i> Applicant</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-2'><i className="fa-solid fa-arrow-right-long"></i> Vacancy</a>
+                                        <Link to='/#' className='color-2'><i className="fa-solid fa-arrow-right-long"></i> Vacancy</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-3'><i className="fa-solid fa-arrow-right-long"></i> Master Data</a>
+                                        <Link to='/#' className='color-3'><i className="fa-solid fa-arrow-right-long"></i> Master Data</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-4'><i className="fa-solid fa-arrow-right-long"></i> Email Config</a>
+                                        <Link to='/#' className='color-4'><i className="fa-solid fa-arrow-right-long"></i> Email Config</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-5'><i className="fa-solid fa-arrow-right-long"></i> Company</a>
+                                        <Link to='/#' className='color-5'><i className="fa-solid fa-arrow-right-long"></i> Company</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-6'><i className="fa-solid fa-arrow-right-long"></i> Employer</a>
+                                        <Link to='/#' className='color-6'><i className="fa-solid fa-arrow-right-long"></i> Employer</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-7'><i className="fa-solid fa-arrow-right-long"></i> Payments</a>
+                                        <Link to='/#' className='color-7'><i className="fa-solid fa-arrow-right-long"></i> Payments</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-8'><i className="fa-solid fa-arrow-right-long"></i> Page Contant Config</a>
+                                        <Link to='/#' className='color-8'><i className="fa-solid fa-arrow-right-long"></i> Page Contant Config</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-9'><i className="fa-solid fa-arrow-right-long"></i> User Login</a>
+                                        <Link to='/#' className='color-9'><i className="fa-solid fa-arrow-right-long"></i> User Login</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-10'><i className="fa-solid fa-arrow-right-long"></i> System Configuration</a>
+                                        <Link to='/#' className='color-10'><i className="fa-solid fa-arrow-right-long"></i> System Configuration</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-11'><i className="fa-solid fa-arrow-right-long"></i> Shedule Interviews</a>
+                                        <Link to='/#' className='color-11'><i className="fa-solid fa-arrow-right-long"></i> Shedule Interviews</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-12'><i className="fa-solid fa-arrow-right-long"></i> Tab Customization</a>
+                                        <Link to='/#' className='color-12'><i className="fa-solid fa-arrow-right-long"></i> Tab Customization</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-13'><i className="fa-solid fa-arrow-right-long"></i> Reports</a>
+                                        <Link to='/#' className='color-13'><i className="fa-solid fa-arrow-right-long"></i> Reports</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-14'><i className="fa-solid fa-arrow-right-long"></i> Profile Customization</a>
+                                        <Link to='/#' className='color-14'><i className="fa-solid fa-arrow-right-long"></i> Profile Customization</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-15'><i className="fa-solid fa-arrow-right-long"></i> Email Alert</a>
+                                        <Link to='/#' className='color-15'><i className="fa-solid fa-arrow-right-long"></i> Email Alert</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-16'><i className="fa-solid fa-arrow-right-long"></i> Campus Applicants</a>
+                                        <Link to='/#' className='color-16'><i className="fa-solid fa-arrow-right-long"></i> Campus Applicants</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <a href='/#' className='color-17'><i className="fa-solid fa-arrow-right-long"></i> Advertisement Templates</a>
+                                        <Link to='/#' className='color-17'><i className="fa-solid fa-arrow-right-long"></i> Advertisement Templates</Link>
                                     </Col>
                                 </Row>
                                 <Row>

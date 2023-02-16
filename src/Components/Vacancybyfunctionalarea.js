@@ -12,6 +12,7 @@ import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Header from './Common/Header';
 import Footer from './Common/Footer';
+import { Link } from "react-router-dom";
 
 function Vacancybyfunctionalarea () {
 
@@ -50,46 +51,46 @@ function Vacancybyfunctionalarea () {
                                 </Offcanvas.Header>
                                 <Offcanvas.Body>
                                     <ul>
-                                        <li><a href='/vacancybyfunctionalarea'>IT-Sware/DB/QA/Web/Graphics/GIS</a></li>
-                                        <li><a href='/#'>IT-HWare/Networks/Systems</a></li>
-                                        <li><a href='/#'>Accounting/Auditing/Finance</a></li>
-                                        <li><a href='/#'>Banking/Insurance</a></li>
-                                        <li><a href='/#'>Sales/Marketing/Merchandising</a></li>
-                                        <li><a href='/#'>HR/Training</a></li>
-                                        <li><a href='/#'>Corporate Management/Analysts</a></li>
-                                        <li><a href='/#'>Office Admin/Secretary/Receptionist</a></li>
-                                        <li><a href='/#'>Civil Eng/Interior Design/Architecture</a></li>
-                                        <li><a href='/#'>IT-Telecoms</a></li>
-                                        <li><a href='/#'>Customer Relations/Public Relations</a></li>
-                                        <li><a href='/#'>Logistics/Warehouse/Transport</a></li>
-                                        <li><a href='/#'>Eng-Mech/Auto/Elec</a></li>
-                                        <li><a href='/#'>Manufacturing/Operations</a></li>
-                                        <li><a href='/#'>Media/Advert/Communication</a></li>
-                                        <li><a href='/#'>Hotels/Restaurants/Food</a></li>
-                                        <li><a href='/#'>Hospitality/Tourism</a></li>
-                                        <li><a href='/#'>Sports/Fitness/Recreation</a></li>
-                                        <li><a href='/#'>Hospital/Nursing/Healthcare</a></li>
-                                        <li><a href='/#'>Legal/Law</a></li>
-                                        <li><a href='/#'>Supervision/Quality Control</a></li>
-                                        <li><a href='/#'>Apparel/Clothing</a></li>
-                                        <li><a href='/#'>Ticketing/Airline/Marine</a></li>
-                                        <li><a href='/#'>Teaching/Academic/Library</a></li>
-                                        <li><a href='/#'>R&D/Science/Research</a></li>
-                                        <li><a href='/#'>Agriculture/Dairy/Environment</a></li>
-                                        <li><a href='/#'>Security</a></li>
-                                        <li><a href='/#'>Fashion/Design/Beauty</a></li>
-                                        <li><a href='/#'>International Development</a></li>
-                                        <li><a href='/#'>KPO/BPO</a></li>
-                                        <li><a href='/#'>Imports/Exports</a></li>
-                                        <li><a href='/#'>All Vacancies</a></li>
+                                        <li><Link to='/vacancybyfunctionalarealist'>IT-Sware/DB/QA/Web/Graphics/GIS</Link></li>
+                                        <li><Link to='/#'>IT-HWare/Networks/Systems</Link></li>
+                                        <li><Link to='/#'>Accounting/Auditing/Finance</Link></li>
+                                        <li><Link to='/#'>Banking/Insurance</Link></li>
+                                        <li><Link to='/#'>Sales/Marketing/Merchandising</Link></li>
+                                        <li><Link to='/#'>HR/Training</Link></li>
+                                        <li><Link to='/#'>Corporate Management/Analysts</Link></li>
+                                        <li><Link to='/#'>Office Admin/Secretary/Receptionist</Link></li>
+                                        <li><Link to='/#'>Civil Eng/Interior Design/Architecture</Link></li>
+                                        <li><Link to='/#'>IT-Telecoms</Link></li>
+                                        <li><Link to='/#'>Customer Relations/Public Relations</Link></li>
+                                        <li><Link to='/#'>Logistics/Warehouse/Transport</Link></li>
+                                        <li><Link to='/#'>Eng-Mech/Auto/Elec</Link></li>
+                                        <li><Link to='/#'>Manufacturing/Operations</Link></li>
+                                        <li><Link to='/#'>Media/Advert/Communication</Link></li>
+                                        <li><Link to='/#'>Hotels/Restaurants/Food</Link></li>
+                                        <li><Link to='/#'>Hospitality/Tourism</Link></li>
+                                        <li><Link to='/#'>Sports/Fitness/Recreation</Link></li>
+                                        <li><Link to='/#'>Hospital/Nursing/Healthcare</Link></li>
+                                        <li><Link to='/#'>Legal/Law</Link></li>
+                                        <li><Link to='/#'>Supervision/Quality Control</Link></li>
+                                        <li><Link to='/#'>Apparel/Clothing</Link></li>
+                                        <li><Link to='/#'>Ticketing/Airline/Marine</Link></li>
+                                        <li><Link to='/#'>Teaching/Academic/Library</Link></li>
+                                        <li><Link to='/#'>R&D/Science/Research</Link></li>
+                                        <li><Link to='/#'>Agriculture/Dairy/Environment</Link></li>
+                                        <li><Link to='/#'>Security</Link></li>
+                                        <li><Link to='/#'>Fashion/Design/Beauty</Link></li>
+                                        <li><Link to='/#'>International Development</Link></li>
+                                        <li><Link to='/#'>KPO/BPO</Link></li>
+                                        <li><Link to='/#'>Imports/Exports</Link></li>
+                                        <li><Link to='/#'>All Vacancies</Link></li>
                                     </ul>
                                 </Offcanvas.Body>
                             </Offcanvas>
                         </div>
                     </Col>
                     <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>                        
-                        <a href='/Vacancybyfunctionalarea' type='button' size='sm' className='btn switchbutton'><i className="fa-solid fa-grip"></i> Grid View</a>
-                        <a href='/Vacancybyfunctionalarealist' type='button' size='sm' className='btn switchbutton'><i className="fa-solid fa-bars"></i> List View</a>
+                        <Link to='/Vacancybyfunctionalarea' type='button' size='sm' className='btn switchbutton'><i className="fa-solid fa-grip"></i> Grid View</Link>
+                        <Link to='/Vacancybyfunctionalarealist' type='button' size='sm' className='btn switchbutton'><i className="fa-solid fa-bars"></i> List View</Link>
                     </Col>
                 </Row>
                 <Row>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Components/Home';
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,6 +18,7 @@ import Vacancybyfunctionalarealist from './Components/Vacancybyfunctionalarealis
 import Adview from './Components/Adview';
 import Login from './Components/Admin/Login';
 import Welcome from './Components/Admin/Welcome';
+import Applicantsearch from './Components/Admin/Applicantsearch';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -70,16 +71,17 @@ function App() {
             </Row>
           </Container>          
         </div>
-        <Router>
-          <Routes>
-            <Route path='/'  element={<Home/>}/>
-            <Route path='/vacancybyfunctionalarea'  element={<Vacancybyfunctionalarea/>}/>
-            <Route path='/Vacancybyfunctionalarealist'  element={<Vacancybyfunctionalarealist/>}/>
-            <Route path='/Adview'  element={<Adview/>}/>
-            <Route path='/Admin/Login'  element={<Login/>}/>
-            <Route path='/Admin/Welcome'  element={<Welcome/>}/>
-          </Routes>
-        </Router>
+        <BrowserRouter>          
+            <Routes>
+              <Route exact path='/'  element={<Home/>}/>
+              <Route exact path='/vacancybyfunctionalarea'  element={<Vacancybyfunctionalarea/>}/>
+              <Route exact path='/Vacancybyfunctionalarealist'  element={<Vacancybyfunctionalarealist/>}/>
+              <Route exact path='/Adview'  element={<Adview/>}/>
+              <Route exact path='/Admin/Login'  element={<Login/>}/>
+              <Route exact path='/Admin/Welcome'  element={<Welcome/>}/>
+              <Route exact path='/Admin/Applicantsearch'  element={<Applicantsearch/>}/>
+            </Routes>          
+        </BrowserRouter>
       </div>      
       
       <Modal show={show} fullscreen={fullscreen} onHide={handleClose} className='js-login'>

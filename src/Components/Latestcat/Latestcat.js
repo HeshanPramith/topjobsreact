@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -26,49 +27,49 @@ function Latestcat () {
             <h2 className='sub-title'>Popular Categorys</h2>
             <Slider {...settings}>
                 <div>
-                    <a href='/Vacancybyfunctionalarea'>IT-Sware/DB/QA/Web/Graphics/GIS</a>
+                    <Link to='/vacancybyfunctionalarealist'>IT-Sware/DB/QA/Web/Graphics/GIS</Link>
                 </div>
                 <div>
-                    <a href='/#'>IT-HWare/Networks/Systems</a>
+                    <Link to='/#'>IT-HWare/Networks/Systems</Link>
                 </div>
                 <div>
-                    <a href='/#'>Accounting/Auditing/Finance</a>
+                    <Link to='/#'>Accounting/Auditing/Finance</Link>
                 </div>
                 <div>
-                    <a href='/#'>Banking/Insurance</a>
+                    <Link to='/#'>Banking/Insurance</Link>
                 </div>
                 <div>
-                    <a href='/#'>Sales/Marketing/Merchandising</a>
+                    <Link to='/#'>Sales/Marketing/Merchandising</Link>
                 </div>
                 <div>
-                    <a href='/#'>HR/Training</a>
+                    <Link to='/#'>HR/Training</Link>
                 </div>
                 <div>
-                    <a href='/#'>Corporate Management/Analysts</a>
+                    <Link to='/#'>Corporate Management/Analysts</Link>
                 </div>
                 <div>
-                    <a href='/#'>Office Admin/Secretary/Receptionist</a>
+                    <Link to='/#'>Office Admin/Secretary/Receptionist</Link>
                 </div>
                 <div>
-                    <a href='/#'>Civil Eng/Interior Design/Architecture</a>
+                    <Link to='/#'>Civil Eng/Interior Design/Architecture</Link>
                 </div>
                 <div>
-                    <a href='/#'>IT-Telecoms</a>
+                    <Link to='/#'>IT-Telecoms</Link>
                 </div>
                 <div>
-                    <a href='/#'>Customer Relations/Public Relations</a>
+                    <Link to='/#'>Customer Relations/Public Relations</Link>
                 </div>
                 <div>
-                    <a href='/#'>Logistics/Warehouse/Transport</a>
+                    <Link to='/#'>Logistics/Warehouse/Transport</Link>
                 </div>
                 <div>
-                    <a href='/#'>Eng-Mech/Auto/Elec</a>
+                    <Link to='/#'>Eng-Mech/Auto/Elec</Link>
                 </div>
                 <div>
-                    <a href='/#'>Manufacturing/Operations</a>
+                    <Link to='/#'>Manufacturing/Operations</Link>
                 </div>
                 <div>
-                    <a href='/#'>Media/Advert/Communication</a>
+                    <Link to='/#'>Media/Advert/Communication</Link>
                 </div>
             </Slider>
         </React.Fragment>
