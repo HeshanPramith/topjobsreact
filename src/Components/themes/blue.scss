@@ -21,5 +21,21 @@ body.blue {
             background: #1154ce !important;
             color: #FFFFFF;
         }
+
+        td {
+
+            a {
+                color: #1154ce !important;
+            }
+        }
+    }
+
+    .pagination {
+
+        li {
+            span {
+                background: #1154ce !important;
+            }
+        }
     }
 }

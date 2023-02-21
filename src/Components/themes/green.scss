@@ -14,4 +14,28 @@ body.green {
     header {
         background: #149f12 !important;
     }
+
+    table {
+    
+        th {
+            background: #149f12 !important;
+            color: #FFFFFF;
+        }
+
+        td {
+
+            a {
+                color: #149f12 !important;
+            }
+        }
+    }
+
+    .pagination {
+
+        li {
+            span {
+                background: #149f12 !important;
+            }
+        }
+    }
 }

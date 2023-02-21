@@ -14,4 +14,28 @@ body.red {
     header {
         background: #ca0707 !important;
     }
+
+    table {
+    
+        th {
+            background: #ca0707 !important;
+            color: #FFFFFF;
+        }
+
+        td {
+
+            a {
+                color: #ca0707 !important;
+            }
+        }
+    }
+
+    .pagination {
+
+        li {
+            span {
+                background: #ca0707 !important;
+            }
+        }
+    }
 }

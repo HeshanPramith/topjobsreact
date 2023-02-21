@@ -19,6 +19,7 @@ import Adview from './Components/Adview';
 import Login from './Components/Admin/Login';
 import Welcome from './Components/Admin/Welcome';
 import Applicantsearch from './Components/Admin/Applicantsearch';
+import Jobordersearch from './Components/Admin/Jobordersearch';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -80,6 +81,7 @@ function App() {
               <Route exact path='/Admin/Login'  element={<Login/>}/>
               <Route exact path='/Admin/Welcome'  element={<Welcome/>}/>
               <Route exact path='/Admin/Applicantsearch'  element={<Applicantsearch/>}/>
+              <Route exact path='/Admin/Jobordersearch'  element={<Jobordersearch/>}/>
             </Routes>          
         </BrowserRouter>
       </div>      
