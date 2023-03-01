@@ -807,7 +807,7 @@ button {
     }
 }
 
-input {
+input, textarea {
     box-shadow: none !important;
 }
 
@@ -1848,10 +1848,6 @@ select {
     padding: 15px;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 29%, rgba(205,205,205,1) 100%);
-
-    input {
-        background: #FFFFFF !important;
-    }
 }
 
 .form-label {
@@ -1901,6 +1897,8 @@ button {
 .search-btn {
     background: #0aab0a !important;
     border: none;
+    color: #FFFFFF !important;
+    font-size: 12px !important;
 }
 
 button {
@@ -2021,6 +2019,33 @@ button {
     }
 }
 
+.masterlist-tbl {
+
+    th {
+        vertical-align: middle;
+        font-weight: 400;
+        padding: 5px;
+        width: auto;
+
+        &:first-child {
+            width: 50px;
+        }
+
+        &:nth-child(2) {
+            width: 50px;
+        }
+
+        &:nth-child(3) {
+            width: 50px;
+        }
+    }
+
+    td {
+        vertical-align: middle;
+        padding: 5px;
+    }
+}
+
 .css-b62m3t-container {
     position: relative;
     z-index: 100;
@@ -2044,6 +2069,173 @@ td {
 
 .f-r {
     float: right !important; 
+}
+
+.mastertop {
+    float: left;
+    width: 100%;
+    padding: 15px;
+    border: dashed 1px #9d9d9d;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #ececec;
+
+    p {
+        margin: 0 0 10px 0;
+    }
+}
+
+.masterlist {
+
+    .bx-cmm {
+        float: left;
+        width: 100%;
+        position: relative;
+
+        p {
+            float: left;
+            width: 100%;
+            margin: 0;
+            border-radius: 5px 5px 0 0;
+            padding: 10px;
+        }
+
+        ol {
+            padding: 0 10px 10px 10px;
+            float: left;
+            width: 100%;
+            display: inline;
+            height: 200px;
+            overflow: auto;
+            border-radius: 0 0 5px 5px;
+
+            li {
+                padding-left: 0;
+                padding-right: 0;
+                float: left;
+                margin-right: 5px;
+                width: calc(50% + -10px);
+                display: inline;
+
+                &:nth-child(2n) {
+                    float: right;
+                    margin: 0;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #000000;
+                }
+            }
+        }
+    }
+
+    .bx-1 {        
+        
+        p {
+            background: red;
+            color: #FFFFFF;
+        }
+
+        ol {
+            border: solid 3px #ff0000;
+
+            li {
+                a {
+                    &:hover {
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+
+    .bx-2 {        
+        
+        p {
+            background: #5db917;
+            color: #FFFFFF;
+        }
+
+        ol {
+            border: solid 3px #5db917;
+
+            li {
+                a {
+                    &:hover {
+                        color: #5db917;
+                    }
+                }
+            }
+        }
+    }
+
+    .bx-3 {        
+        
+        p {
+            background: #f3dd15;
+            color: #FFFFFF;
+        }
+
+        ol {
+            border: solid 3px #f3dd15;
+
+            li {
+                a {
+                    &:hover {
+                        color: #f3dd15;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.emailconfig {
+
+    table {
+        table-layout: fixed;
+
+        thead {
+
+            th {
+
+                &:first-child {
+                    width: 200px;
+                }
+
+                &:last-child {
+                    text-align: center;
+                }
+            }
+        }
+
+        td {
+
+            &:last-child {
+                text-align: center;
+            }
+        }
+    }
+
+    .form-label {
+
+        i {
+            color: red;
+            font-style: normal;
+        }
+    }
+
+    .email-configuration-view {
+        float: left;
+        width: calc(100% + -14px);
+        position: relative;
+        background: linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 6px) calc(100% - 6px) no-repeat,
+            linear-gradient(0deg, transparent 0%, #e2e2e2 100%);
+        border-radius: 0px;
+        padding: 7px;
+        box-sizing: content-box;
+    }
 }
 
 @media (min-width: 0px) and (max-width: 967px) {

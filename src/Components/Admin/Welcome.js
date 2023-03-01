@@ -103,10 +103,10 @@ function Welcome () {
                                         <Link to='/Admin/Jobordersearch' className='color-2'><i className="fa-solid fa-arrow-right-long"></i> Vacancy</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <Link to='/#' className='color-3'><i className="fa-solid fa-arrow-right-long"></i> Master Data</Link>
+                                        <Link to='/Admin/Masterlist' className='color-3'><i className="fa-solid fa-arrow-right-long"></i> Master Data</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <Link to='/#' className='color-4'><i className="fa-solid fa-arrow-right-long"></i> Email Config</Link>
+                                        <Link to='/Admin/Emailconfig' className='color-4'><i className="fa-solid fa-arrow-right-long"></i> Email Config</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
                                         <Link to='/#' className='color-5'><i className="fa-solid fa-arrow-right-long"></i> Company</Link>
