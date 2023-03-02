@@ -22,6 +22,7 @@ import Applicantsearch from './Components/Admin/Applicantsearch';
 import Masterlist from './Components/Admin/Masterlist';
 import Emailconfig from './Components/Admin/Emailconfig';
 import Jobordersearch from './Components/Admin/Jobordersearch';
+import Agent from './Components/Admin/Agent';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -86,6 +87,7 @@ function App() {
               <Route exact path='/Admin/Jobordersearch'  element={<Jobordersearch/>}/>
               <Route exact path='/Admin/Masterlist'  element={<Masterlist/>}/>
               <Route exact path='/Admin/Emailconfig'  element={<Emailconfig/>}/>
+              <Route exact path='/Admin/Agent'  element={<Agent/>}/>
             </Routes>          
         </BrowserRouter>
       </div>      

@@ -2238,6 +2238,111 @@ td {
     }
 }
 
+.form-label {
+
+    i {
+        color: red;
+        font-style: normal;
+    }
+}
+
+.agent-info {
+    float: left;
+    width: 100%;
+    position: relative;
+    height: auto;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+
+    h3 {
+        color: #FFFFFF;
+        font-size: 14px;
+        float: left;
+        width: 100%;
+        text-align: left;
+        position: relative;
+        margin: 15px 0 0 0;
+    }
+
+    .agent-logo {
+        background: #FFFFFF;
+        text-align: center;
+        border-radius: 5px;
+        padding: 15px 10px;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .agent-data {
+        float: left;
+        width: 100%;
+        padding: 15px 0 0 0;
+
+        p {
+            color: #FFFFFF;
+            margin: 0 0 10px 0;
+            font-size: 14px;
+            text-align: left;
+
+            a {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.g-map {
+    text-decoration: none;
+    color: #000000 !important;
+    font-weight: 500;   
+    font-size: 14px;
+
+    i {
+        margin-right: 5px;
+    }
+}
+
+.g-map-edit {
+    text-decoration: none;
+    color: #1e60c2 !important;
+    font-weight: 500;   
+    font-size: 14px;
+    margin-left: 15px;
+
+    i {
+        margin-right: 5px;
+    }
+}
+
+.agent-tbl {
+
+    tbody {
+
+        tr {
+
+            &:first-child {
+
+                td {
+                    background: #d2fff0;
+                }
+            }
+        }
+    }
+
+    td {
+        background: #FFFFFF;
+        vertical-align: middle;
+
+        .fa-circle-plus {
+            color: #009966;
+            font-size: 16px;
+        }
+    }
+}
+
 @media (min-width: 0px) and (max-width: 967px) {
     .js-signup {
         .signup-box {
