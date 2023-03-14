@@ -40,7 +40,7 @@ function Jobordersearch () {
 
     const options = [
         { value: 'Accounting ', label: 'Accounting ' },
-        { value: 'Administration ', label: 'Administration ' },
+        { value: 'Employeristration ', label: 'Employeristration ' },
         { value: 'Advertising ', label: 'Advertising ' },
         { value: 'Agriculture/Plantation  ', label: 'Agriculture/Plantation  ' },
         { value: 'Analysis  ', label: 'Analysis  ' },
@@ -67,13 +67,13 @@ function Jobordersearch () {
                             <h4>Vacancy Search</h4> 
                             <small className='d-none d-sm-block'>Your last login was on 07 February 2023 at 04:27 PM</small>  
                             <div className='admin-nav'>
-                                <Link to='/Admin/Welcome' title='Dashboard'><i className="fa-solid fa-house"></i></Link>
+                                <Link to='/Employer/Welcome' title='Dashboard'><i className="fa-solid fa-house"></i></Link>
                                 <Link to='/#' title='Help'><i className="fa-solid fa-circle-info"></i></Link>
                                 <Link to='/#' title='FAQ'><i className="fa-solid fa-comment-dots"></i></Link>
                             </div>                        
                         </Col>
                         <Col className='col-2 col-sm-2 col-md-2 col-lg-1 text-left order-sm-last'>
-                            <Link to='/Admin/Login' className='logout'><i className="fa-solid fa-arrow-right-from-bracket"></i></Link>                     
+                            <Link to='/Employer/Login' className='logout'><i className="fa-solid fa-arrow-right-from-bracket"></i></Link>                     
                         </Col>
                     </Row>
                 </Container>               
@@ -204,7 +204,7 @@ function Jobordersearch () {
                                     <tr>
                                         <td><Form.Check type="checkbox" label="" /></td>
                                         <td>1</td>
-                                        <td>0000981402 <Link to='/Admin/Jobordersearch' className='ms-2'>Edit</Link> <Link to='/Admin/Jobordersearch' className='ms-2'>Reopen</Link></td>
+                                        <td>0000981402 <Link to='/Employer/Jobordersearch' className='ms-2'>Edit</Link> <Link to='/Employer/Jobordersearch' className='ms-2'>Reopen</Link></td>
                                         <td>Career Guidance Counselor</td>
                                         <td>Genesiis Software</td>
                                         <td>08/02/2023 </td>
@@ -212,13 +212,13 @@ function Jobordersearch () {
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td><Link to='/Admin/Jobordersearch'>385</Link></td>
+                                        <td><Link to='/Employer/Jobordersearch'>385</Link></td>
                                         <td><i className="fa-regular fa-file-pdf fs-4"></i></td>
                                     </tr> 
                                     <tr>
                                         <td><Form.Check type="checkbox" label="" /></td>
                                         <td>2</td>
-                                        <td>0000981402 <Link to='/Admin/Jobordersearch' className='ms-2'>Edit</Link> <Link to='/Admin/Jobordersearch' className='ms-2'>Reopen</Link></td>
+                                        <td>0000981402 <Link to='/Employer/Jobordersearch' className='ms-2'>Edit</Link> <Link to='/Employer/Jobordersearch' className='ms-2'>Reopen</Link></td>
                                         <td>Career Guidance Counselor</td>
                                         <td>Genesiis Software</td>
                                         <td>08/02/2023 </td>
@@ -226,13 +226,13 @@ function Jobordersearch () {
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td><Link to='/Admin/Jobordersearch'>385</Link></td>
+                                        <td><Link to='/Employer/Jobordersearch'>385</Link></td>
                                         <td><i className="fa-regular fa-file-pdf fs-4"></i></td>
                                     </tr> 
                                     <tr>
                                         <td><Form.Check type="checkbox" label="" /></td>
                                         <td>3</td>
-                                        <td>0000981402 <Link to='/Admin/Jobordersearch' className='ms-2'>Edit</Link> <Link to='/Admin/Jobordersearch' className='ms-2'>Reopen</Link></td>
+                                        <td>0000981402 <Link to='/Employer/Jobordersearch' className='ms-2'>Edit</Link> <Link to='/Employer/Jobordersearch' className='ms-2'>Reopen</Link></td>
                                         <td>Career Guidance Counselor</td>
                                         <td>Genesiis Software</td>
                                         <td>08/02/2023 </td>
@@ -240,13 +240,13 @@ function Jobordersearch () {
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td><Link to='/Admin/Jobordersearch'>385</Link></td>
+                                        <td><Link to='/Employer/Jobordersearch'>385</Link></td>
                                         <td><i className="fa-regular fa-file-pdf fs-4"></i></td>
                                     </tr> 
                                     <tr>
                                         <td><Form.Check type="checkbox" label="" /></td>
                                         <td>4</td>
-                                        <td>0000981402 <Link to='/Admin/Jobordersearch' className='ms-2'>Edit</Link> <Link to='/Admin/Jobordersearch' className='ms-2'>Reopen</Link></td>
+                                        <td>0000981402 <Link to='/Employer/Jobordersearch' className='ms-2'>Edit</Link> <Link to='/Employer/Jobordersearch' className='ms-2'>Reopen</Link></td>
                                         <td>Career Guidance Counselor</td>
                                         <td>Genesiis Software</td>
                                         <td>08/02/2023 </td>
@@ -254,13 +254,13 @@ function Jobordersearch () {
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td><Link to='/Admin/Jobordersearch'>385</Link></td>
+                                        <td><Link to='/Employer/Jobordersearch'>385</Link></td>
                                         <td><i className="fa-regular fa-file-pdf fs-4"></i></td>
                                     </tr> 
                                     <tr>
                                         <td><Form.Check type="checkbox" label="" /></td>
                                         <td>5</td>
-                                        <td>0000981402 <Link to='/Admin/Jobordersearch' className='ms-2'>Edit</Link> <Link to='/Admin/Jobordersearch' className='ms-2'>Reopen</Link></td>
+                                        <td>0000981402 <Link to='/Employer/Jobordersearch' className='ms-2'>Edit</Link> <Link to='/Employer/Jobordersearch' className='ms-2'>Reopen</Link></td>
                                         <td>Career Guidance Counselor</td>
                                         <td>Genesiis Software</td>
                                         <td>08/02/2023 </td>
@@ -268,13 +268,13 @@ function Jobordersearch () {
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td><Link to='/Admin/Jobordersearch'>385</Link></td>
+                                        <td><Link to='/Employer/Jobordersearch'>385</Link></td>
                                         <td><i className="fa-regular fa-file-pdf fs-4"></i></td>
                                     </tr> 
                                     <tr>
                                         <td><Form.Check type="checkbox" label="" /></td>
                                         <td>6</td>
-                                        <td>0000981402 <Link to='/Admin/Jobordersearch' className='ms-2'>Edit</Link> <Link to='/Admin/Jobordersearch' className='ms-2'>Reopen</Link></td>
+                                        <td>0000981402 <Link to='/Employer/Jobordersearch' className='ms-2'>Edit</Link> <Link to='/Employer/Jobordersearch' className='ms-2'>Reopen</Link></td>
                                         <td>Career Guidance Counselor</td>
                                         <td>Genesiis Software</td>
                                         <td>08/02/2023 </td>
@@ -282,13 +282,13 @@ function Jobordersearch () {
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td><Link to='/Admin/Jobordersearch'>385</Link></td>
+                                        <td><Link to='/Employer/Jobordersearch'>385</Link></td>
                                         <td><i className="fa-regular fa-file-pdf fs-4"></i></td>
                                     </tr> 
                                     <tr>
                                         <td><Form.Check type="checkbox" label="" /></td>
                                         <td>7</td>
-                                        <td>0000981402 <Link to='/Admin/Jobordersearch' className='ms-2'>Edit</Link> <Link to='/Admin/Jobordersearch' className='ms-2'>Reopen</Link></td>
+                                        <td>0000981402 <Link to='/Employer/Jobordersearch' className='ms-2'>Edit</Link> <Link to='/Employer/Jobordersearch' className='ms-2'>Reopen</Link></td>
                                         <td>Career Guidance Counselor</td>
                                         <td>Genesiis Software</td>
                                         <td>08/02/2023 </td>
@@ -296,13 +296,13 @@ function Jobordersearch () {
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td><Link to='/Admin/Jobordersearch'>385</Link></td>
+                                        <td><Link to='/Employer/Jobordersearch'>385</Link></td>
                                         <td><i className="fa-regular fa-file-pdf fs-4"></i></td>
                                     </tr> 
                                     <tr>
                                         <td><Form.Check type="checkbox" label="" /></td>
                                         <td>8</td>
-                                        <td>0000981402 <Link to='/Admin/Jobordersearch' className='ms-2'>Edit</Link> <Link to='/Admin/Jobordersearch' className='ms-2'>Reopen</Link></td>
+                                        <td>0000981402 <Link to='/Employer/Jobordersearch' className='ms-2'>Edit</Link> <Link to='/Employer/Jobordersearch' className='ms-2'>Reopen</Link></td>
                                         <td>Career Guidance Counselor</td>
                                         <td>Genesiis Software</td>
                                         <td>08/02/2023 </td>
@@ -310,13 +310,13 @@ function Jobordersearch () {
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td><Link to='/Admin/Jobordersearch'>385</Link></td>
+                                        <td><Link to='/Employer/Jobordersearch'>385</Link></td>
                                         <td><i className="fa-regular fa-file-pdf fs-4"></i></td>
                                     </tr> 
                                     <tr>
                                         <td><Form.Check type="checkbox" label="" /></td>
                                         <td>9</td>
-                                        <td>0000981402 <Link to='/Admin/Jobordersearch' className='ms-2'>Edit</Link> <Link to='/Admin/Jobordersearch' className='ms-2'>Reopen</Link></td>
+                                        <td>0000981402 <Link to='/Employer/Jobordersearch' className='ms-2'>Edit</Link> <Link to='/Employer/Jobordersearch' className='ms-2'>Reopen</Link></td>
                                         <td>Career Guidance Counselor</td>
                                         <td>Genesiis Software</td>
                                         <td>08/02/2023 </td>
@@ -324,13 +324,13 @@ function Jobordersearch () {
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td><Link to='/Admin/Jobordersearch'>385</Link></td>
+                                        <td><Link to='/Employer/Jobordersearch'>385</Link></td>
                                         <td><i className="fa-regular fa-file-pdf fs-4"></i></td>
                                     </tr> 
                                     <tr>
                                         <td><Form.Check type="checkbox" label="" /></td>
                                         <td>10</td>
-                                        <td>0000981402 <Link to='/Admin/Jobordersearch' className='ms-2'>Edit</Link> <Link to='/Admin/Jobordersearch' className='ms-2'>Reopen</Link></td>
+                                        <td>0000981402 <Link to='/Employer/Jobordersearch' className='ms-2'>Edit</Link> <Link to='/Employer/Jobordersearch' className='ms-2'>Reopen</Link></td>
                                         <td>Career Guidance Counselor</td>
                                         <td>Genesiis Software</td>
                                         <td>08/02/2023 </td>
@@ -338,7 +338,7 @@ function Jobordersearch () {
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td><Link to='/Admin/Jobordersearch'>385</Link></td>
+                                        <td><Link to='/Employer/Jobordersearch'>385</Link></td>
                                         <td><i className="fa-regular fa-file-pdf fs-4"></i></td>
                                     </tr>                                    
                                 </tbody>

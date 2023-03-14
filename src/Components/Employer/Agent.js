@@ -43,13 +43,13 @@ function Agent () {
                             <h4>Organisation / Employer Registration</h4> 
                             <small className='d-none d-sm-block'>Your last login was on 07 February 2023 at 04:27 PM</small>  
                             <div className='admin-nav'>
-                                <Link to='/Admin/Welcome' title='Dashboard'><i className="fa-solid fa-house"></i></Link>
+                                <Link to='/Employer/Welcome' title='Dashboard'><i className="fa-solid fa-house"></i></Link>
                                 <Link to='/#' title='Help'><i className="fa-solid fa-circle-info"></i></Link>
                                 <Link to='/#' title='FAQ'><i className="fa-solid fa-comment-dots"></i></Link>
                             </div>                        
                         </Col>
                         <Col className='col-2 col-sm-2 col-md-2 col-lg-1 text-left order-sm-last'>
-                            <Link to='/Admin/Login' className='logout'><i className="fa-solid fa-arrow-right-from-bracket"></i></Link>                     
+                            <Link to='/Employer/Login' className='logout'><i className="fa-solid fa-arrow-right-from-bracket"></i></Link>                     
                         </Col>
                     </Row>
                 </Container>               
@@ -73,7 +73,7 @@ function Agent () {
                                 <div className='agent-data'>
                                     <p>Genesiis Software Pvt Ltd</p>
                                     <p>Finco Group</p>
-                                    <p><Link to='/Admin/Agent'>www.genesiis.com</Link></p>
+                                    <p><Link to='/Employer/Agent'>www.genesiis.com</Link></p>
                                 </div>
                             </div>
                         </div>  
@@ -443,7 +443,7 @@ function Agent () {
                                     <Form.Group as={Col} xs={12} sm={12} className="mb-3" controlId="">
                                         <Form.Label>Employer Location in Google Maps</Form.Label>
                                         <a href='https://goo.gl/maps/MAjUajB59XoeHWay8' rel='noreferrer' target='_blank' className='g-map'><i className="fa-solid fa-map-location-dot"></i>Google Map</a>
-                                        <Link to='/Admin/Agent' className='g-map-edit'><i className="fa-solid fa-pen-to-square"></i> Edit</Link>
+                                        <Link to='/Employer/Agent' className='g-map-edit'><i className="fa-solid fa-pen-to-square"></i> Edit</Link>
                                     </Form.Group>
                                 </Row>
                             </div>
@@ -485,7 +485,7 @@ function Agent () {
                                                             <Form.Control type="email" placeholder="test@genesiis.com" />
                                                         </td>
                                                         <td>
-                                                            <Link to='/Admin/Agent'><i className="fa-solid fa-circle-plus"></i></Link>
+                                                            <Link to='/Employer/Agent'><i className="fa-solid fa-circle-plus"></i></Link>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -495,7 +495,7 @@ function Agent () {
                                                         <td>4765400</td>
                                                         <td>4765400</td>
                                                         <td>sdb@genesiis.com</td>
-                                                        <td><Link to='/Admin/Agent'><i className="fa-regular fa-pen-to-square"></i></Link></td>
+                                                        <td><Link to='/Employer/Agent'><i className="fa-regular fa-pen-to-square"></i></Link></td>
                                                     </tr>
                                                     <tr>
                                                         <td>Dilan Silva</td>
@@ -504,7 +504,7 @@ function Agent () {
                                                         <td>(+94) 773 918 922</td>
                                                         <td>4765400</td>
                                                         <td>sdb@genesiis.com</td>
-                                                        <td><Link to='/Admin/Agent'><i className="fa-regular fa-pen-to-square"></i></Link></td>
+                                                        <td><Link to='/Employer/Agent'><i className="fa-regular fa-pen-to-square"></i></Link></td>
                                                     </tr>
                                                 </tbody>                                            
                                             </Table>
@@ -527,7 +527,7 @@ function Agent () {
                                     <Form.Group as={Col} xs={12} sm={4} className="mb-3" controlId="">
                                         <Form.Label>Your url will be * http://www.topjobs.lk/genesiis</Form.Label>
                                         <Form.Control type="text" placeholder='www.genesiis.com' size='sm'/>
-                                        <small>If you want to change your url, Please inform topjobs Admin</small>
+                                        <small>If you want to change your url, Please inform topjobs Employer</small>
                                     </Form.Group>
                                     <Form.Group as={Col} xs={12} sm={12} className="mb-3" controlId="">
                                         <Form.Label>Remarks</Form.Label>

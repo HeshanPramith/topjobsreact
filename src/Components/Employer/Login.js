@@ -44,7 +44,7 @@ function Login () {
                                     <Form.Group className="" controlId="exampleForm.ControlTextarea1">
                                     <Form.Label>Password</Form.Label>
                                     <Form.Control type="password" size='sm' placeholder='********' />
-                                    <Link to="/Admin/Welcome" className="btn btn-primary mt-3 admin-log-button" variant="primary">Login <i className="fa-solid fa-arrow-right-long"></i></Link>
+                                    <Link to="/Employer/Welcome" className="btn btn-primary mt-3 admin-log-button" variant="primary">Login <i className="fa-solid fa-arrow-right-long"></i></Link>
                                     </Form.Group>                    
                                     <div className='radio-grp'>
                                     <input type="radio" value="Male" name="gender" checked /> Save my user name and password

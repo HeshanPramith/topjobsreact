@@ -1840,6 +1840,24 @@ select {
     }
 }
 
+.back-btn {
+    font-size: 12px;
+    background: #e49a10; 
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #FFFFFF !important;
+
+    &:hover {
+        background: #af7509;
+    }
+
+    i {
+        margin-right: 5px;
+    }
+}
+
 .filter-frm {
     float: left;
     width: 100%;
@@ -1896,6 +1914,13 @@ button {
 
 .search-btn {
     background: #0aab0a !important;
+    border: none;
+    color: #FFFFFF !important;
+    font-size: 12px !important;
+}
+
+.delete-btn {
+    background: #c51212 !important;
     border: none;
     color: #FFFFFF !important;
     font-size: 12px !important;
@@ -2341,6 +2366,112 @@ td {
             font-size: 16px;
         }
     }
+}
+
+.employerlist-tbl {
+
+    th {
+        vertical-align: middle;
+    }
+
+    td {
+        vertical-align: middle;
+
+        a {
+            margin-right: 10px;
+
+            i {
+                font-size: 14px;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.btn-clr {
+    background: none;
+    padding: 0;
+}
+
+.inf {
+    border: dashed 2px #7a7a7a;
+    background: #f8f8f8;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: justify;
+    margin-bottom: 15px;
+
+    p {
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+}
+
+.no-data {
+    float: left;
+    width: 100%;
+    padding: 15px;
+    background: #fff0d9;
+    border: solid 1px #ffce84;
+
+    p {
+        font-weight: 500;
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+}
+
+.jb-old {
+    color: red !important;
+}
+
+.payment-tbl {
+    
+    position: relative;
+}
+
+.payment-total {
+    float: right;
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 0;
+    background: white;
+    font-size: 16px;
+    font-weight: 500;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+    box-shadow: 0px 4px 25px #939393;
+
+    p {
+        float: right;
+        background: rgb(146, 1, 1);
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin: 0;
+    }
+}
+
+table {
+
+    td {
+        vertical-align: middle;
+    }
+}
+
+.css-b62m3t-container {
+    z-index: auto !important;
 }
 
 @media (min-width: 0px) and (max-width: 967px) {

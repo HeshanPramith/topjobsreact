@@ -48,7 +48,7 @@ function Latestcat () {
                     <Link to='/#'>Corporate Management/Analysts</Link>
                 </div>
                 <div>
-                    <Link to='/#'>Office Admin/Secretary/Receptionist</Link>
+                    <Link to='/#'>Office Employer/Secretary/Receptionist</Link>
                 </div>
                 <div>
                     <Link to='/#'>Civil Eng/Interior Design/Architecture</Link>

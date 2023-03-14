@@ -97,25 +97,25 @@ function Welcome () {
                             <Col xs={12} sm={7} md={7} lg={8} xl={9}>
                                 <Row className='admin-dash-links'>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <Link to='/Admin/Applicantsearch' className='color-1'><i className="fa-solid fa-arrow-right-long"></i> Applicant</Link>
+                                        <Link to='/Employer/Applicantsearch' className='color-1'><i className="fa-solid fa-arrow-right-long"></i> Applicant</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <Link to='/Admin/Jobordersearch' className='color-2'><i className="fa-solid fa-arrow-right-long"></i> Vacancy</Link>
+                                        <Link to='/Employer/Jobordersearch' className='color-2'><i className="fa-solid fa-arrow-right-long"></i> Vacancy</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <Link to='/Admin/Masterlist' className='color-3'><i className="fa-solid fa-arrow-right-long"></i> Master Data</Link>
+                                        <Link to='/Employer/Masterlist' className='color-3'><i className="fa-solid fa-arrow-right-long"></i> Master Data</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <Link to='/Admin/Emailconfig' className='color-4'><i className="fa-solid fa-arrow-right-long"></i> Email Config</Link>
+                                        <Link to='/Employer/Emailconfig' className='color-4'><i className="fa-solid fa-arrow-right-long"></i> Email Config</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <Link to='/Admin/Agent' className='color-5'><i className="fa-solid fa-arrow-right-long"></i> Company</Link>
+                                        <Link to='/Employer/Agent' className='color-5'><i className="fa-solid fa-arrow-right-long"></i> Company</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <Link to='/#' className='color-6'><i className="fa-solid fa-arrow-right-long"></i> Employer</Link>
+                                        <Link to='/Employer/Employerlist' className='color-6'><i className="fa-solid fa-arrow-right-long"></i> Employer</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <Link to='/#' className='color-7'><i className="fa-solid fa-arrow-right-long"></i> Payments</Link>
+                                        <Link to='/Employer/Paymentlist' className='color-7'><i className="fa-solid fa-arrow-right-long"></i> Payments</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
                                         <Link to='/#' className='color-8'><i className="fa-solid fa-arrow-right-long"></i> Page Contant Config</Link>

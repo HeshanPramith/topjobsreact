@@ -46,13 +46,13 @@ function Applicantsearch () {
                             <h4>Applicant Search</h4> 
                             <small className='d-none d-sm-block'>Your last login was on 07 February 2023 at 04:27 PM</small>  
                             <div className='admin-nav'>
-                                <Link to='/Admin/Welcome' title='Dashboard'><i className="fa-solid fa-house"></i></Link>
+                                <Link to='/Employer/Welcome' title='Dashboard'><i className="fa-solid fa-house"></i></Link>
                                 <Link to='/#' title='Help'><i className="fa-solid fa-circle-info"></i></Link>
                                 <Link to='/#' title='FAQ'><i className="fa-solid fa-comment-dots"></i></Link>
                             </div>                        
                         </Col>
                         <Col className='col-2 col-sm-2 col-md-2 col-lg-1 text-left order-sm-last'>
-                            <Link to='/Admin/Login' className='logout'><i className="fa-solid fa-arrow-right-from-bracket"></i></Link>                     
+                            <Link to='/Employer/Login' className='logout'><i className="fa-solid fa-arrow-right-from-bracket"></i></Link>                     
                         </Col>
                     </Row>
                 </Container>               

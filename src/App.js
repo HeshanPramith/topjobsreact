@@ -16,13 +16,17 @@ import Col from 'react-bootstrap/Col';
 import Vacancybyfunctionalarea from './Components/Vacancybyfunctionalarea';
 import Vacancybyfunctionalarealist from './Components/Vacancybyfunctionalarealist';
 import Adview from './Components/Adview';
-import Login from './Components/Admin/Login';
-import Welcome from './Components/Admin/Welcome';
-import Applicantsearch from './Components/Admin/Applicantsearch';
-import Masterlist from './Components/Admin/Masterlist';
-import Emailconfig from './Components/Admin/Emailconfig';
-import Jobordersearch from './Components/Admin/Jobordersearch';
-import Agent from './Components/Admin/Agent';
+import Login from './Components/Employer/Login';
+import Welcome from './Components/Employer/Welcome';
+import Applicantsearch from './Components/Employer/Applicantsearch';
+import Masterlist from './Components/Employer/Masterlist';
+import Emailconfig from './Components/Employer/Emailconfig';
+import Jobordersearch from './Components/Employer/Jobordersearch';
+import Agent from './Components/Employer/Agent';
+import Employerlist from './Components/Employer/Employerlist';
+import Locationmap from './Components/Employer/Locationmap';
+import Employer from './Components/Employer/Employer';
+import Paymentlist from './Components/Employer/Paymentlist';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -81,13 +85,17 @@ function App() {
               <Route exact path='/vacancybyfunctionalarea'  element={<Vacancybyfunctionalarea/>}/>
               <Route exact path='/Vacancybyfunctionalarealist'  element={<Vacancybyfunctionalarealist/>}/>
               <Route exact path='/Adview'  element={<Adview/>}/>
-              <Route exact path='/Admin/Login'  element={<Login/>}/>
-              <Route exact path='/Admin/Welcome'  element={<Welcome/>}/>
-              <Route exact path='/Admin/Applicantsearch'  element={<Applicantsearch/>}/>
-              <Route exact path='/Admin/Jobordersearch'  element={<Jobordersearch/>}/>
-              <Route exact path='/Admin/Masterlist'  element={<Masterlist/>}/>
-              <Route exact path='/Admin/Emailconfig'  element={<Emailconfig/>}/>
-              <Route exact path='/Admin/Agent'  element={<Agent/>}/>
+              <Route exact path='/Employer/Login'  element={<Login/>}/>
+              <Route exact path='/Employer/Welcome'  element={<Welcome/>}/>
+              <Route exact path='/Employer/Applicantsearch'  element={<Applicantsearch/>}/>
+              <Route exact path='/Employer/Jobordersearch'  element={<Jobordersearch/>}/>
+              <Route exact path='/Employer/Masterlist'  element={<Masterlist/>}/>
+              <Route exact path='/Employer/Emailconfig'  element={<Emailconfig/>}/>
+              <Route exact path='/Employer/Agent'  element={<Agent/>}/>
+              <Route exact path='/Employer/Employerlist'  element={<Employerlist/>}/>
+              <Route exact path='/Employer/Locationmap'  element={<Locationmap/>}/>
+              <Route exact path='/Employer/Employer'  element={<Employer/>}/>
+              <Route exact path='/Employer/Paymentlist'  element={<Paymentlist/>}/>
             </Routes>          
         </BrowserRouter>
       </div>      

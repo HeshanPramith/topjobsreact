@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from "react-router-dom";
 
-function Adminheader () {    
+function Employerheader () {    
 
     return (
         <React.Fragment>
@@ -20,11 +20,11 @@ function Adminheader () {
                             <h4>Welcome - gencso</h4> 
                             <small className='d-none d-sm-block'>Your last login was on 07 February 2023 at 04:27 PM</small>  
                             <div className='admin-nav'>
-                                <Link to='/Admin/Welcome'><i className="fa-solid fa-house"></i></Link>
+                                <Link to='/Employer/Welcome'><i className="fa-solid fa-house"></i></Link>
                             </div>                        
                         </Col>
                         <Col className='col-2 col-sm-2 col-md-2 col-lg-1 text-left order-sm-last'>
-                            <Link to='/Admin/Login' className='logout'><i className="fa-solid fa-arrow-right-from-bracket"></i></Link>                     
+                            <Link to='/Employer/Login' className='logout'><i className="fa-solid fa-arrow-right-from-bracket"></i></Link>                     
                         </Col>
                     </Row>
                 </Container>               
@@ -33,4 +33,4 @@ function Adminheader () {
     );
 }
 
-export default Adminheader;
+export default Employerheader;

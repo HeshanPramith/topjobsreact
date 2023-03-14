@@ -58,7 +58,7 @@ function Vacancybyfunctionalarea () {
                                         <li><Link to='/#'>Sales/Marketing/Merchandising</Link></li>
                                         <li><Link to='/#'>HR/Training</Link></li>
                                         <li><Link to='/#'>Corporate Management/Analysts</Link></li>
-                                        <li><Link to='/#'>Office Admin/Secretary/Receptionist</Link></li>
+                                        <li><Link to='/#'>Office Employer/Secretary/Receptionist</Link></li>
                                         <li><Link to='/#'>Civil Eng/Interior Design/Architecture</Link></li>
                                         <li><Link to='/#'>IT-Telecoms</Link></li>
                                         <li><Link to='/#'>Customer Relations/Public Relations</Link></li>
