@@ -16,9 +16,9 @@ import "react-datepicker/dist/react-datepicker.css";
 function Paymentlist () {  
 
     useEffect(() => {
-        document.body.classList.add('employerlist','blue','defhider')
+        document.body.classList.add('paymentlist','blue','defhider')
         return () => {
-          document.body.classList.remove('employerlist','blue','defhider')
+          document.body.classList.remove('paymentlist','blue','defhider')
         }
     }, [])
 

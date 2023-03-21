@@ -27,6 +27,8 @@ import Employerlist from './Components/Employer/Employerlist';
 import Locationmap from './Components/Employer/Locationmap';
 import Employer from './Components/Employer/Employer';
 import Paymentlist from './Components/Employer/Paymentlist';
+import Contentmanage from './Components/Employer/Contentmanage';
+import Userlist from './Components/Employer/Userlist';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -96,6 +98,8 @@ function App() {
               <Route exact path='/Employer/Locationmap'  element={<Locationmap/>}/>
               <Route exact path='/Employer/Employer'  element={<Employer/>}/>
               <Route exact path='/Employer/Paymentlist'  element={<Paymentlist/>}/>
+              <Route exact path='/Employer/Contentmanage'  element={<Contentmanage/>}/>
+              <Route exact path='/Employer/Userlist'  element={<Userlist/>}/>
             </Routes>          
         </BrowserRouter>
       </div>      

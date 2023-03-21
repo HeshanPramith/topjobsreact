@@ -118,10 +118,10 @@ function Welcome () {
                                         <Link to='/Employer/Paymentlist' className='color-7'><i className="fa-solid fa-arrow-right-long"></i> Payments</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <Link to='/#' className='color-8'><i className="fa-solid fa-arrow-right-long"></i> Page Contant Config</Link>
+                                        <Link to='/Employer/Contentmanage' className='color-8'><i className="fa-solid fa-arrow-right-long"></i> Page Contant Config</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <Link to='/#' className='color-9'><i className="fa-solid fa-arrow-right-long"></i> User Login</Link>
+                                        <Link to='/Employer/Userlist' className='color-9'><i className="fa-solid fa-arrow-right-long"></i> User Login</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
                                         <Link to='/#' className='color-10'><i className="fa-solid fa-arrow-right-long"></i> System Configuration</Link>
