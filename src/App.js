@@ -29,6 +29,8 @@ import Employer from './Components/Employer/Employer';
 import Paymentlist from './Components/Employer/Paymentlist';
 import Contentmanage from './Components/Employer/Contentmanage';
 import Userlist from './Components/Employer/Userlist';
+import Dbconfig from './Components/Employer/Dbconfig';
+import Interviewschedule from './Components/Employer/Interviewschedule';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -100,6 +102,8 @@ function App() {
               <Route exact path='/Employer/Paymentlist'  element={<Paymentlist/>}/>
               <Route exact path='/Employer/Contentmanage'  element={<Contentmanage/>}/>
               <Route exact path='/Employer/Userlist'  element={<Userlist/>}/>
+              <Route exact path='/Employer/Dbconfig'  element={<Dbconfig/>}/>
+              <Route exact path='/Employer/Interviewschedule'  element={<Interviewschedule/>}/>
             </Routes>          
         </BrowserRouter>
       </div>      

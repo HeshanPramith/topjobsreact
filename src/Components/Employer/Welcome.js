@@ -124,10 +124,10 @@ function Welcome () {
                                         <Link to='/Employer/Userlist' className='color-9'><i className="fa-solid fa-arrow-right-long"></i> User Login</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <Link to='/#' className='color-10'><i className="fa-solid fa-arrow-right-long"></i> System Configuration</Link>
+                                        <Link to='/Employer/Dbconfig' className='color-10'><i className="fa-solid fa-arrow-right-long"></i> System Configuration</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <Link to='/#' className='color-11'><i className="fa-solid fa-arrow-right-long"></i> Shedule Interviews</Link>
+                                        <Link to='/Employer/Interviewschedule' className='color-11'><i className="fa-solid fa-arrow-right-long"></i> Shedule Interviews</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
                                         <Link to='/#' className='color-12'><i className="fa-solid fa-arrow-right-long"></i> Tab Customization</Link>
