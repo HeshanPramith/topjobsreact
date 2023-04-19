@@ -24,7 +24,7 @@ function Latestcat () {
 
     return (
         <React.Fragment>
-            <h2 className='sub-title'>Popular Categorys</h2>
+            <h2 className='sub-title'>Popular Categories</h2>
             <Slider {...settings}>
                 <div>
                     <Link to='/vacancybyfunctionalarealist'>IT-Sware/DB/QA/Web/Graphics/GIS</Link>
