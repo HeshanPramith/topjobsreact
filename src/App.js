@@ -33,6 +33,7 @@ import Userlist from './Components/Employer/Userlist';
 import Dbconfig from './Components/Employer/Dbconfig';
 import Interviewschedule from './Components/Employer/Interviewschedule';
 import Tabcutomise from './Components/Employer/Tabcutomise';
+import Reports from './Components/Employer/Reports';
 import Jslogin from './Components/Jobseeker/Jslogin';
 import Jswelcome from './Components/Jobseeker/Jswelcome';
 import Modal from 'react-bootstrap/Modal';
@@ -90,6 +91,7 @@ function App() {
               <Route exact path='/Jobseeker/Jslogin'  element={<Jslogin/>}/>
               <Route exact path='/Jobseeker/Jswelcome'  element={<Jswelcome/>}/>
               <Route exact path='/Employer/Tabcutomise'  element={<Tabcutomise/>}/>
+              <Route exact path='/Employer/Reports'  element={<Reports/>}/>
             </Routes>          
         </BrowserRouter>
       </div>      

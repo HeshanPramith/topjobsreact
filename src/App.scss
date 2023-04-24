@@ -2761,6 +2761,47 @@ table {
     text-transform: capitalize !important;
 }
 
+.reports {
+
+    .filter-frm {
+
+        select {
+
+            optgroup {
+
+                color: #000000;
+                padding: 10px;
+                background: #dfdfdf;
+                line-height: 20px;
+
+                option {
+                    color: #000000;
+                    padding: 0;
+                    background: #FFFFFF;
+                }
+            }
+        }
+    }
+
+    small {
+
+        a {
+            float: left;
+            text-decoration: none;
+            color: red;
+            margin: 3px 0 0 0;
+            font-size: 10px;
+        }
+    }
+
+    caption {
+        background: #3b3b3b;
+        border-radius: 3px 3px 0 0;
+        padding-left: 10px;
+        color: #FFFFFF;
+    }
+}
+
 @media (min-width: 0px) and (max-width: 967px) {
     .js-signup {
         .signup-box {

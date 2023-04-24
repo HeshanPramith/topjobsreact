@@ -133,7 +133,7 @@ function Welcome () {
                                         <Link to='/Employer/Tabcutomise' className='color-12'><i className="fa-solid fa-arrow-right-long"></i> Tab Customization</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <Link to='/#' className='color-13'><i className="fa-solid fa-arrow-right-long"></i> Reports</Link>
+                                        <Link to='/Employer/Reports' className='color-13'><i className="fa-solid fa-arrow-right-long"></i> Reports</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
                                         <Link to='/#' className='color-14'><i className="fa-solid fa-arrow-right-long"></i> Profile Customization</Link>

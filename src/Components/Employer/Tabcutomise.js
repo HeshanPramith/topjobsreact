@@ -12,12 +12,12 @@ import Pagination from 'react-bootstrap/Pagination';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 
-function Interviewschedule () {  
+function Tabcutomise () {  
 
     useEffect(() => {
-        document.body.classList.add('interviewschedule','blue','defhider')
+        document.body.classList.add('tabcutomise','blue','defhider')
         return () => {
-          document.body.classList.remove('interviewschedule','blue','defhider')
+          document.body.classList.remove('tabcutomise','blue','defhider')
         }
     }, [])
 
@@ -236,4 +236,4 @@ function Interviewschedule () {
     );
 }
 
-export default Interviewschedule;
+export default Tabcutomise;
