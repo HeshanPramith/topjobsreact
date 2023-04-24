@@ -139,6 +139,13 @@ header {
 .jbseeker-block {
     float: right;
 
+    &.log {
+
+        button {
+            text-transform: capitalize !important;
+        }
+    }
+
     button {
         background: #FFFFFF;
         border: none;
@@ -188,6 +195,9 @@ header {
             color: #FFFFFF;
             border-radius: 5px;
             padding: 5px 10px;
+            float: left;
+            width: 100%;
+            text-decoration: none;
 
             &:hover {
                 background: #12b664 !important;
@@ -1529,6 +1539,8 @@ select {
     h2 {
         text-align: left !important;
         margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: 500;
     }
 
     label {
@@ -2620,6 +2632,133 @@ table {
 .dbconfig-tbl {
     table-layout: fixed;
     float: left;
+}
+
+.seeker-left {
+    background: #830404;
+    color: #FFFFFF;
+    padding: 20px 15px;
+
+    .seeker-img {
+        background: #FFFFFF;
+        padding: 15px 30px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        max-width: 250px;
+        width: 100%;
+    }
+
+    h3 {
+        padding: 15px 0 10px 0;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.seeker-login-bx {
+    width: 350px;
+    max-width: 100%;
+    background: #FFFFFF;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin: 30px 0;
+    box-shadow: 0px 0px 20px 3px #d8d8d8;
+
+    h2 {
+        text-align: left !important;
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    label {
+        text-align: left !important;
+        float: left;
+        width: 100%;
+        font-weight: 500;
+        color: #313131;
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 15px;
+        border: none;
+
+        i {
+            margin-left: 5px;
+        }
+    }
+
+    .seeker-log-button {
+        width: 100%;
+        margin-bottom: 15px;
+        border: none;
+        color: #FFFFFF;
+        border-radius: 5px;
+        background: #830404;
+
+        i {
+            margin-left: 5px;
+        }
+    }
+
+    .radio-grp {
+        text-align: left !important;
+        float: left;
+        width: 100%;
+        margin-bottom: 5px;
+
+        input {
+            position: relative;
+            top: 3px;
+            margin-right: 5px;
+        }
+    }
+
+    a {
+        float: right;
+        width: auto;
+        margin-top: 30px;
+        color: #000000;
+    }
+}
+
+.fc-col-header {
+
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
+        line-height: 40px;
+    }
+}
+
+.fc-daygrid-block-event {
+
+    .fc-event-title {
+        font-size: 12px;
+    }
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+    background: rgb(54, 142, 243) !important;
+    color: #FFFFFF;
+
+    .fc-daygrid-day-number {
+        color: #FFFFFF !important;
+    }
+}
+
+.fc .fc-toolbar-title {
+    font-size: 16px !important;
+}
+
+.fc-today-button {
+    text-transform: capitalize !important;
 }
 
 @media (min-width: 0px) and (max-width: 967px) {

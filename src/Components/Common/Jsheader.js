@@ -79,11 +79,14 @@ function Header () {
                                 id={`dropdown-button-drop-${idx}`}
                                 size="sm"
                                 variant="secondary"
-                                title="Jobseeker"
-                                className='jbseeker-block'
+                                title="Heshan Pramith"
+                                className='jbseeker-block log'
                             >
-                                <Link to="/Jobseeker/Jslogin">Jobseeker Login</Link>
-                                <Link to="/#">Jobseeker Sign Up</Link>
+                                <Link to="/Jobseeker/Jswelcome">Welcome</Link>
+                                <Link to="/Jobseeker/Jswelcome">My Jobs</Link>
+                                <Link to="/Jobseeker/Jswelcome">My Profile</Link>
+                                <Link to="/Jobseeker/Jswelcome">My Preferences</Link>
+                                <Link to='/Jobseeker/Jslogin'>Log Out</Link>
                             </DropdownType>
                         ))}              
                     </Col>

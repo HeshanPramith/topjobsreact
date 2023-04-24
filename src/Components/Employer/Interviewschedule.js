@@ -5,11 +5,14 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from "react-router-dom";
 import Alert from 'react-bootstrap/Alert';
-import Table from 'react-bootstrap/Table';
+// import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import Collapse from 'react-bootstrap/Collapse';
+import DatePicker from "react-datepicker";
+// import Collapse from 'react-bootstrap/Collapse';
 import Pagination from 'react-bootstrap/Pagination';
+import FullCalendar from '@fullcalendar/react';
+import dayGridPlugin from '@fullcalendar/daygrid';
 
 function Interviewschedule () {  
 
@@ -20,7 +23,8 @@ function Interviewschedule () {
         }
     }, [])
 
-    const [open, setOpen] = useState(false);
+    //const [open, setOpen] = useState(false);
+    const [startDate, setStartDate] = useState(new Date());
 
     let active = 2;
     let items = [];
@@ -70,175 +74,95 @@ function Interviewschedule () {
                         <Form className='filter-frm mb-3'>
                             <Row>
                                 <Form.Group as={Col} xs={6} sm={3} className="mb-3" controlId="">
-                                    <Form.Label>Applicant Code</Form.Label>
-                                    <Form.Control type="text" placeholder="Code" size='sm' />
+                                    <Form.Label>Vacancy</Form.Label>
+                                    <Form.Select defaultValue="Select" className='me-2' size='sm'>
+                                        <option>0000980811 - Senior Software Engineer</option>
+                                        <option>0000777155 - BA</option>
+                                        <option>0004585548 - Graphic Designer</option>
+                                        <option>0000854885 - System Administrator</option>
+                                    </Form.Select>
                                 </Form.Group>
                                 <Form.Group as={Col} xs={6} sm={3} className="mb-3" controlId="">
                                     <Form.Label>Applicant Name</Form.Label>
-                                    <Form.Control type="text" placeholder="Name" size='sm' />
-                                </Form.Group>
-                                <Form.Group as={Col} xs={6} sm={3} className="mb-3" controlId="">
-                                    <Form.Label>Applicant NIC</Form.Label>
-                                    <Form.Control type="text" placeholder="NIC" size='sm' />
-                                    <small>eg: 881526603V</small>
-                                </Form.Group>
-                                <Form.Group as={Col} xs={6} sm={3} className="mb-3" controlId="">
-                                    <Form.Label>Age</Form.Label>
-                                    <Form.Select defaultValue="Select" className='w-60' size='sm'>
-                                        <option>Select</option>
-                                        <option>Below</option>
-                                        <option>Above</option>
-                                        <option>Between</option>
+                                    <Form.Select defaultValue="Select" className='me-2' size='sm'>
+                                        <option>Heshan</option>
+                                        <option>Ravindra</option>
+                                        <option>Dasun</option>
                                     </Form.Select>
-                                    <Form.Control type="text" placeholder="" className='w-40' size='sm' />
                                 </Form.Group>
                                 <Form.Group as={Col} xs={6} sm={3} className="mb-3" controlId="">
-                                    <Form.Label>Address</Form.Label>
-                                    <Form.Control type="text" placeholder="Address" size='sm' />
-                                    <small>eg: Colombo Sri Lanka</small>
-                                </Form.Group>
-                                <Form.Group as={Col} xs={6} md="auto" className="mb-3" controlId="">
-                                    <Form.Label>Gender</Form.Label>
-                                    <Form.Check type="radio" name="group1" aria-label="radio 1" label="Male"/>
-                                    <Form.Check type="radio" name="group1" aria-label="radio 2" label="Female"/>
-                                    <Form.Check type="radio" name="group1" aria-label="radio 3" label="Both"/>
-                                </Form.Group>
-                                <Form.Group as={Col} xs={6} sm={3} className="mb-3" controlId="">
-                                    <Form.Label>Salary Expected (Rs)</Form.Label>
-                                    <Form.Select defaultValue="Select" className='w-40 me-2' size='sm'>
-                                        <option>Select</option>
-                                        <option>Less or Equal</option>
-                                        <option>More or Equal</option>
-                                        <option>Between</option>
+                                    <Form.Label>Interview Type</Form.Label>
+                                    <Form.Select defaultValue="Select" className='me-2' size='sm'>
+                                        <option>Phone Interview</option>
+                                        <option>Second Interview</option>
+                                        <option>Final Interview</option>
+                                        <option>Exam</option>
                                     </Form.Select>
-                                    <Form.Control type="text" placeholder="" className='w-60 me-0' size='sm' />
-                                </Form.Group>                                
-                            </Row>
-                            <Row>
-                                <Col>
-                                    <div class="divider">
-                                        <span></span>
-                                        <span>
-                                            <Button size='sm' onClick={() => setOpen(!open)} aria-controls="example-collapse-text" aria-expanded={open} className='adv-btn mb-3'><i className="fa-solid fa-angle-down"></i> Advance Search <i className="fa-solid fa-angle-down"></i></Button>
-                                        </span>
-                                        <span></span>
-                                    </div>                                    
-                                    <Collapse in={open}>
-                                        <div id="example-collapse-text">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-                                        terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-                                        labore wes anderson cred nesciunt sapiente ea proident.
-                                        </div>
-                                    </Collapse>
-                                </Col>
+                                </Form.Group>
+                                <Form.Group as={Col} xs={6} sm={3} className="mb-3" controlId="">
+                                    <Form.Label>Schedule Date</Form.Label>
+                                    <DatePicker selected={startDate} onChange={(date) => setStartDate(date)} className='form-control form-control-sm' />
+                                </Form.Group>
+                                <Form.Group as={Col} xs={6} sm={3} className="mb-3" controlId="">
+                                    <Form.Label>Shedule Time</Form.Label>
+                                    <Form.Control type="text" placeholder="HH" className='w-25 d-inline-block' size='sm'/>
+                                    <Form.Control type="text" placeholder="MM" className='w-25 d-inline-block mx-2' size='sm'/>
+                                    <Form.Select defaultValue="Select" className='w-25 d-inline-block' size='sm'>
+                                        <option>AM</option>
+                                        <option>PM</option>
+                                    </Form.Select>
+                                </Form.Group>
+                                <Form.Group as={Col} xs={6} sm={6} className="mb-3" controlId="">
+                                    <Form.Label>Remarks</Form.Label>
+                                    <Form.Control type="text" as="textarea" placeholder="" size='sm' rows={5} />
+                                    <small>0 of 250 character limit used</small>
+                                </Form.Group>                               
                             </Row>
                             <Row className="justify-content-end mt-3">
                                 <Col md="auto">
-                                    <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn'>
-                                        Search All
+                                    <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn float-left'>
+                                        <i class="bi bi-cloud-arrow-up-fill me-2"></i>
+                                        Upload Interview Form
                                     </Button>
                                     <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn'>
-                                        Search in Open-list
+                                        <i class="bi bi-save2-fill me-2"></i>
+                                        Save
                                     </Button>
-                                    <Button size='sm' variant="danger" type="submit" className='filter-btn'>
-                                        Clear
+                                    <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn'>
+                                        <i class="bi bi-save2-fill me-2"></i>
+                                        Save & Send Email
                                     </Button>
                                 </Col>
                             </Row>
                         </Form>
+                        <Row className="justify-content-end mt-3 mb-3">
+                            <Col xs="12">
+                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn'>
+                                    <i class="bi bi-plus-square-fill me-2"></i>
+                                    New Shedule
+                                </Button>
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
                 <Form>
                     <Row className='align-items-center mb-2'>
-                        <Col xs={12} sm={6} md={6} lg={6} xl={6} xxl={6} className='prel'>
-                            <Form.Group as={Col} xs={12} md="auto" className="mb-3" controlId="">
-                                <Form.Check type="radio" name="group1" aria-label="radio 1" label="Applicant List (2425)"/>
-                                <Form.Check type="radio" name="group1" aria-label="radio 2" label="Archived Applicants (0)"/>
-                            </Form.Group>              
-                        </Col>
-                        <Col xs={12} sm={6} md={6} lg={6} xl={6} xxl={6} className='prel'>                           
-                            <div className='tb-leg'><i className="fa-solid fa-star c-yellow"></i> School Education</div> 
-                            <div className='tb-leg'><i className="fa-solid fa-star c-green"></i> Higher Education</div>  
-                            <div className='tb-leg'><i className="fa-solid fa-star c-red"></i> Experience</div>          
+                        <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12} className='prel'>                           
+                            <div className='tb-leg'><i className="fa-solid fa-star c-green"></i> Sent</div>  
+                            <div className='tb-leg'><i className="fa-solid fa-star c-red"></i> Not Sent</div>          
                         </Col>
                     </Row>
                     <Row className='h-100'>
-                        <Col xs={12} className='prel'>
-                            <div className='pagin-wrapper'>
-                                <p> 1 - 20 of 2426 Applicants(s) in 122 page(s) </p><Pagination size="sm">{items}</Pagination>
-                            </div>              
-                        </Col>
-                        <Col xs={12} className='prel mt-3'>
-                            <Table striped hover responsive className='appsearch-tbl'>
-                                <thead>
-                                    <tr>
-                                        <th><Form.Check type="checkbox" label="" /></th>
-                                        <th>#</th>
-                                        <th></th>
-                                        <th>Code</th>
-                                        <th>Tabs</th>
-                                        <th>Name</th>
-                                        <th>NIC</th>
-                                        <th>Preferences (C|A)</th>
-                                        <th>Age</th>
-                                        <th>Address</th>
-                                        <th>Contacts</th>
-                                        <th>CV</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><Form.Check type="checkbox" label="" /></td>
-                                        <td>1</td>
-                                        <td><i className="fa-solid fa-person fs-6"></i></td>
-                                        <td>0001459397</td>
-                                        <td>
-                                            <i className="fa-solid fa-star c-red me-1"></i>
-                                            <i className="fa-solid fa-star c-green me-1"></i>
-                                            <i className="fa-solid fa-star c-yellow"></i>
-                                        </td>
-                                        <td>MOHOMED AMJATH</td>
-                                        <td>2002124040</td>
-                                        <td>
-                                            C: <br></br>
-                                            A:
-                                        </td>
-                                        <td>20</td>
-                                        <td>651/6 Kerakapokuna Negombo Road Mabola Wattala Gampaha Sri Lanka</td>
-                                        <td>
-                                            P: 0112698845 <br></br>
-                                            M: 0718562458 <br></br>
-                                            E: <i className="fa-solid fa-envelope"></i>
-                                        </td>
-                                        <td><i className="fa-regular fa-file-pdf fs-4"></i></td>
-                                    </tr>
-                                    <tr>
-                                        <td><Form.Check type="checkbox" label="" /></td>
-                                        <td>2</td>
-                                        <td><i className="fa-solid fa-person-dress fs-6"></i></td>
-                                        <td>0001459397</td>
-                                        <td>
-                                            <i className="fa-solid fa-star c-red me-1"></i>
-                                            <i className="fa-solid fa-star c-green me-1"></i>
-                                            <i className="fa-solid fa-star c-yellow"></i>
-                                        </td>
-                                        <td>MADHUSHI SUDASINGHA</td>
-                                        <td>-</td>
-                                        <td>
-                                            C: <br></br>
-                                            A:
-                                        </td>
-                                        <td>21</td>
-                                        <td>No 113, Medagampitiya, Divulapitiya Gampaha Gampaha Sri Lanka</td>
-                                        <td>
-                                            P: 0112698845 <br></br>
-                                            M: 0718562458 <br></br>
-                                            E: <i className="fa-solid fa-envelope"></i>
-                                        </td>
-                                        <td><i className="fa-regular fa-file-pdf fs-4"></i></td>
-                                    </tr>
-                                </tbody>
-                            </Table>               
+                        <Col xs={12} className='mt-3'>
+                        <FullCalendar
+                            plugins={[dayGridPlugin]}
+                            initialView='dayGridMonth'
+                            weekends={false}
+                            events={[
+                                { title: 'Event 1', date: '2023-04-21' },
+                                { title: 'Event 2', date: '2023-04-25' }
+                            ]}
+                        />              
                         </Col>                        
                     </Row>
                 </Form>

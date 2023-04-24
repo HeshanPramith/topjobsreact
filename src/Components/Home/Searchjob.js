@@ -39,7 +39,7 @@ function Searchjob () {
                             </Button>
                             <Offcanvas show={show} onHide={handleClose} placement="end" className="main-category-pop">
                                 <Offcanvas.Header closeButton>
-                                <Offcanvas.Title>Job Category</Offcanvas.Title>
+                                <Offcanvas.Title>Job Categories</Offcanvas.Title>
                                 </Offcanvas.Header>
                                 <Offcanvas.Body>
                                     <ul>

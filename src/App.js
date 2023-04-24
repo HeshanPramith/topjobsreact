@@ -5,11 +5,12 @@ import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Style.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Dropdown from 'react-bootstrap/Dropdown';
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
-import DropdownButton from 'react-bootstrap/DropdownButton';
+// import Dropdown from 'react-bootstrap/Dropdown';
+// import ButtonGroup from 'react-bootstrap/ButtonGroup';
+// import DropdownButton from 'react-bootstrap/DropdownButton';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -31,6 +32,9 @@ import Contentmanage from './Components/Employer/Contentmanage';
 import Userlist from './Components/Employer/Userlist';
 import Dbconfig from './Components/Employer/Dbconfig';
 import Interviewschedule from './Components/Employer/Interviewschedule';
+import Tabcutomise from './Components/Employer/Tabcutomise';
+import Jslogin from './Components/Jobseeker/Jslogin';
+import Jswelcome from './Components/Jobseeker/Jswelcome';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -43,9 +47,9 @@ function App() {
   const [show2, setShow2] = useState(false);
   const [fullscreen] = useState(true);
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  //const handleShow = () => setShow(true);
   const handleClose2 = () => setShow2(false);
-  const handleShow2 = () => setShow2(true);
+  //const handleShow2 = () => setShow2(true);
 
   const [showA, setShowA] = useState(true);
   const toggleShowA = () => setShowA(!showA);
@@ -61,28 +65,7 @@ function App() {
         </Toast>        
       </ToastContainer>
       <div id='main-cont' className='main-cont'>
-        <div className='loginblock'>
-          <Container fluid>
-            <Row>
-              <Col xs={12} sm={12}>              
-                {[DropdownButton].map((DropdownType, idx) => (
-                    <DropdownType
-                        as={ButtonGroup}
-                        key={idx}
-                        id={`dropdown-button-drop-${idx}`}
-                        size="sm"
-                        variant="secondary"
-                        title="Jobseeker"
-                        className='jbseeker-block'
-                    >
-                        <Dropdown.Item eventKey="1" onClick={handleShow}>Jobseeker Login</Dropdown.Item>
-                        <Dropdown.Item eventKey="2" onClick={handleShow2}>Jobseeker Sign Up</Dropdown.Item>
-                    </DropdownType>
-                ))}              
-              </Col>
-            </Row>
-          </Container>          
-        </div>
+        
         <BrowserRouter>          
             <Routes>
               <Route exact path='/'  element={<Home/>}/>
@@ -104,6 +87,9 @@ function App() {
               <Route exact path='/Employer/Userlist'  element={<Userlist/>}/>
               <Route exact path='/Employer/Dbconfig'  element={<Dbconfig/>}/>
               <Route exact path='/Employer/Interviewschedule'  element={<Interviewschedule/>}/>
+              <Route exact path='/Jobseeker/Jslogin'  element={<Jslogin/>}/>
+              <Route exact path='/Jobseeker/Jswelcome'  element={<Jswelcome/>}/>
+              <Route exact path='/Employer/Tabcutomise'  element={<Tabcutomise/>}/>
             </Routes>          
         </BrowserRouter>
       </div>      
