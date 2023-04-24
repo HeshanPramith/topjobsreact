@@ -2802,6 +2802,50 @@ table {
     }
 }
 
+.profilecustomise {
+
+    .accordion {
+
+        .accordion-item {
+
+            .accordion-header {
+
+                .accordion-button {
+                    font-size: 13px;
+                    padding: 10px 15px;
+                    font-weight: 500;
+                    color: #000000;
+                }
+            }
+
+            .accordion-collapse {
+
+                .accordion-body {
+                    padding: 10px 10px;
+                }
+            }
+        }
+
+        table {
+
+            td {
+
+                &:first-child {
+                    width: 80%;
+                }
+
+                &:nth-child(2) {
+                    width: 100px;
+                }
+
+                &:nth-child(3) {
+                    width: 100px;
+                }
+            }
+        }
+    }
+}
+
 @media (min-width: 0px) and (max-width: 967px) {
     .js-signup {
         .signup-box {

@@ -136,16 +136,16 @@ function Welcome () {
                                         <Link to='/Employer/Reports' className='color-13'><i className="fa-solid fa-arrow-right-long"></i> Reports</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <Link to='/#' className='color-14'><i className="fa-solid fa-arrow-right-long"></i> Profile Customization</Link>
+                                        <Link to='/Employer/Profilecustomise' className='color-14'><i className="fa-solid fa-arrow-right-long"></i> Profile Customization</Link>
                                     </Col>
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <Link to='/#' className='color-15'><i className="fa-solid fa-arrow-right-long"></i> Email Alert</Link>
+                                        <Link to='/Employer/Agentemailalert' className='color-15'><i className="fa-solid fa-arrow-right-long"></i> Email Alert</Link>
                                     </Col>
-                                    <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
+                                    {/* <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
                                         <Link to='/#' className='color-16'><i className="fa-solid fa-arrow-right-long"></i> Campus Applicants</Link>
-                                    </Col>
+                                    </Col> */}
                                     <Col xs={6} sm={6} md={6} lg={4} xl={3} className='mb-3'>
-                                        <Link to='/#' className='color-17'><i className="fa-solid fa-arrow-right-long"></i> Advertisement Templates</Link>
+                                        <Link to='/Employer/Advertisementtemplate' className='color-17'><i className="fa-solid fa-arrow-right-long"></i> Advertisement Templates</Link>
                                     </Col>
                                 </Row>
                                 <Row>
