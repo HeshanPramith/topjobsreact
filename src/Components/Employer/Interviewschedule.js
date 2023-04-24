@@ -121,15 +121,15 @@ function Interviewschedule () {
                             <Row className="justify-content-end mt-3">
                                 <Col md="auto">
                                     <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn float-left'>
-                                        <i class="bi bi-cloud-arrow-up-fill me-2"></i>
+                                        <i className="bi bi-cloud-arrow-up-fill me-2"></i>
                                         Upload Interview Form
                                     </Button>
                                     <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn'>
-                                        <i class="bi bi-save2-fill me-2"></i>
+                                        <i className="bi bi-save2-fill me-2"></i>
                                         Save
                                     </Button>
                                     <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn'>
-                                        <i class="bi bi-save2-fill me-2"></i>
+                                        <i className="bi bi-save2-fill me-2"></i>
                                         Save & Send Email
                                     </Button>
                                 </Col>
@@ -138,7 +138,7 @@ function Interviewschedule () {
                         <Row className="justify-content-end mt-3 mb-3">
                             <Col xs="12">
                                 <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn'>
-                                    <i class="bi bi-plus-square-fill me-2"></i>
+                                    <i className="bi bi-plus-square-fill me-2"></i>
                                     New Shedule
                                 </Button>
                             </Col>

@@ -223,7 +223,7 @@ function Interviewschedule () {
                             <Row className="justify-content-end mt-3">
                                 <Col md="auto">
                                     <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn'>
-                                        <i class="bi bi-save2-fill me-2"></i>
+                                        <i className="bi bi-save2-fill me-2"></i>
                                         Save Tabs
                                     </Button>
                                 </Col>
