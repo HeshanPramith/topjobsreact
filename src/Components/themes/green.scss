@@ -42,4 +42,34 @@ body.green {
     .agent-info {
         background: #149f12;
     }
+
+    .admin-log-button {
+        background: #149f12 !important;
+    }
+
+    .admin-dash-links {
+
+        a {
+
+            &:hover {
+                background-color: #149f12 !important
+            }
+        }
+    }
+
+    .list-group-item {
+
+        &.active {
+
+            background: #149f12 !important;
+            color: #FFFFFF !important;
+
+            a {
+
+                background: #149f12 !important;
+                color: #FFFFFF !important;
+            }
+        }
+    }
 }
+

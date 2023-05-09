@@ -8,6 +8,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "@coreui/chartjs/dist/css/coreui-chartjs.css";
 // import Dropdown from 'react-bootstrap/Dropdown';
 // import ButtonGroup from 'react-bootstrap/ButtonGroup';
 // import DropdownButton from 'react-bootstrap/DropdownButton';
@@ -39,6 +40,9 @@ import Agentemailalert from './Components/Employer/Agentemailalert';
 import Advertisementtemplate from './Components/Employer/Advertisementtemplate';
 import Jslogin from './Components/Jobseeker/Jslogin';
 import Jswelcome from './Components/Jobseeker/Jswelcome';
+import Salogin from './Components/Superadmin/Salogin';
+import Sawelcome from './Components/Superadmin/Sawelcome';
+import Agentsearch from './Components/Superadmin/Agentsearch';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -98,6 +102,9 @@ function App() {
               <Route exact path='/Employer/Profilecustomise'  element={<Profilecustomise/>}/>
               <Route exact path='/Employer/Agentemailalert'  element={<Agentemailalert/>}/>
               <Route exact path='/Employer/Advertisementtemplate'  element={<Advertisementtemplate/>}/>
+              <Route exact path='/Superadmin/Salogin'  element={<Salogin/>}/>
+              <Route exact path='/Superadmin/Sawelcome'  element={<Sawelcome/>}/>
+              <Route exact path='/Superadmin/Agentsearch'  element={<Agentsearch/>}/>
             </Routes>          
         </BrowserRouter>
       </div>      

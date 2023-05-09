@@ -42,4 +42,24 @@ body.red {
     .agent-info {
         background: #ca0707;
     }
+
+    .admin-log-button {
+        background: #ca0707 !important;
+    }
+
+    .list-group-item {
+
+        &.active {
+
+            background: #ca0707 !important;
+            color: #FFFFFF !important;
+
+            a {
+
+                background: #ca0707 !important;
+                color: #FFFFFF !important;
+            }
+        }
+    }
 }
+
