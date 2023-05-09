@@ -231,6 +231,38 @@ function Sawelcome () {
                         </Row>                  
                     </Col>
                 </Row>
+
+                <Row className='mt-4'>
+                    <Col xs={12}>
+                        <h5>Superadmin Modules</h5>
+                    </Col>
+                </Row>
+
+                <Row className='h-100'>
+                    <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12} className='prel'>
+                        <Row className='admin-dash-links'>
+                            <div className="d-flex align-content-stretch flex-wrap justify-content-center justify-content-xl-start mb-3">
+                                <Link to='/Superadmin/Sawelcome' className='color-1'><i className="fa-solid fa-arrow-right-long"></i> <b>Company</b></Link>
+                                <Link to='/Superadmin/Sawelcome' className='color-2'><i className="fa-solid fa-arrow-right-long"></i> <b>Email Config</b></Link>
+                                <Link to='/Superadmin/Sawelcome' className='color-3'><i className="fa-solid fa-arrow-right-long"></i> <b>System Configuration</b></Link>
+                                <Link to='/Superadmin/Sawelcome' className='color-4'><i className="fa-solid fa-arrow-right-long"></i> <b>User Login</b></Link>
+                                <Link to='/Superadmin/Sawelcome' className='color-5'><i className="fa-solid fa-arrow-right-long"></i> <b>Master Data</b></Link>
+                                <Link to='/Superadmin/Sawelcome' className='color-6'><i className="fa-solid fa-arrow-right-long"></i> <b>Applicant Logins</b></Link>
+                                <Link to='/Superadmin/Sawelcome' className='color-7'><i className="fa-solid fa-arrow-right-long"></i> <b>Reports</b></Link>
+                                <Link to='/Superadmin/Sawelcome' className='color-8'><i className="fa-solid fa-arrow-right-long"></i> <b>Bulk Email</b></Link>
+                                <Link to='/Superadmin/Sawelcome' className='color-9'><i className="fa-solid fa-arrow-right-long"></i> <b>Release Notes</b></Link>
+                                <Link to='/Superadmin/Sawelcome' className='color-10'><i className="fa-solid fa-arrow-right-long"></i> <b>Manage Banners</b></Link>
+                                <Link to='/Superadmin/Sawelcome' className='color-11'><i className="fa-solid fa-arrow-right-long"></i> <b>External Agent</b></Link>
+                                <Link to='/Superadmin/Sawelcome' className='color-12'><i className="fa-solid fa-arrow-right-long"></i> <b>Email Alert Config</b></Link>
+                                <Link to='/Superadmin/Sawelcome' className='color-13'><i className="fa-solid fa-arrow-right-long"></i> <b>CSR CV</b></Link>
+                                <Link to='/Superadmin/Sawelcome' className='color-14'><i className="fa-solid fa-arrow-right-long"></i> <b>HR Resources</b></Link>
+                                <Link to='/Superadmin/Sawelcome' className='color-15'><i className="fa-solid fa-arrow-right-long"></i> <b>Locked Agent Logins</b></Link>
+                                <Link to='/Superadmin/Sawelcome' className='color-17'><i className="fa-solid fa-arrow-right-long"></i> <b>Manage Testimonials</b></Link>
+                            </div>
+                        </Row>                 
+                    </Col>
+                </Row> 
+
                 <Row className='pt-3 g-4' xs={1} md={2}>
                     <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12} className='prel g-4'>
                         <Row className='row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-4 g-4 sadmin-group-top'>

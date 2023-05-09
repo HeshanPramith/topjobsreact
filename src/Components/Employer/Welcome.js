@@ -256,7 +256,7 @@ function Welcome () {
 
                 <Row>
                     <Col xs={12}>
-                        <h5>Modules</h5>
+                        <h5>Employer Modules</h5>
                     </Col>
                 </Row>
 
