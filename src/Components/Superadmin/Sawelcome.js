@@ -242,7 +242,7 @@ function Sawelcome () {
                     <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12} className='prel'>
                         <Row className='admin-dash-links'>
                             <div className="d-flex align-content-stretch flex-wrap justify-content-center justify-content-xl-start mb-3">
-                                <Link to='/Superadmin/Sawelcome' className='color-1'><i className="fa-solid fa-arrow-right-long"></i> <b>Company</b></Link>
+                                <Link to='/Superadmin/Agentsearch' className='color-1'><i className="fa-solid fa-arrow-right-long"></i> <b>Company</b></Link>
                                 <Link to='/Superadmin/Sawelcome' className='color-2'><i className="fa-solid fa-arrow-right-long"></i> <b>Email Config</b></Link>
                                 <Link to='/Superadmin/Sawelcome' className='color-3'><i className="fa-solid fa-arrow-right-long"></i> <b>System Configuration</b></Link>
                                 <Link to='/Superadmin/Sawelcome' className='color-4'><i className="fa-solid fa-arrow-right-long"></i> <b>User Login</b></Link>

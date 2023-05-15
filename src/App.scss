@@ -2046,6 +2046,13 @@ select {
     }
 }
 
+button {
+
+    i {
+        margin-right: 5px;
+    }
+}
+
 .back-btn {
     font-size: 12px;
     background: #e49a10; 
@@ -3528,6 +3535,23 @@ body {
         background: rgb(255,255,255);
         background: linear-gradient(180deg, rgba(255,255,255,1) 50%, #e5eefa 100%);
         border-radius: 5px;
+    }
+}
+
+.applicantsearch {
+
+    table {
+
+        td {
+
+            a {
+
+                i {
+                    font-size: 14px;
+                    margin-right: 10px;
+                }
+            }
+        }
     }
 }
 
