@@ -5,19 +5,19 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
-import Alert from 'react-bootstrap/Alert';
 import Table from 'react-bootstrap/Table';
 import Form from 'react-bootstrap/Form';
 import Pagination from 'react-bootstrap/Pagination';
 import InputGroup from 'react-bootstrap/InputGroup';
 import ListGroup from 'react-bootstrap/ListGroup';
+import Superadminheader from '../Common/Superadminheader';
 
 function Masterlist () {  
 
     useEffect(() => {
-        document.body.classList.add('masterlist','blue','defhider')
+        document.body.classList.add('masterlist','red','defhider')
         return () => {
-          document.body.classList.remove('masterlist','blue','defhider')
+          document.body.classList.remove('masterlist','red','defhider')
         }
     }, [])
 
@@ -33,85 +33,63 @@ function Masterlist () {
     
     return (
         <React.Fragment>
-            <header id='admin-header' className='admin-header'>
-                <Container fluid className=''>
-                    <Row className='row align-items-center'>
-                        <Col className='col-10 col-sm-3 col-md-3 col-lg-2 text-left'>
-                            <div className='admin-logo'>
-                                <img src='../images/genesiis.png' className='img-fluid' alt='logo'></img> 
-                            </div>                     
-                        </Col>
-                        <Col className='col-12 col-sm-7 col-md-7 col-lg-9 text-left order-last'>
-                            <h4>Master Data Maintenance</h4> 
-                            <small className='d-none d-sm-block'>Your last login was on 07 February 2023 at 04:27 PM</small>  
-                            <div className='admin-nav'>
-                                <Link to='/Employer/Welcome' title='Dashboard'><i className="fa-solid fa-house"></i></Link>
-                                <Link to='/#' title='Help'><i className="fa-solid fa-circle-info"></i></Link>
-                                <Link to='/#' title='FAQ'><i className="fa-solid fa-comment-dots"></i></Link>
-                            </div>                        
-                        </Col>
-                        <Col className='col-2 col-sm-2 col-md-2 col-lg-1 text-left order-sm-last'>
-                            <Link to='/Employer/Login' className='logout'><i className="fa-solid fa-arrow-right-from-bracket"></i></Link>                     
-                        </Col>
-                    </Row>
-                </Container>               
-            </header>
-            <Container fluid className='h-100'>
+            <Superadminheader/>
+            <Container fluid className='h-100 mt-4'>
                 <Row>
-                    <Col xs={12} className='mt-3'>
-                        <Alert variant='warning' className='p-2 text-center rounded-0'>
-                            <b>topjobs Support Business Hours (Mon-Fri, 8.30am-5.00pm) Call (+94) 11 776 5645, (+94) 77 391 8922 Or Email to support@topjobs.lk</b>
-                        </Alert>
+                    <Col xs={12} className='mb-3'>
+                        <h1 className='suadmin-page-title'>Master Data Maintenance</h1>
                     </Col>
                 </Row>
                 <Row className='mb-3'>
-                    <Col xs={12} sm={6} lg={4}> 
+                    <Col xs={12} sm={6} lg={3}> 
                         <div className='bx-1 bx-cmm'>
-                            <p className='d-flex align-items-center'>You can customise these areas by adding new records. You have the total authorisation to change records according to your requirement and preference.</p>
+                            <p className='d-flex align-items-center'>Modification here will only affect TJ SuperAdmin master records.</p>
                             <ListGroup as="ol" numbered variant="flush">
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Job Category - Company Preference</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Branch/Job Location</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Interview Status</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Specific Question Type</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Specific Question</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Common Question Type</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Common Question</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Secret Question</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Interview Grade</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Secret Question</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Interview Grade</Link></ListGroup.Item>
                             </ListGroup>
                         </div>
                     </Col>
-                    <Col xs={12} sm={6} lg={4}> 
+                    <Col xs={12} sm={6} lg={3}> 
                         <div className='bx-2 bx-cmm'>
-                            <p className='d-flex align-items-center'>Records can be added by selecting from the default set of records. If you need to add more or change records contact topjobs support team.</p>
+                            <p className='d-flex align-items-center'>Any modifications made to the record, will modify the client?s records as well. All clients will have the entire list of records and will have the privilege to choose the suitable record for their organizational requirements.</p>
                             <ListGroup as="ol" numbered variant="flush">
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Functional Area</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Country</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">State/District</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Job Category</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Industry</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Functional Area</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Country</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">State/District</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Job Category</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Industry</Link></ListGroup.Item>
                             </ListGroup>
                         </div>
                     </Col>
-                    <Col xs={12} sm={6} lg={4}> 
+                    <Col xs={12} sm={6} lg={3}> 
                         <div className='bx-3 bx-cmm'>
-                            <p className='d-flex align-items-center'>To avoid data manipulation and duplication only topjobs administrator has the authorisation for these fields. Please contact topjobs support team for more details.</p>
+                            <p className='d-flex align-items-center'>Only TJ administrator has the authorisation to amend these records. Any modifications made to these record, will modify the client?s records as well. Clients only can view these records.</p>
                             <ListGroup as="ol" numbered variant="flush">
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">City</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">School Education</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Scheme</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Subject</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Qualification Level</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Qualification</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Qualification Sector</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Language</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Membership</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Research</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Institute Type</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Institute</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Faculty</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Course</Link></ListGroup.Item>
-                                <ListGroup.Item as="li"><Link to="/Employer/Masterlist">Courses in Institutes</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">City</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">School Education</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Scheme</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Subject</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Qualification Level</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Qualification</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Qualification Sector</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Language</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Membership</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Research</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Institute Type</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Institute</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Faculty</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Course</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Courses in Institutes</Link></ListGroup.Item>
+                            </ListGroup>
+                        </div>
+                    </Col>
+                    <Col xs={12} sm={6} lg={3}> 
+                        <div className='bx-4 bx-cmm'>
+                            <p className='d-flex align-items-center'>Only TJ administrator has the authorisation to amend these records. Any modifications made to these record, will modify the client?s records as well. Clients only can not view these records.</p>
+                            <ListGroup as="ol" numbered variant="flush">
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Legal Status</Link></ListGroup.Item>
+                                <ListGroup.Item as="li"><Link to="/Superadmin/Samasterlist">Banner Page</Link></ListGroup.Item>
                             </ListGroup>
                         </div>
                     </Col>
@@ -120,8 +98,8 @@ function Masterlist () {
                     <Row className='h-100'>
                         <Col xs={12} sm={12}>
                             <div className='mastertop'>
-                                <h4 className='fs-6'>Job Category - Company Preference</h4>
-                                <p>This Table maintains the list of Job Categories which can be customized by the company as their preferences.</p>
+                                <h4 className='fs-6'>Banner Page</h4>
+                                <p>This Table maintains the list of Banner pages.</p>
                                 <InputGroup className="mb-3 w-40" size='sm'>
                                     <Form.Control
                                     placeholder=""
@@ -162,7 +140,7 @@ function Masterlist () {
                                         <th><i className="fa-solid fa-trash-can"></i></th>
                                         <th>#</th>
                                         <th>Edit</th>
-                                        <th>Job Category</th>
+                                        <th>Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>

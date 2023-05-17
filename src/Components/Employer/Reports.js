@@ -67,7 +67,7 @@ function Reports () {
                         <Form className='filter-frm mb-3'>
                             <Row>
                                 <Form.Group as={Col} xs={6} sm={6} md={3} className="mb-3" controlId="">
-                                    <Form.Label>Vacancy</Form.Label>
+                                    <Form.Label>Select Report</Form.Label>
                                     <Form.Select className='me-2' size='sm'>
                                         <optgroup label="Vacancy Reports">
                                             <option value="vr3">VR3. Vacancy Age</option>

@@ -71,5 +71,84 @@ body.blue {
             }
         }
     }
+
+    .admin-dash-links {
+
+        a {
+            width: 165px;
+            height: 165px;
+            border-radius: 5px;
+            margin: 10px 20px 10px 0;
+            text-align: center;
+            justify-content: center !important;
+            display: flex !important;
+            align-items: center!important;
+            text-decoration: none;
+            color: #FFFFFF;
+            flex-flow: column;
+            font-size: 14px;
+            transition:all 0.2s ease-out;
+            position: relative;
+            border: solid 1px #FFFFFF;
+            overflow: hidden;
+            background: linear-gradient(180deg, rgb(255, 255, 255) 20%, #e5eefa 100%);
+    
+            &:hover {
+                background: #2376d4;
+    
+                &::before {
+                    background: #0e325c;
+                    top: -335px;
+                    opacity: 0.2;
+                    transition:all 0.2s ease-out;
+                }
+    
+                &::after {
+                    bottom: -335px;
+                    background: #0a3d77;
+                    transition:all 0.2s ease-out;
+                }
+    
+                i {
+                    font-size: 26px;
+                    top: -28px;
+                    color: #FFFFFF;
+                }
+    
+                b {
+                    transition:all 0.2s ease-out;
+                    top: 35px;
+                    color: #FFFFFF;
+                }
+            }
+    
+            &::before {
+                content: "";
+                position: absolute;
+                width: 400px;
+                height: 400px;
+                background: #1565c0;
+                border-radius: 50%;
+                top: -401px;
+                right: -120px;
+                opacity: 0.5;
+                transition:all 0.2s ease-out;
+                z-index: 20;
+            }
+    
+            &::after {
+                content: "";
+                position: absolute;
+                width: 400px;
+                height: 400px;
+                background: #1565c0;
+                border-radius: 50%;
+                bottom: -400px;
+                right: -120px;
+                transition:all 0.2s ease-out;
+                z-index: 20;
+            }
+        }
+    }
 }
 

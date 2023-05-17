@@ -37,13 +37,13 @@ function Salogin () {
                                 <Form className='js-login-form'>
                                     <h2>Superadmin Login</h2>
                                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                                    <Form.Label>User Name</Form.Label>
-                                    <Form.Control type="text" size='sm' placeholder='SuperAdmin' />
+                                        <Form.Label>User Name</Form.Label>
+                                        <Form.Control type="text" size='sm' placeholder='SuperAdmin' />
                                     </Form.Group>
                                     <Form.Group className="" controlId="exampleForm.ControlTextarea1">
-                                    <Form.Label>Password</Form.Label>
-                                    <Form.Control type="password" size='sm' placeholder='********' />
-                                    <Link to="/Superadmin/Sawelcome" className="btn btn-primary mt-3 admin-log-button" variant="primary">Login <i className="fa-solid fa-arrow-right-long"></i></Link>
+                                        <Form.Label>Password</Form.Label>
+                                        <Form.Control type="password" size='sm' placeholder='********' />
+                                        <Link to="/Superadmin/Sawelcome" className="btn btn-primary mt-3 admin-log-button" variant="primary">Login <i className="fa-solid fa-arrow-right-long"></i></Link>
                                     </Form.Group>                    
                                     <div className='radio-grp'>
                                     <input type="radio" value="Male" name="gender" checked /> Save my user name and password

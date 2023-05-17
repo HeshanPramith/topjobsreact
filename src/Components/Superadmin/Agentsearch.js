@@ -182,7 +182,7 @@ function Applicantsearch () {
                                     </tr>
                                     <tr>
                                         <td><Form.Check type="checkbox" label="" /></td>
-                                        <td>1</td>
+                                        <td>2</td>
                                         <td><i className="fa-solid fa-star c-green me-1"></i></td>
                                         <td>0000000001</td>
                                         <td>Genesiis Software Pvt Ltd </td>

@@ -45,6 +45,13 @@ import Sawelcome from './Components/Superadmin/Sawelcome';
 import Agentsearch from './Components/Superadmin/Agentsearch';
 import Email from './Components/Superadmin/Email';
 import Sysconfig from './Components/Superadmin/Sysconfig';
+import Sauserlist from './Components/Superadmin/Sauserlist';
+import Samasterlist from './Components/Superadmin/Samasterlist';
+import Applicantloginmenu from './Components/Superadmin/Applicantloginmenu';
+import Sareports from './Components/Superadmin/Sareports';
+import Bulkemail from './Components/Superadmin/Bulkemail';
+import Releasenotes from './Components/Superadmin/Releasenotes';
+import Bannerad from './Components/Superadmin/Bannerad';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -109,6 +116,13 @@ function App() {
               <Route exact path='/Superadmin/Agentsearch'  element={<Agentsearch/>}/>
               <Route exact path='/Superadmin/Email'  element={<Email/>}/>
               <Route exact path='/Superadmin/Sysconfig'  element={<Sysconfig/>}/>
+              <Route exact path='/Superadmin/Sauserlist'  element={<Sauserlist/>}/>
+              <Route exact path='/Superadmin/Samasterlist'  element={<Samasterlist/>}/>
+              <Route exact path='/Superadmin/Applicantloginmenu'  element={<Applicantloginmenu/>}/>
+              <Route exact path='/Superadmin/Sareports'  element={<Sareports/>}/>
+              <Route exact path='/Superadmin/Bulkemail'  element={<Bulkemail/>}/>
+              <Route exact path='/Superadmin/Releasenotes'  element={<Releasenotes/>}/>
+              <Route exact path='/Superadmin/Bannerad'  element={<Bannerad/>}/>
             </Routes>          
         </BrowserRouter>
       </div>      

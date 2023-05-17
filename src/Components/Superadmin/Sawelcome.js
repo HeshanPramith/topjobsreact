@@ -245,13 +245,13 @@ function Sawelcome () {
                                 <Link to='/Superadmin/Agentsearch' className='color-1'><i className="fa-solid fa-arrow-right-long"></i> <b>Company</b></Link>
                                 <Link to='/Superadmin/Email' className='color-2'><i className="fa-solid fa-arrow-right-long"></i> <b>Email Config</b></Link>
                                 <Link to='/Superadmin/Sysconfig' className='color-3'><i className="fa-solid fa-arrow-right-long"></i> <b>System Configuration</b></Link>
-                                <Link to='/Superadmin/Sawelcome' className='color-4'><i className="fa-solid fa-arrow-right-long"></i> <b>User Login</b></Link>
-                                <Link to='/Superadmin/Sawelcome' className='color-5'><i className="fa-solid fa-arrow-right-long"></i> <b>Master Data</b></Link>
-                                <Link to='/Superadmin/Sawelcome' className='color-6'><i className="fa-solid fa-arrow-right-long"></i> <b>Applicant Logins</b></Link>
-                                <Link to='/Superadmin/Sawelcome' className='color-7'><i className="fa-solid fa-arrow-right-long"></i> <b>Reports</b></Link>
-                                <Link to='/Superadmin/Sawelcome' className='color-8'><i className="fa-solid fa-arrow-right-long"></i> <b>Bulk Email</b></Link>
-                                <Link to='/Superadmin/Sawelcome' className='color-9'><i className="fa-solid fa-arrow-right-long"></i> <b>Release Notes</b></Link>
-                                <Link to='/Superadmin/Sawelcome' className='color-10'><i className="fa-solid fa-arrow-right-long"></i> <b>Manage Banners</b></Link>
+                                <Link to='/Superadmin/Sauserlist' className='color-4'><i className="fa-solid fa-arrow-right-long"></i> <b>User Login</b></Link>
+                                <Link to='/Superadmin/Samasterlist' className='color-5'><i className="fa-solid fa-arrow-right-long"></i> <b>Master Data</b></Link>
+                                <Link to='/Superadmin/Applicantloginmenu' className='color-6'><i className="fa-solid fa-arrow-right-long"></i> <b>Applicant Logins</b></Link>
+                                <Link to='/Superadmin/Sareports' className='color-7'><i className="fa-solid fa-arrow-right-long"></i> <b>Reports</b></Link>
+                                <Link to='/Superadmin/Bulkemail' className='color-8'><i className="fa-solid fa-arrow-right-long"></i> <b>Bulk Email</b></Link>
+                                <Link to='/Superadmin/Releasenotes' className='color-9'><i className="fa-solid fa-arrow-right-long"></i> <b>Release Notes</b></Link>
+                                <Link to='/Superadmin/Bannerad' className='color-10'><i className="fa-solid fa-arrow-right-long"></i> <b>Manage Banners</b></Link>
                                 <Link to='/Superadmin/Sawelcome' className='color-11'><i className="fa-solid fa-arrow-right-long"></i> <b>External Agent</b></Link>
                                 <Link to='/Superadmin/Sawelcome' className='color-12'><i className="fa-solid fa-arrow-right-long"></i> <b>Email Alert Config</b></Link>
                                 <Link to='/Superadmin/Sawelcome' className='color-13'><i className="fa-solid fa-arrow-right-long"></i> <b>CSR CV</b></Link>
