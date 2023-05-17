@@ -60,7 +60,6 @@ function Employerheader () {
                         </Col>
                         <Col className='col-12 col-sm-5 col-md-5 col-lg-8 text-left order-last'>
                             <h4>Welcome - Superadmin</h4> 
-                            <small className='d-none d-sm-block'>Your last login was on 07 February 2023 at 04:27 PM</small>  
                             <div className='admin-nav'>
                                 <Link to='/Superadmin/Sawelcome'><i className="fa-solid fa-house"></i></Link>
                             </div>                        

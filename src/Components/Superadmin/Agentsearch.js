@@ -5,7 +5,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Superadminheader from '../Common/Superadminheader';
 // import { Link } from "react-router-dom";
-import Alert from 'react-bootstrap/Alert';
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
@@ -37,12 +36,10 @@ function Applicantsearch () {
     return (
         <React.Fragment>
             <Superadminheader/>
-            <Container fluid className='h-100'>
+            <Container fluid className='h-100 mt-4'>
                 <Row>
-                    <Col xs={12} className='mt-3'>
-                        <Alert variant='warning' className='p-2 text-center rounded-0'>
-                            <b>topjobs Support Business Hours (Mon-Fri, 8.30am-5.00pm) Call (+94) 11 776 5645, (+94) 77 391 8922 Or Email to support@topjobs.lk</b>
-                        </Alert>
+                    <Col xs={12} className='mb-3'>
+                        <h1 className='suadmin-page-title'>Organisation Search</h1>
                     </Col>
                 </Row>
                 <Row>
@@ -153,6 +150,7 @@ function Applicantsearch () {
                                         <th></th>
                                         <th>Code</th>
                                         <th>Organisation</th>
+                                        <th>Contact Person</th>
                                         <th>Contact Details</th>
                                         <th>Exp Date</th>
                                         <th>Web</th>
@@ -175,6 +173,7 @@ function Applicantsearch () {
                                         </td>
                                         <td>06/06/2024</td>
                                         <td>www.genesiis.com</td>
+                                        <td></td>
                                         <td>5 Star</td>
                                         <td>
                                             <Link to='/Superadmin/Sawelcome'><i className="fa-solid fa-money-bill-1"></i></Link>
@@ -194,6 +193,7 @@ function Applicantsearch () {
                                         </td>
                                         <td>06/06/2024</td>
                                         <td>www.genesiis.com</td>
+                                        <td></td>
                                         <td>5 Star</td>
                                         <td>
                                             <Link to='/Superadmin/Sawelcome'><i className="fa-solid fa-money-bill-1"></i></Link>

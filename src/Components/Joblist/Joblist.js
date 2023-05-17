@@ -190,6 +190,358 @@ function Joblist () {
                             <Card.Text>Native Way (Pvt) Ltd</Card.Text>
                         </Card.Body>
                     </Card>
+                </CardGroup> 
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup> 
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>    
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup> 
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup> 
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup> 
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>    
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup> 
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardGroup>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title><Link to='/Adview'>Senior Executive - Talent Acquisition</Link></Card.Title>
+                            <Card.Text>Native Way (Pvt) Ltd</Card.Text>
+                        </Card.Body>
+                    </Card>
                 </CardGroup>              
             </Row>          
         </React.Fragment>

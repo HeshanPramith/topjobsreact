@@ -43,6 +43,8 @@ import Jswelcome from './Components/Jobseeker/Jswelcome';
 import Salogin from './Components/Superadmin/Salogin';
 import Sawelcome from './Components/Superadmin/Sawelcome';
 import Agentsearch from './Components/Superadmin/Agentsearch';
+import Email from './Components/Superadmin/Email';
+import Sysconfig from './Components/Superadmin/Sysconfig';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -105,6 +107,8 @@ function App() {
               <Route exact path='/Superadmin/Salogin'  element={<Salogin/>}/>
               <Route exact path='/Superadmin/Sawelcome'  element={<Sawelcome/>}/>
               <Route exact path='/Superadmin/Agentsearch'  element={<Agentsearch/>}/>
+              <Route exact path='/Superadmin/Email'  element={<Email/>}/>
+              <Route exact path='/Superadmin/Sysconfig'  element={<Sysconfig/>}/>
             </Routes>          
         </BrowserRouter>
       </div>      

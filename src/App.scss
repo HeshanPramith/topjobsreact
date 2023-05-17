@@ -2790,17 +2790,20 @@ table {
     float: left;
     width: 100%;
     padding: 10px;
-    border: solid 1px #d6d6d6;
+    border: dashed 1px #bbbbbb;
     border-radius: 5px;
-    margin: 15px 0 10px 0;
-    box-shadow: 0px 4px 5px -4px #aeaeae;
+    margin: 15px 0 15px 0;
+    // box-shadow: 0px 4px 5px -4px #aeaeae;
+
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, #ffffff 29%, #e2e2e2 100%);
 
     .block-title {
         float: left;
         width: auto;
         position: relative;
         font-size: 12px;
-        background: #FFFFFF;
+        background: #F0F0F0;
         padding: 5px 10px;
         border-radius: 5px;
         margin: -23px 0 15px 0;
@@ -3553,6 +3556,59 @@ body {
             }
         }
     }
+}
+
+.saemailconfig {
+
+    table {
+
+        thead {
+
+            th {
+
+                &:first-child {
+                    width: 200px;
+                }
+            }            
+        }
+
+        td[colspan] {           
+            background:#7e7e7e !important;
+            color: #FFFFFF !important;
+
+            b {
+                color: #FFFFFF !important;
+            }
+        }
+    }    
+}
+
+.sysconfig {
+
+    .sys-config-block {
+
+        small {
+            margin-bottom: 15px;
+            float: left;
+
+            a {
+                text-decoration: none;
+                background: #772929;
+                padding: 4px 8px;
+                border-radius: 5px;
+                color: #FFFFFF;
+            }
+        }
+    }   
+}
+
+.suadmin-page-title {
+    float: left;
+    width: 100%;
+    position: relative;
+    font-size: 14px;
+    line-height: normal;
+    margin: 0;
 }
 
 @media (min-width: 0px) and (max-width: 967px) {

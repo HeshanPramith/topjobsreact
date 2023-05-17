@@ -243,8 +243,8 @@ function Sawelcome () {
                         <Row className='admin-dash-links'>
                             <div className="d-flex align-content-stretch flex-wrap justify-content-center justify-content-xl-start mb-3">
                                 <Link to='/Superadmin/Agentsearch' className='color-1'><i className="fa-solid fa-arrow-right-long"></i> <b>Company</b></Link>
-                                <Link to='/Superadmin/Sawelcome' className='color-2'><i className="fa-solid fa-arrow-right-long"></i> <b>Email Config</b></Link>
-                                <Link to='/Superadmin/Sawelcome' className='color-3'><i className="fa-solid fa-arrow-right-long"></i> <b>System Configuration</b></Link>
+                                <Link to='/Superadmin/Email' className='color-2'><i className="fa-solid fa-arrow-right-long"></i> <b>Email Config</b></Link>
+                                <Link to='/Superadmin/Sysconfig' className='color-3'><i className="fa-solid fa-arrow-right-long"></i> <b>System Configuration</b></Link>
                                 <Link to='/Superadmin/Sawelcome' className='color-4'><i className="fa-solid fa-arrow-right-long"></i> <b>User Login</b></Link>
                                 <Link to='/Superadmin/Sawelcome' className='color-5'><i className="fa-solid fa-arrow-right-long"></i> <b>Master Data</b></Link>
                                 <Link to='/Superadmin/Sawelcome' className='color-6'><i className="fa-solid fa-arrow-right-long"></i> <b>Applicant Logins</b></Link>
