@@ -1266,7 +1266,7 @@ select {
 .admin-left {
     background-size: cover;
     color: #FFFFFF;
-    padding: 20px 40px;
+    padding: 20px;
     margin: 15px;
     height: calc(100vh - 30px) !important;
     border-radius: 10px;
@@ -1297,13 +1297,13 @@ select {
     &::before {
         position: absolute;
         content: "";
-        background: #000000;
+        background: rgb(255 255 255);
+        background: linear-gradient(-90deg, #ffffff 0%, #0000003d 100%);
         z-index: 100;
         width: 100%;
         left: 0;
         top: 0;
         height: calc(100vh + -30px) !important;
-        opacity: 0.5;
     }
 
     video {
@@ -1357,7 +1357,8 @@ select {
 
     .capion {
         position: relative;
-        background: #00000054;
+        background: rgb(255 255 255);
+        background: linear-gradient(-90deg, #ffffff00 50%, #000000b1 100%);
         width: 100%;
         border-radius: 10px;
         padding: 10px 15px;
@@ -2699,11 +2700,9 @@ table {
 }
 
 .seeker-left {
-    // background: #830404;
-    // background: url(../public/images/seeker-bg.jpg) center center no-repeat;
     background-size: cover;
     color: #FFFFFF;
-    padding: 20px 40px;
+    padding: 20px;
     margin: 15px;
     height: calc(100vh + -30px) !important;
     border-radius: 10px;
@@ -2714,13 +2713,13 @@ table {
     &::before {
         position: absolute;
         content: "";
-        background: #000000;
+        background: rgb(255 255 255);
+        background: linear-gradient(-90deg, #ffffff 0%, #0000003d 100%);
         z-index: 100;
         width: 100%;
         left: 0;
         top: 0;
         height: calc(100vh + -30px) !important;
-        opacity: 0.5;
     }
 
     video {
@@ -2751,7 +2750,8 @@ table {
 
     .capion {
         position: relative;
-        background: #00000054;
+        background: rgb(255 255 255);
+        background: linear-gradient(-90deg, #ffffff00 50%, #000000b1 100%);
         width: 100%;
         border-radius: 10px;
         padding: 10px 15px;
