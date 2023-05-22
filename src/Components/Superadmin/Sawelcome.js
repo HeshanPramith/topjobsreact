@@ -252,12 +252,12 @@ function Sawelcome () {
                                 <Link to='/Superadmin/Bulkemail' className='color-8'><i className="fa-solid fa-arrow-right-long"></i> <b>Bulk Email</b></Link>
                                 <Link to='/Superadmin/Releasenotes' className='color-9'><i className="fa-solid fa-arrow-right-long"></i> <b>Release Notes</b></Link>
                                 <Link to='/Superadmin/Bannerad' className='color-10'><i className="fa-solid fa-arrow-right-long"></i> <b>Manage Banners</b></Link>
-                                <Link to='/Superadmin/Sawelcome' className='color-11'><i className="fa-solid fa-arrow-right-long"></i> <b>External Agent</b></Link>
-                                <Link to='/Superadmin/Sawelcome' className='color-12'><i className="fa-solid fa-arrow-right-long"></i> <b>Email Alert Config</b></Link>
-                                <Link to='/Superadmin/Sawelcome' className='color-13'><i className="fa-solid fa-arrow-right-long"></i> <b>CSR CV</b></Link>
-                                <Link to='/Superadmin/Sawelcome' className='color-14'><i className="fa-solid fa-arrow-right-long"></i> <b>HR Resources</b></Link>
-                                <Link to='/Superadmin/Sawelcome' className='color-15'><i className="fa-solid fa-arrow-right-long"></i> <b>Locked Agent Logins</b></Link>
-                                <Link to='/Superadmin/Sawelcome' className='color-17'><i className="fa-solid fa-arrow-right-long"></i> <b>Manage Testimonials</b></Link>
+                                <Link to='/Superadmin/Extagentsearch' className='color-11'><i className="fa-solid fa-arrow-right-long"></i> <b>External Agent</b></Link>
+                                <Link to='/Superadmin/Emailalerttype' className='color-12'><i className="fa-solid fa-arrow-right-long"></i> <b>Email Alert Config</b></Link>
+                                <Link to='/Superadmin/Uploadcsrcv' className='color-13'><i className="fa-solid fa-arrow-right-long"></i> <b>CSR CV</b></Link>
+                                <Link to='/Superadmin/Hrresourceadmin' className='color-14'><i className="fa-solid fa-arrow-right-long"></i> <b>HR Resources</b></Link>
+                                <Link to='/Superadmin/Lockedagents' className='color-15'><i className="fa-solid fa-arrow-right-long"></i> <b>Locked Agent Logins</b></Link>
+                                <Link to='/Superadmin/Tjtstmonial' className='color-17'><i className="fa-solid fa-arrow-right-long"></i> <b>Manage Testimonials</b></Link>
                             </div>
                         </Row>                 
                     </Col>
@@ -410,18 +410,18 @@ function Sawelcome () {
                                             <tbody>
                                                 <tr>
                                                     <td>1</td>
+                                                    <td>Tharindu</td>
                                                     <td>Senior Manager</td>
-                                                    <td>Tharindu Wijesuriya</td>
                                                 </tr>
                                                 <tr>
                                                     <td>2</td>
+                                                    <td>Ravindra</td>
                                                     <td>QA</td>
-                                                    <td>Ravindra Prasad</td>
                                                 </tr>
                                                 <tr>
                                                     <td>3</td>
-                                                    <td>Heshan Pramith</td>
-                                                    <td>UI/UX Engineer </td>
+                                                    <td>Heshan</td>
+                                                    <td>UI/UX Engineer</td>
                                                 </tr>
                                             </tbody>
                                         </Table>

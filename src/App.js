@@ -52,6 +52,12 @@ import Sareports from './Components/Superadmin/Sareports';
 import Bulkemail from './Components/Superadmin/Bulkemail';
 import Releasenotes from './Components/Superadmin/Releasenotes';
 import Bannerad from './Components/Superadmin/Bannerad';
+import Extagentsearch from './Components/Superadmin/Extagentsearch';
+import Emailalerttype from './Components/Superadmin/Emailalerttype';
+import Uploadcsrcv from './Components/Superadmin/Uploadcsrcv';
+import Hrresourceadmin from './Components/Superadmin/Hrresourceadmin';
+import Lockedagents from './Components/Superadmin/Lockedagents';
+import Tjtstmonial from './Components/Superadmin/Tjtstmonial';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -123,6 +129,12 @@ function App() {
               <Route exact path='/Superadmin/Bulkemail'  element={<Bulkemail/>}/>
               <Route exact path='/Superadmin/Releasenotes'  element={<Releasenotes/>}/>
               <Route exact path='/Superadmin/Bannerad'  element={<Bannerad/>}/>
+              <Route exact path='/Superadmin/Extagentsearch'  element={<Extagentsearch/>}/>
+              <Route exact path='/Superadmin/Emailalerttype'  element={<Emailalerttype/>}/>
+              <Route exact path='/Superadmin/Uploadcsrcv'  element={<Uploadcsrcv/>}/>
+              <Route exact path='/Superadmin/Hrresourceadmin'  element={<Hrresourceadmin/>}/>
+              <Route exact path='/Superadmin/Lockedagents'  element={<Lockedagents/>}/>
+              <Route exact path='/Superadmin/Tjtstmonial'  element={<Tjtstmonial/>}/>
             </Routes>          
         </BrowserRouter>
       </div>      

@@ -3716,6 +3716,37 @@ table {
     }
 }
 
+.extagentsearch {
+
+    table {
+        
+        i {
+
+            margin-right: 5px;
+        }
+    }
+}
+
+.hrresourceadmin {
+
+    .form-switch {
+        margin-top: 0 !important;
+    }
+
+}
+
+.tjtstmonial {
+
+    table {
+        table-layout: fixed;
+    }
+
+    .form-switch {
+        margin-top: 0 !important;
+    }
+
+}
+
 @media (min-width: 0px) and (max-width: 967px) {
     .js-signup {
         .signup-box {

@@ -37,6 +37,71 @@ function Emailconfig () {
                         <Button size='sm' className='me-2 add-btn'><i className="fa-solid fa-square-plus"></i> New Banner Ad</Button>
                         <Button size='sm' className='me-2 add-btn'><i className="fa-solid fa-square-plus"></i> Default Banner Ad</Button>
                     </Col>
+                    <Col xs={12}>
+                        <Row>
+                            <Col xs={12}>
+                                <Form className='filter-frm mb-3'>
+                                    <Row>
+                                        <Form.Group as={Col} xs={6} sm={3} className="mb-3" controlId="">
+                                            <Form.Label>Banner Code</Form.Label>
+                                            <Form.Control type="text" placeholder="" size='sm' />
+                                        </Form.Group>
+                                        <Form.Group as={Col} xs={6} sm={3} className="mb-3" controlId="">
+                                            <Form.Label>Organisation Description</Form.Label>
+                                            <Form.Control type="text" placeholder="" size='sm' />
+                                        </Form.Group>
+                                        <Form.Group as={Col} xs={4} sm={3} className="mb-3" controlId="">
+                                            <Form.Label>Agent Type</Form.Label>
+                                            <Form.Select defaultValue="Select" className=' me-2' size='sm'>
+                                                <option>Any</option>
+                                            </Form.Select>
+                                        </Form.Group> 
+                                        <Form.Group as={Col} xs={4} sm={3} className="mb-3" controlId="">
+                                            <Form.Label>Banner Position</Form.Label>
+                                            <Form.Select defaultValue="Select" className=' me-2' size='sm'>
+                                                <option>Top margin</option>
+                                            </Form.Select>
+                                        </Form.Group> 
+                                        <Form.Group as={Col} xs={4} sm={3} className="mb-3" controlId="">
+                                            <Form.Label>Banner Page</Form.Label>
+                                            <Form.Select defaultValue="Select" className=' me-2' size='sm'>
+                                                <option>Select</option>
+                                            </Form.Select>
+                                        </Form.Group>
+                                        <Form.Group as={Col} xs={4} sm={3} className="mb-3" controlId="">
+                                            <Form.Label>From</Form.Label>
+                                            <Form.Select defaultValue="Select" className=' me-2' size='sm'>
+                                                <option>Select</option>
+                                            </Form.Select>
+                                        </Form.Group>
+                                        <Form.Group as={Col} xs={4} sm={3} className="mb-3" controlId="">
+                                            <Form.Label>To</Form.Label>
+                                            <Form.Select defaultValue="Select" className=' me-2' size='sm'>
+                                                <option>Select</option>
+                                            </Form.Select>
+                                        </Form.Group>
+                                        <Form.Group as={Col} xs={4} sm={3} className="mb-3" controlId="">
+                                            <Form.Label>No of records per page</Form.Label>
+                                            <Form.Select defaultValue="Select" className=' me-2' size='sm'>
+                                                <option>10</option>
+                                            </Form.Select>
+                                        </Form.Group>
+                                        
+                                    </Row>
+                                    <Row className="justify-content-end mt-3">
+                                        <Col md="auto">
+                                            <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn'>
+                                                <i className="fa-solid fa-magnifying-glass"></i> Search
+                                            </Button>
+                                            <Button size='sm' variant="danger" type="submit" className='filter-btn'>
+                                                <i className="fa-solid fa-broom"></i> Clear
+                                            </Button>
+                                        </Col>
+                                    </Row>
+                                </Form>
+                            </Col>
+                        </Row>
+                    </Col>
                 </Row>
                 <Row className='mb-3'>
                     <Col xs={12} sm={12} lg={12}> 
@@ -62,7 +127,7 @@ function Emailconfig () {
                                         <td><Link to='/Superadmin/Releasenotes'><i className="fa-regular fa-pen-to-square"></i></Link></td>
                                     </tr>
                                 </tbody>
-                            </Table> 
+                            </Table>
                             <Row>
                                 <Col xs={12}>
                                     <Button type='submit' className='filter-btn delete-btn btn btn-primary btn-sm m-0 float-start'> <i className="fa-solid fa-trash-can"></i> Delete Version(s)</Button>

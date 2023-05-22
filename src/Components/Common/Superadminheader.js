@@ -31,24 +31,22 @@ function Employerheader () {
                                 </Offcanvas.Header>
                                 <Offcanvas.Body className='pt-4'>
                                     <ListGroup defaultActiveKey="/Superadmin/Agentsearch">
-                                        <ListGroup.Item action href="/Superadmin/Agentsearch">
-                                            <Link to='/Superadmin/Agentsearch'>Company</Link>
-                                        </ListGroup.Item>
-                                        <ListGroup.Item action href="#link2">Email Config</ListGroup.Item>
-                                        <ListGroup.Item action href="#link3">System Configuration</ListGroup.Item>
-                                        <ListGroup.Item action href="#link4">User Login</ListGroup.Item>
-                                        <ListGroup.Item action href="#link5">Master Data</ListGroup.Item>
-                                        <ListGroup.Item action href="#link6">Applicant Logins</ListGroup.Item>
-                                        <ListGroup.Item action href="#link7">Reports</ListGroup.Item>
-                                        <ListGroup.Item action href="#link8">Bulk Email</ListGroup.Item>
-                                        <ListGroup.Item action href="#link9">Release Notes</ListGroup.Item>
-                                        <ListGroup.Item action href="#link10">Manage Banners</ListGroup.Item>
-                                        <ListGroup.Item action href="#link11">External Agent</ListGroup.Item>
-                                        <ListGroup.Item action href="#link12">Email Alert Config</ListGroup.Item>
-                                        <ListGroup.Item action href="#link13">CSR CV</ListGroup.Item>
-                                        <ListGroup.Item action href="#link14">Hr Resources</ListGroup.Item>
-                                        <ListGroup.Item action href="#link15">Locked Agent Logins</ListGroup.Item>
-                                        <ListGroup.Item action href="#link16">Manage Testimonials</ListGroup.Item>
+                                        <ListGroup.Item action href="/Superadmin/Agentsearch"><Link to='/Superadmin/Agentsearch'>Company</Link></ListGroup.Item>
+                                        <ListGroup.Item action href="/Superadmin/Email"><Link to='/Superadmin/Email'>Email Config</Link></ListGroup.Item>
+                                        <ListGroup.Item action href="/Superadmin/Sysconfig"><Link to='/Superadmin/Sysconfig'>System Configuration</Link></ListGroup.Item>
+                                        <ListGroup.Item action href="/Superadmin/Sauserlist"><Link to='/Superadmin/Sauserlist'>User Login</Link></ListGroup.Item>
+                                        <ListGroup.Item action href="/Superadmin/Samasterlist"><Link to='/Superadmin/Samasterlist'>Master Data</Link></ListGroup.Item>
+                                        <ListGroup.Item action href="/Superadmin/Applicantloginmenu"><Link to='/Superadmin/Applicantloginmenu'>Applicant Logins</Link></ListGroup.Item>
+                                        <ListGroup.Item action href="/Superadmin/Sareports"><Link to='/Superadmin/Sareports'>Reports</Link></ListGroup.Item>
+                                        <ListGroup.Item action href="/Superadmin/Bulkemail"><Link to='/Superadmin/Bulkemail'>Bulk Email</Link></ListGroup.Item>
+                                        <ListGroup.Item action href="/Superadmin/Releasenotes"><Link to='/Superadmin/Releasenotes'>Release Notes</Link></ListGroup.Item>
+                                        <ListGroup.Item action href="/Superadmin/Bannerad"><Link to='/Superadmin/Bannerad'>Manage Banners</Link></ListGroup.Item>
+                                        <ListGroup.Item action href="/Superadmin/Extagentsearch"><Link to='/Superadmin/Extagentsearch'>External Agent</Link></ListGroup.Item>
+                                        <ListGroup.Item action href="/Superadmin/Emailalerttype"><Link to='/Superadmin/Emailalerttype'>Email Alert Config</Link></ListGroup.Item>
+                                        <ListGroup.Item action href="/Superadmin/Uploadcsrcv"><Link to='/Superadmin/Uploadcsrcv'>CSR CV</Link></ListGroup.Item>
+                                        <ListGroup.Item action href="/Superadmin/Hrresourceadmin"><Link to='/Superadmin/Hrresourceadmin'>Hr Resources</Link></ListGroup.Item>
+                                        <ListGroup.Item action href="/Superadmin/Lockedagents"><Link to='/Superadmin/Lockedagents'>Locked Agent Logins</Link></ListGroup.Item>
+                                        <ListGroup.Item action href="/Superadmin/Tjtstmonial"><Link to='/Superadmin/Tjtstmonial'>Manage Testimonials</Link></ListGroup.Item>
                                     </ListGroup>
                                 </Offcanvas.Body>
                             </Offcanvas>
