@@ -1,7 +1,13 @@
 body.red {
 
     .admin-left {
-        background: #ca0707 !important;
+
+        h3 {
+
+            span {
+                background: #ca0707 !important;
+            }
+        }
     }
 
     .admin-login-bx {

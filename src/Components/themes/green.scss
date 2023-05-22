@@ -1,7 +1,13 @@
 body.green {
 
     .admin-left {
-        background: #149f12 !important;
+
+        h3 {
+
+            span {
+                background: #149f12 !important;
+            }
+        }
     }
 
     .admin-login-bx {

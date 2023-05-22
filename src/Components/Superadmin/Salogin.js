@@ -19,18 +19,21 @@ function Salogin () {
         <React.Fragment>
             <Container fluid className='h-100'>
                 <Row className='h-100'>
-                    <Col xs={12} sm={12} md={5} lg={4} xl={4} xxl={4} className='prel admin-left'>
-                        <div className='d-flex align-items-center justify-content-center h-100'>
-                            <div className='d-flex flex-column align-items-center justify-content-center'>
-                                <div className='admin-img'>
-                                    <img src='../images/tj.jpg' className='img-fluid jslog-img' alt='logo'></img>
-                                </div>
-                                <h3>Welcome to topjobs</h3>
-                                <a href='/#' className='go-to-tj'>Go to topjobs</a>
-                            </div>
-                        </div>                      
+                    <Col xs={12} sm={12} md={6} lg={6} xl={8} xxl={8} className='prel p-0'>
+                        <div className='admin-left d-flex align-content-between flex-wrap h-100'>
+                            <video muted autoPlay loop width="100%">
+                                <source autoPlay loop src="../sadmin_video.webm" type="video/webm" />
+                                <source autoPlay loop src="../sadmin_video.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support videos.
+                            </video>
+                            <h1>topjobs <span>recruitment made easy</span></h1> 
+                            <h3>Welcome to <span>topjobs</span></h3>
+                            <div className='capion'>
+                                <p><span>topjobs Sri Lanka Job Network</span>most popular online job site in Sri Lanka for jobs, careers, recruitment and employment with recruitment automation for employers.</p>
+                            </div>   
+                        </div>
                     </Col>
-                    <Col xs={12} sm={12} md={7} lg={8} xl={8} xxl={8} className=''>
+                    <Col xs={12} sm={12} md={6} lg={6} xl={4} xxl={4} className=''>
                         <div className='d-flex align-items-center justify-content-center h-100'>
                             <div className='d-flex flex-column align-items-center justify-content-center text-center'>
                                 <div className='admin-login-bx'>

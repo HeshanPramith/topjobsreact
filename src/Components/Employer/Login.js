@@ -19,19 +19,23 @@ function Login () {
         <React.Fragment>
             <Container fluid className='h-100'>
                 <Row className='h-100'>
-                    <Col xs={12} sm={12} md={5} lg={4} xl={4} xxl={4} className='prel admin-left'>
-                        <div className='d-flex align-items-center justify-content-center h-100'>
-                            <div className='d-flex flex-column align-items-center justify-content-center'>
-                                <div className='admin-img'>
-                                    <img src='../images/0000000001.png' className='img-fluid jslog-img' alt='logo'></img>
-                                </div>
-                                <h3>Welcome to Genesiis</h3>
-                                <p className='text-center'>Business Hours (Mon-Fri, 8.30am-5.00pm) Call (+94) 11 776 5645, (+94) 77 391 8922 Or Email to support@topjobs.lk</p>
-                                <a href='/#' className='go-to-tj'>Go to topjobs</a>
-                            </div>
-                        </div>                      
+
+                    <Col xs={12} sm={12} md={6} lg={6} xl={8} xxl={8} className='prel p-0'>
+                        <div className='admin-left d-flex align-content-between flex-wrap h-100'>
+                            <video muted autoPlay loop width="100%">
+                                <source autoPlay loop src="../emp_video.webm" type="video/webm" />
+                                <source autoPlay loop src="../emp_video.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support videos.
+                            </video>
+                            <h1>topjobs <span>recruitment made easy</span></h1> 
+                            <h3>Welcome to <span>GENESIIS</span></h3>
+                            <div className='capion'>
+                                <p><span>Welcome to GENESIIS</span>Business Hours (Mon-Fri, 8.30am-5.00pm) Call (+94) 11 776 5645, (+94) 77 391 8922 Or Email to support@topjobs.lk</p>
+                            </div>   
+                        </div>
                     </Col>
-                    <Col xs={12} sm={12} md={7} lg={8} xl={8} xxl={8} className=''>
+                    
+                    <Col xs={12} sm={12} md={6} lg={6} xl={4} xxl={4} className=''>
                         <div className='d-flex align-items-center justify-content-center h-100'>
                             <div className='d-flex flex-column align-items-center justify-content-center text-center'>
                                 <div className='admin-login-bx'>
@@ -47,7 +51,7 @@ function Login () {
                                     <Link to="/Employer/Welcome" className="btn btn-primary mt-3 admin-log-button" variant="primary">Login <i className="fa-solid fa-arrow-right-long"></i></Link>
                                     </Form.Group>                    
                                     <div className='radio-grp'>
-                                    <input type="radio" value="Male" name="gender" checked /> Save my user name and password
+                                    <input type="radio" value="Male" name="gender" /> Save my user name and password
                                     </div>
                                     <div className='radio-grp'>
                                     <input type="radio" value="Female" name="gender" /> Always ask for my user name and password
