@@ -17,7 +17,7 @@ function Home () {
     return (
         <React.Fragment>
             <div className='preloader d-flex flex-column align-items-center justify-content-center text-center'>
-                <div className='hm-vid-wrap'>
+                <div className='hm-vid-wrap d-flex flex-column align-items-center justify-content-center text-center'>
                     <video muted autoPlay loop width="100%" className='hm-vid'>
                         <source autoPlay loop src="../home_video.webm" type="video/webm" />
                         <source autoPlay loop src="../home_video.mp4" type="video/mp4" />
@@ -26,6 +26,7 @@ function Home () {
                 </div>
                 
                 <div className='main-search-wrap main-search-wrap d-flex flex-column align-items-center justify-content-center'>
+                    <h4 className='d-none d-lg-block'><span>Explore More Than <b>1M+</b> Jobs</span></h4>
                     <p className='welcmtxt'>Welcome to</p>
                     <h1 className='logotxt'>topjobs</h1>
                     <div className='main-search'>

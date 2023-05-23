@@ -93,21 +93,21 @@ span {
     top: 0px;
     z-index: 0;
 
-    // &::before {
-    //     position: absolute;
-    //     width: 100%;
-    //     height: 100vh;
-    //     z-index: 100;
-    //     content: "";
-    //     background: rgb(0,0,0);
-    //     background: radial-gradient(circle, #ffffffd3 20%, #00000000 100%);
-    //     backdrop-filter: blur( 3px );
-    //     -webkit-backdrop-filter: blur( 3px );
-    // }
+    &::before {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        z-index: 100;
+        content: "";
+        background: #00000098;
+        // background: radial-gradient(circle, #000000d3 20%, #00000000 100%);
+        // backdrop-filter: blur( 3px );
+        // -webkit-backdrop-filter: blur( 3px );
+    }
 
     .hm-vid {
         position: relative;
-        top: -50px;
+        top: 0;
     }
 }
 
@@ -118,6 +118,7 @@ span {
     left: 0;
     height: 370px;
     background: url(../public/images/wave_bg.png) bottom center no-repeat #B1191F;
+    background-size: cover;
     z-index: 1;
 }
 
@@ -138,7 +139,7 @@ header {
     z-index: 1005;
     background: #B1191F;
     color: #FFFFFF;
-    // box-shadow: 0px -2px 10px -5px #2e2424;
+    background: linear-gradient(0deg, #B1191F 0%, #5c1c1f 100%);
     height: 80px;
 
     img {
@@ -322,6 +323,33 @@ header {
 }
 
 .mainhome {
+
+    h4 {
+        position: absolute;
+        z-index: 1000;
+        float: left;
+        left: 0;
+        color: #FFFFFF;
+        // text-shadow: 0px 2px 5px #000000;
+        font-weight: 300;
+        font-size: 30px;
+        padding: 100px 15px;
+        background: rgb(255 255 255);
+        background: linear-gradient(-90deg, #ffffff00 50%, #000000 100%);
+        border-radius: 0;
+        margin: -29px 0 0 0 !important;
+
+        span {
+            position: relative;
+            top: -10px;
+        }
+
+        b {
+            font-size: 60px;
+            position: relative;
+            top: 8px;
+        }
+    }
 
     .main-search-wrap {
         position: absolute;
@@ -1066,7 +1094,7 @@ button {
                 padding: 10px;
                 border-radius: 5px;
                 padding: 5px 10px;
-                border: solid 1px #b9b9b9;
+                border: solid 1px #f2f2f2;
                 text-decoration: none;
                 margin: 5px;
                 font-size: 13px;
@@ -1098,8 +1126,6 @@ button {
 .vacbytop {
     border-radius: 0 !important;
     border: none;
-    // background: url(../public/images/wave-2.jpg) center center no-repeat;
-    // background-size: 100%;
     background: linear-gradient(0deg, #0061a6 10%, #01295e 100%);
     height: auto;
     padding: 30px 0;
@@ -4100,8 +4126,6 @@ table {
     .hm-vid-wrap {
 
         .hm-vid {
-            position: relative;
-            top: 0px;
             transform: scale(1);
         }
     }
@@ -4126,8 +4150,6 @@ table {
     .hm-vid-wrap {
 
         .hm-vid {
-            position: relative;
-            top: 150px;
             transform: scale(1.8);
         }
     }
@@ -4158,8 +4180,6 @@ table {
     .hm-vid-wrap {
 
         .hm-vid {
-            position: relative;
-            top: 150px;
             transform: scale(2.5);
         }
     }
@@ -4244,8 +4264,6 @@ table {
     .hm-vid-wrap {
 
         .hm-vid {
-            position: relative;
-            top: 260px;
             transform: scale(2.9);
         }
     }
@@ -4338,8 +4356,7 @@ table {
     .hm-vid-wrap {
 
         .hm-vid {
-            position: relative;
-            top: 250px;
+            top: 100px;
             transform: scale(3.5);
         }
     }
