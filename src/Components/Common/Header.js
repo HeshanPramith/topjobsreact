@@ -20,12 +20,14 @@ function Header () {
     return (
         <React.Fragment>
             <header>
-                <Container fluid>
-                    <Row className='row align-items-center'>
-                        <Col className='col-5 col-sm-5 col-md-6 col-lg-6 text-left'>
-                            <Link className="navbar-brand" to="/#">
-                                <img src='../images/tj.jpg' className='img-fluid d-none d-md-block' alt='logo'></img>
-                                <img src='../images/tj-sm.png' className='img-fluid d-block d-md-none' alt='logo'></img>
+                <Container fluid className='h-100'>
+                    <Row className='row d-flex align-items-center h-100'>
+                        <Col className='col-5 col-sm-5 col-md-6 col-lg-6 text-left d-flex align-items-center'>
+                            <Link className="navbar-brand" to="/Topjobs">
+                                {/* <img src='../images/tj.jpg' className='img-fluid d-none d-md-block' alt='logo'></img>
+                                <img src='../images/tj-sm.png' className='img-fluid d-block d-md-none' alt='logo'></img> */}
+                                <h1 className='d-none d-sm-none d-md-none d-lg-block'>topjobs <span>recruitment made easy</span><i>&#174;</i></h1>
+                                <h2 className='d-block d-sm-block d-md-block d-lg-none'>tj<i>&#174;</i></h2>
                             </Link>  
                             <Button variant="primary" onClick={handleShow} size="sm" className='menu-btn'>
                                 <i className="fa-solid fa-bars"></i> <span className='d-none d-sm-block'>Menu</span>
@@ -71,22 +73,22 @@ function Header () {
             <div className='loginblock'>
                 <Container fluid>
                     <Row>
-                    <Col xs={12} sm={12}>              
-                        {[DropdownButton].map((DropdownType, idx) => (
-                            <DropdownType
-                                as={ButtonGroup}
-                                key={idx}
-                                id={`dropdown-button-drop-${idx}`}
-                                size="sm"
-                                variant="secondary"
-                                title="Jobseeker"
-                                className='jbseeker-block'
-                            >
-                                <Link to="/Jobseeker/Jslogin">Jobseeker Login</Link>
-                                <Link to="/#">Jobseeker Sign Up</Link>
-                            </DropdownType>
-                        ))}              
-                    </Col>
+                        <Col xs={12} sm={12} className='p-0'>              
+                            {[DropdownButton].map((DropdownType, idx) => (
+                                <DropdownType
+                                    as={ButtonGroup}
+                                    key={idx}
+                                    id={`dropdown-button-drop-${idx}`}
+                                    size="sm"
+                                    variant="secondary"
+                                    title="Jobseeker"
+                                    className='jbseeker-block'
+                                >
+                                    <Link to="/Jobseeker/Jslogin">Jobseeker Login</Link>
+                                    <Link to="/#">Jobseeker Sign Up</Link>
+                                </DropdownType>
+                            ))}              
+                        </Col>
                     </Row>
                 </Container>          
             </div>

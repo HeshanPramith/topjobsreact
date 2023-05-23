@@ -27,9 +27,9 @@ function Searchjob () {
                                         placeholder="Job title, keywords, or company"
                                         aria-label="Job title, keywords, or company"
                                         aria-describedby="basic-addon2"
-                                        size="sm"
+                                        size="lg"
                                     />
-                                    <Button variant="primary" type="submit" size="sm" id="button-addon2">
+                                    <Button variant="primary" type="submit" size="lg" id="button-addon2">
                                         Search
                                     </Button>
                                 </InputGroup>
@@ -39,7 +39,7 @@ function Searchjob () {
                             </Button>
                             <Offcanvas show={show} onHide={handleClose} placement="end" className="main-category-pop">
                                 <Offcanvas.Header closeButton>
-                                <Offcanvas.Title>Job Categories</Offcanvas.Title>
+                                    <Offcanvas.Title>Job Categories</Offcanvas.Title>
                                 </Offcanvas.Header>
                                 <Offcanvas.Body>
                                     <ul>
@@ -78,9 +78,6 @@ function Searchjob () {
                                     </ul>
                                 </Offcanvas.Body>
                             </Offcanvas>
-                            <Col xs={12}>
-                                
-                            </Col>
                         </div>
                     </Col>
                 </Row>

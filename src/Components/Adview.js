@@ -19,6 +19,13 @@ function simulateNetworkRequest() {
 
 function Adview () {
 
+    useEffect(() => {
+        document.body.classList.add('Vacancybyfunctionalarealist')
+        return () => {
+          document.body.classList.remove('Vacancybyfunctionalarealist')
+        }
+    }, [])
+
     const [open, setOpen] = useState(false);
 
     const [isLoading, setLoading] = useState(false);
@@ -36,7 +43,7 @@ function Adview () {
             <Header/> 
             <Container fluid>
                 <Row>
-                    <Col xs={12} sm={12} md={4} lg={3} xl={3} xxl={3} className='pt-3'>
+                    <Col xs={12} sm={12} md={4} lg={3} xl={3} xxl={3} className=''>
                         <Card className='advttl mt-0'>
                             <Card.Body>
                                 <Card.Title>Dialog Network Services (Pvt) Ltd </Card.Title>                                
@@ -56,7 +63,7 @@ function Adview () {
                             </Card.Body>                            
                         </Card>                        
                     </Col>
-                    <Col xs={12} sm={12} md={8} lg={9} xl={9} xxl={9} className='pt-3'>                                               
+                    <Col xs={12} sm={12} md={8} lg={9} xl={9} xxl={9} className=''>                                               
                         <ButtonToolbar className="align-items-center justify-content-between advbtngrp" aria-label="Toolbar with Button groups">
                             <ButtonGroup aria-label="First group">
                                 <Button className='show-views' variant="secondary" size='sm' disabled={isLoading} onClick={!isLoading ? handleClick : null}>{isLoading ? 'Loading...' : 'Show Views (50)'}</Button>

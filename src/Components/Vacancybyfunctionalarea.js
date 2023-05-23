@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -15,6 +16,13 @@ import Footer from './Common/Footer';
 import { Link } from "react-router-dom";
 
 function Vacancybyfunctionalarea () {
+
+    useEffect(() => {
+        document.body.classList.add('Vacancybyfunctionalarealist')
+        return () => {
+          document.body.classList.remove('Vacancybyfunctionalarealist')
+        }
+    }, [])
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);

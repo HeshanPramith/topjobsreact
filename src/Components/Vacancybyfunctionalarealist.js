@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -16,13 +17,20 @@ import { Link } from "react-router-dom";
 
 function Vacancybyfunctionalarea () {
 
+    useEffect(() => {
+        document.body.classList.add('Vacancybyfunctionalarealist')
+        return () => {
+          document.body.classList.remove('Vacancybyfunctionalarealist')
+        }
+    }, [])
+
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
     return (
         <React.Fragment>
-            <Header/>
+            <Header className="innerheader"/>
             <Container fluid>
                 <Row>
                     <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12} className='p-0 text-center'>

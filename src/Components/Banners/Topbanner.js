@@ -35,11 +35,6 @@ function Topbanner() {
         </div>
         <div>
             <div className='d-flex align-items-center justify-content-end tpbanner'>
-                <img src='../images/top_banner/BAN0000000565.gif' className='img-fluid' alt='banner'></img>
-            </div>
-        </div>
-        <div>
-            <div className='d-flex align-items-center justify-content-end tpbanner'>
                 <img src='../images/top_banner/BAN0000000722.gif' className='img-fluid' alt='banner'></img>
             </div>
         </div>
