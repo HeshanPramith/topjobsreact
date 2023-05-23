@@ -433,7 +433,7 @@ function Sawelcome () {
                 </Row>
                 <Row className='pt-3 g-4' xs={1} md={2}>
                     <Col xs={12} sm={12} md={12} lg={12} xl={10} xxl={9} className='prel g-4'>
-                    <CardGroup>
+                        <CardGroup>
                             <Card bg='success' text='light' className="mb-3 scard admin-d-card rounded-3 text-light">
                                 <Card.Title>Partner Programs</Card.Title>
                                 <Card.Body>
