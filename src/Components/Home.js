@@ -1,8 +1,5 @@
 import React from 'react';
 import { useEffect } from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Button from 'react-bootstrap/Button';
@@ -36,7 +33,7 @@ function Home () {
                         <Form className='search-form'>
                             <InputGroup className="mb-2">
                                 <Form.Control
-                                    placeholder="IT-Sware"
+                                    placeholder="Job title, keywords, or company"
                                     aria-label="Job title, keywords, or company"
                                     aria-describedby="basic-addon2"
                                     size="lg"

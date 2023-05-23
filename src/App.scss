@@ -317,7 +317,7 @@ header {
 }
 
 .welcmtxt {
-    font-size: 30px;
+    font-size: 26px;
     color: #303030;
 }
 
@@ -4249,6 +4249,25 @@ table {
             transform: scale(2.9);
         }
     }
+
+    .mainhome {
+
+        .main-search-wrap {
+            position: absolute;
+            right: 0;
+            background: rgb(255, 255, 255);
+            background: linear-gradient(290deg, #fffffffd 60%, #ffffff00 100%);
+            // box-shadow: 0 0 12px 0 #0000003a;
+            // backdrop-filter: blur( 2px );
+            // -webkit-backdrop-filter: blur( 2px );
+            border-radius: 0;
+            // border: 1px solid #ffffff11;
+            padding: 25px;
+            height: 100vh;
+            width: 100%;
+            padding-left: 40%;
+        }
+    }
 }
 
 @media (min-width: 0px) and (max-width: 564px) {
@@ -4327,5 +4346,23 @@ table {
 
     .artview {
         height: 397px;
+    }
+
+    .mainhome {
+
+        .main-search-wrap {
+            position: absolute;
+            right: 0;
+            background: rgb(255, 255, 255);
+            background: linear-gradient(0deg, #fffffff5 70%, #ffffff00 100%);
+            // box-shadow: 0 0 12px 0 #0000003a;
+            // backdrop-filter: blur( 2px );
+            // -webkit-backdrop-filter: blur( 2px );
+            border-radius: 0;
+            // border: 1px solid #ffffff11;
+            padding: 25px;
+            height: 100vh;
+            width: 100%;
+        }
     }
 }
