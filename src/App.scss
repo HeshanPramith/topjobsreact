@@ -1734,6 +1734,55 @@ select {
     }
 }
 
+.seeker-signup {
+
+    .seeker-left {
+
+        h1 {
+            float: left;
+            width: 100%;
+        }
+    }
+
+    .cap-wrapper {
+        float: left;
+        width: 50%;
+
+        .capion {
+            position: relative;
+            background: rgb(255 255 255);
+            background: linear-gradient(-90deg, #ffffff00 50%, #000000da 100%);
+            width: 100%;
+            border-radius: 10px;
+            padding: 10px 15px;
+            z-index: 100;
+            float: left;
+            margin: 15px 0 0 0;
+
+            a {
+                text-decoration: none;
+                color: #4c9cdd;
+            }
+    
+            p {
+                float: left;
+                width: 100%;
+                font-size: 12px;
+                padding: 0;
+                margin: 0;
+                font-style: normal;
+    
+                span {
+                    float: left;
+                    width: 100%;
+                    font-size: 18px;
+                    font-style: normal;
+                }
+            }
+        }
+    }
+}
+
 .admin-login-bx {
     width: 350px;
     max-width: 100%;
@@ -3080,7 +3129,7 @@ table {
         top: 110px;
         bottom: 0;
         margin: 0 auto;
-        transform: scale(1.5);
+        transform: scale(1.6);
         width: 100%;
         z-index: 10;
     }
@@ -3164,6 +3213,19 @@ table {
 
             span {
                 color: #c71010;
+            }
+        }
+
+        small {
+            float: left;
+            width: auto;
+            color: #696969;
+
+            a {
+                float: none;
+                width: auto;
+                margin: 0;
+                text-decoration: none;
             }
         }
     }
@@ -4129,6 +4191,14 @@ table {
             transform: scale(1);
         }
     }
+
+    .seeker-signup {
+
+        .cap-wrapper {
+            float: left;
+            width: 70%;
+        }
+    }
 }
 
 
@@ -4151,6 +4221,14 @@ table {
 
         .hm-vid {
             transform: scale(1.8);
+        }
+    }
+
+    .seeker-signup {
+
+        .cap-wrapper {
+            float: left;
+            width: 100%;
         }
     }
 }
@@ -4181,6 +4259,14 @@ table {
 
         .hm-vid {
             transform: scale(2.5);
+        }
+    }
+
+    .seeker-signup {
+
+        .cap-wrapper {
+            float: left;
+            width: 100%;
         }
     }
 }
@@ -4286,6 +4372,29 @@ table {
             padding-left: 40%;
         }
     }
+
+    .seeker-left {
+        
+        &::before {
+            position: absolute;
+            content: "";
+            background: rgb(255 255 255);
+            background: linear-gradient(0deg, #0e0e0e 50%, #0000003d 100%);
+            z-index: 100;
+            width: 100%;
+            left: 0;
+            top: 0;
+            height: calc(100vh + -30px) !important;
+        }
+    }
+
+    .seeker-signup {
+
+        .cap-wrapper {
+            float: left;
+            width: 100%;
+        }
+    }
 }
 
 @media (min-width: 0px) and (max-width: 564px) {
@@ -4379,6 +4488,29 @@ table {
             // border: 1px solid #ffffff11;
             padding: 25px;
             height: 100vh;
+            width: 100%;
+        }
+    }
+
+    .seeker-left, .admin-left {
+        
+        &::before {
+            position: absolute;
+            content: "";
+            background: rgb(255 255 255);
+            background: linear-gradient(0deg, #000000 40%, #00000048 100%);
+            z-index: 100;
+            width: 100%;
+            left: 0;
+            top: 0;
+            height: calc(100vh + -30px) !important;
+        }
+    }
+
+    .seeker-signup {
+
+        .cap-wrapper {
+            float: left;
             width: 100%;
         }
     }

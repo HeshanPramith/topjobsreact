@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import { Link } from "react-router-dom";
 
-function Login () {  
+function Jslogin () {  
 
     useEffect(() => {
         document.body.classList.add('emp-login','blue')
@@ -29,6 +29,7 @@ function Login () {
                             <h1>topjobs <span>recruitment made easy</span></h1> 
                             <div className='capion'>
                                 <p><span>topjobs Sri Lanka Job Network</span>most popular online job site in Sri Lanka for jobs, careers, recruitment and employment with recruitment automation for employers.</p>
+                                <p>Business Hours (Mon-Fri, 8.30am-5.00pm) Call (+94) 11 776 5645, (+94) 77 391 8922 Or Email to support@topjobs.lk</p>
                             </div>   
                         </div>
                     </Col>
@@ -46,20 +47,16 @@ function Login () {
                                         <Form.Label>Password</Form.Label>
                                         <Form.Control type="password" size='sm' placeholder='********' />
                                         <Link to="/Jobseeker/Jswelcome" className="btn btn-primary mt-3 seeker-log-button" variant="primary">Login <i className="fa-solid fa-arrow-right-long"></i></Link>
-                                    </Form.Group>                    
-                                    <div className='radio-grp'>
-                                        <input type="radio" value="Rem" name="Rem" /> Remember my user name
-                                    </div>
-                                    <div className='radio-grp'>
-                                        <input type="radio" value="Remnp" name="Remnp" /> Remember my user name & password
-                                    </div>
-                                    <div className='radio-grp'>
-                                        <input type="radio" value="Dontrem" name="Dontrem" /> Do not remember me
-                                    </div>
-                                    <a href='/#' className='fgt-pass'>Forgot password?</a>
+                                    </Form.Group>  
+                                    <Form.Group as={Col} xs={12} className="mb-3" controlId="">
+                                        <Form.Check type="radio" name="group111" aria-label="radio 1" label="Remember my user name"/>
+                                        <Form.Check type="radio" name="group111" aria-label="radio 2" label="Remember my user name & password"/>
+                                        <Form.Check type="radio" name="group111" aria-label="radio 3" label="Do not remember me"/>
+                                    </Form.Group>                  
+                                    <Link to="/Jobseeker/Jslogin" className='fgt-pass'>Forgot password?</Link>
                                     <div className="divider div-transparent"><span>OR</span></div>
                                     <p>Don't have a topjobs account?</p>
-                                    <Link to="/Jobseeker/Jswelcome" className="btn btn-primary mt-3 mb-0 seeker-sup-button" variant="primary">Sign Up Now <i className="fa-solid fa-arrow-right-long"></i></Link>
+                                    <Link to="/Jobseeker/Jssignup" className="btn btn-primary mt-3 mb-0 seeker-sup-button" variant="primary">Sign Up Now <i className="fa-solid fa-arrow-right-long"></i></Link>
                                 </Form>
                                 </div>
                             </div>
@@ -71,4 +68,4 @@ function Login () {
     );
 }
 
-export default Login;
+export default Jslogin;

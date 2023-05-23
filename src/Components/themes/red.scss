@@ -1,5 +1,10 @@
 body.red {
 
+    .form-check-input:checked {
+        background-color: #ca0707 !important;
+        border-color: #ca0707 !important;
+    }
+
     .admin-left {
 
         h3 {

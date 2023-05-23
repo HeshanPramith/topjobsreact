@@ -14,6 +14,7 @@ import Vacancybyfunctionalarea from './Components/Vacancybyfunctionalarea';
 import Vacancybyfunctionalarealist from './Components/Vacancybyfunctionalarealist';
 import Adview from './Components/Adview';
 import Login from './Components/Employer/Login';
+import Jssignup from './Components/Jobseeker/Jssignup';
 import Welcome from './Components/Employer/Welcome';
 import Applicantsearch from './Components/Employer/Applicantsearch';
 import Masterlist from './Components/Employer/Masterlist';
@@ -62,8 +63,9 @@ function App() {
         
         <BrowserRouter>          
             <Routes>
-              <Route exact path='/Topjobs'  element={<Topjobs/>}/>
               <Route exact path='/'  element={<Home/>}/>
+              <Route exact path='/Topjobs'  element={<Topjobs/>}/>
+              <Route exact path='/Jobseeker/Jssignup'  element={<Jssignup/>}/>
               <Route exact path='/vacancybyfunctionalarea'  element={<Vacancybyfunctionalarea/>}/>
               <Route exact path='/Vacancybyfunctionalarealist'  element={<Vacancybyfunctionalarealist/>}/>
               <Route exact path='/Adview'  element={<Adview/>}/>

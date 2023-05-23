@@ -47,14 +47,12 @@ function Salogin () {
                                         <Form.Label>Password</Form.Label>
                                         <Form.Control type="password" size='sm' placeholder='********' />
                                         <Link to="/Superadmin/Sawelcome" className="btn btn-primary mt-3 admin-log-button" variant="primary">Login <i className="fa-solid fa-arrow-right-long"></i></Link>
-                                    </Form.Group>                    
-                                    <div className='radio-grp'>
-                                    <input type="radio" value="Male" name="gender" checked /> Save my user name and password
-                                    </div>
-                                    <div className='radio-grp'>
-                                    <input type="radio" value="Female" name="gender" /> Always ask for my user name and password
-                                    </div>
-                                    <a href='/#' className='fgt-pass'>Forgot password?</a>
+                                    </Form.Group>    
+                                    <Form.Group as={Col} xs={12} className="mb-3" controlId="">
+                                        <Form.Check type="radio" name="group111" aria-label="radio 1" label="Save my user name and password"/>
+                                        <Form.Check type="radio" name="group111" aria-label="radio 2" label="Always ask for my user name and password"/>
+                                    </Form.Group>
+                                    <Link to="/Superadmin/Salogin" className='fgt-pass'>Forgot password?</Link>
                                 </Form>
                                 </div>
                             </div>
