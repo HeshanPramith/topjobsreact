@@ -19,6 +19,7 @@
     "draft-js": "^0.11.7",
     "jquery": "^3.6.3",
     "react": "^18.2.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-bootstrap": "^2.7.0",
     "react-bootstrap-icons": "^1.10.3",
     "react-circular-progressbar": "^2.1.0",
