@@ -39,7 +39,7 @@ function Applicantsingleform () {
                 </Row>
                 <Row className='sadmin-group-top'>
                     <Col xs={12} sm={6} md={4} lg={3} xl={3} xxl={3} className='mb-4'>
-                        <Card text='dark' className="h-100 prof">
+                        <Card bg='danger' text='dark' className="h-100 prof">
                             <Card.Title>Profile Complete Progress</Card.Title>
                             <Card.Body className='d-flex flex-column align-items-center justify-content-center'>
                                 <div className='pro-pic'>
@@ -53,7 +53,7 @@ function Applicantsingleform () {
                         </Card>  
                     </Col> 
                     <Col xs={12} sm={6} md={12} lg={4} xl={4} xxl={4} className='mb-4 d-none d-lg-block'>
-                        <Card text='dark' className="h-100 scard admin-d-card">
+                        <Card bg='warning' text='dark' className="h-100 scard admin-d-card">
                             <Card.Title>Quick Links</Card.Title>
                             <Card.Body>
                                 <Link to='/Jobseeker/Applicantsingleform' className='text-white'>Profile</Link>
@@ -65,7 +65,7 @@ function Applicantsingleform () {
                         </Card> 
                     </Col>
                     <Col xs={12} sm={6} md={8} lg={5} xl={5} xxl={5} className='mb-4'>
-                        <Card text='dark' className="h-100 info">
+                        <Card bg='primary' text='dark' className="h-100 info">
                             <Card.Title>Information</Card.Title>
                             <Card.Body className='d-flex flex-column align-items-start justify-content-center'>
                                 <div className='infs'><i className="fa-solid fa-circle-check green"></i> OK - Information completed</div>
@@ -81,7 +81,7 @@ function Applicantsingleform () {
                 </Row>
                 <Row id='cp' className='mb-5'>
                     <Col xs={12} className='mb-5'>
-                        <h6 className='mb-4'>Your Information</h6>
+                        <h6 className='mb-2'>Your Information</h6>
                         <div className="d-flex align-items-start h-100 tabview">
                             <Nav className="nav flex-column nav-pills h-100" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                                 <Button className="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Personal Details <i className="fa-solid fa-circle-check green"></i></Button>

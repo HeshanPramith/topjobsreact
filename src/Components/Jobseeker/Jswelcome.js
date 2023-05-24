@@ -35,7 +35,7 @@ function Jswelcome () {
                 </Row>
                 <Row className='sadmin-group-top'>
                     <Col xs={12} sm={6} md={6} lg={4} xl={4} xxl={2} className='mb-4'>
-                        <Card text='dark' className="h-100 prof">
+                        <Card bg='danger' text='dark' className="h-100 prof">
                             <Card.Title>Profile Complete Progress</Card.Title>
                             <Card.Body className='d-flex flex-column align-items-center justify-content-center'>
                                 <div className='pro-pic'>
@@ -50,7 +50,7 @@ function Jswelcome () {
                         </Card>  
                     </Col> 
                     <Col xs={12} sm={6} md={6} lg={8} xl={8} xxl={5} className='mb-4'>
-                        <Card text='dark' className="h-100">
+                        <Card bg='primary' text='dark' className="h-100">
                             <Card.Title>Hello!</Card.Title>
                             <Card.Body>
                                 <div className='glassbx h-100'>
