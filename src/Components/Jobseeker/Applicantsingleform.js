@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Table from 'react-bootstrap/Table';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import Jsheader from '../Common/Jsheader';
 import Footer from '../Common/Footer';
@@ -52,6 +52,18 @@ function Applicantsingleform () {
                             </Card.Body>
                         </Card>  
                     </Col> 
+                    <Col xs={12} sm={6} md={12} lg={4} xl={4} xxl={4} className='mb-4 d-none d-lg-block'>
+                        <Card text='dark' className="h-100 scard admin-d-card">
+                            <Card.Title>Quick Links</Card.Title>
+                            <Card.Body>
+                                <Link to='/Jobseeker/Applicantsingleform' className='text-white'>Profile</Link>
+                                <Link to='/Jobseeker/Applicantsingleform' className='text-white'>CV/Documents</Link>
+                                <Link to='/Jobseeker/Applicantsingleform' className='text-white'>View My Profile</Link>
+                                <Link to='/Jobseeker/Applicantsingleform' className='text-white'>Download My Profile</Link>
+                                <Link to='/Jobseeker/Applicantsingleform' className='text-white'>Upload My CV/Documents</Link>
+                            </Card.Body>
+                        </Card> 
+                    </Col>
                     <Col xs={12} sm={6} md={8} lg={5} xl={5} xxl={5} className='mb-4'>
                         <Card text='dark' className="h-100 info">
                             <Card.Title>Information</Card.Title>
@@ -61,53 +73,10 @@ function Applicantsingleform () {
                                 <div className='infs'><i className="fa-solid fa-circle-info black"></i> Tool Tips</div>
                                 <div className='infs'><i className="fa-solid fa-star-of-life red"></i> Must be entered</div>
                                 <div className='infs'><i className="fa-solid fa-star-of-life purple"></i> Not mandatory but required to have a complete application</div>
-                                <AnchorLink href='#cp' className='text-white edtbtn'><i className="fa-solid fa-arrow-down"></i> Add/Update Your Info</AnchorLink >
+                                <AnchorLink href='#cp' className='text-white edtbtn'><i className="fa-solid fa-arrow-down"></i> Add/Update Your Informations</AnchorLink >
                             </Card.Body>
                             <Card.Footer className="text-muted">Profile Last Updated : 2 days ago</Card.Footer>
                         </Card>
-                    </Col>
-                    <Col xs={12} sm={6} md={12} lg={4} xl={4} xxl={4} className='mb-4 d-none d-lg-block'>
-                        <Card text='dark' className="h-100">
-                            <Card.Title>Recent Jobs</Card.Title>
-                            <Card.Body>
-                                <Table responsive borderless hover>
-                                    <thead>
-                                        <tr>
-                                            <th>#</th>
-                                            <th>Title</th>
-                                            <th>Company</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>SSE - JAVA</td>
-                                            <td>GENESIIS</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>SSE</td>
-                                            <td>Dialog</td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>ATL</td>
-                                            <td>Sysco Labs</td>
-                                        </tr>
-                                        <tr>
-                                            <td>4</td>
-                                            <td>SE</td>
-                                            <td>Softlogic</td>
-                                        </tr>
-                                        <tr>
-                                            <td>5</td>
-                                            <td>SSE</td>
-                                            <td>Virtusa</td>
-                                        </tr>
-                                    </tbody>
-                                </Table>
-                            </Card.Body>
-                        </Card> 
                     </Col>
                 </Row>
                 <Row id='cp' className='mb-5'>
