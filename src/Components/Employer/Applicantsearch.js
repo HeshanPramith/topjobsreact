@@ -122,7 +122,7 @@ function Applicantsearch () {
                             </Row>
                             <Row>
                                 <Col>
-                                    <div class="divider">
+                                    <div className="divider">
                                         <span></span>
                                         <span>
                                             <Button size='sm' onClick={() => setOpen(!open)} aria-controls="example-collapse-text" aria-expanded={open} className='adv-btn mb-3'><i className="fa-solid fa-angle-down"></i> Advance Search <i className="fa-solid fa-angle-down"></i></Button>

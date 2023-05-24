@@ -9,7 +9,8 @@ import { Link } from "react-router-dom";
 import Jsheader from '../Common/Jsheader';
 import Footer from '../Common/Footer';
 import ListGroup from 'react-bootstrap/ListGroup';
-// import Image from 'react-bootstrap/Image';
+import { CircularProgressbar } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 
 function Jswelcome () {
 
@@ -19,6 +20,8 @@ function Jswelcome () {
           document.body.classList.remove('seeker-welcome')
         }
     }, [])
+
+    const percentage = 65;
 
     return (
         <React.Fragment>
@@ -30,21 +33,36 @@ function Jswelcome () {
                         <p>Welcome back, We've missed you. 👋</p>
                     </Col>
                 </Row>
-                <Row className='sadmin-group-top mb-4'>
-                    <Col xs={12} sm={12} md={12} lg={4} xl={6}>
-                        <Card bg='primary' text='dark' className="h-100">
+                <Row className='sadmin-group-top'>
+                    <Col xs={12} sm={6} md={6} lg={4} xl={4} xxl={2} className='mb-4'>
+                        <Card text='dark' className="h-100 prof">
+                            <Card.Title>Profile Complete Progress</Card.Title>
+                            <Card.Body className='d-flex flex-column align-items-center justify-content-center'>
+                                <div className='pro-pic'>
+                                    <img src='../images/pro-pic.jpg' className='img-fluid' alt='logo'></img>
+                                </div>
+                                <div className='profile-cuz h-100 d-flex flex-column align-items-center justify-content-center'>
+                                    <h5>65%</h5>
+                                    <CircularProgressbar value={percentage} />
+                                </div>
+                                <Link to='/Jobseeker/Applicantsingleform' className='cmp-prof'>Complete Your Profile</Link>
+                            </Card.Body>
+                        </Card>  
+                    </Col> 
+                    <Col xs={12} sm={6} md={6} lg={8} xl={8} xxl={5} className='mb-4'>
+                        <Card text='dark' className="h-100">
                             <Card.Title>Hello!</Card.Title>
                             <Card.Body>
                                 <div className='glassbx h-100'>
                                     <h5>topjobs is the leading jobs and recruitment website in Sri Lanka. topjobs will help you to apply for the latest vacancies and find a great job with an employer of your choice.</h5>
                                     <h5>These pages are your private jobseeker 'workspace'. Use the workspace to list and browse job vacancies, list the jobs applied for, manage application profiles and manage job preferences.</h5>
-                                    <h5><Link to='/Jobseeker/Jswelcome'>Edit</Link> My Common Profile. When applying for a job you may customise the application form (profile) for each employer. Your Common Profile is the 'basis' for customised profiles. You can edit the Common Profile at any time and changes will be seen by employers to whom you have applied. By using a Common Profile you avoid entering the same information for every job application. Profiles are used ONLY for online applications and are sent 'straight-through' to the employer. Email applications do not use the profile.</h5>
+                                    <h5><Link to='/Jobseeker/Applicantsingleform'>Edit</Link> My Common Profile. When applying for a job you may customise the application form (profile) for each employer. Your Common Profile is the 'basis' for customised profiles. You can edit the Common Profile at any time and changes will be seen by employers to whom you have applied. By using a Common Profile you avoid entering the same information for every job application. Profiles are used ONLY for online applications and are sent 'straight-through' to the employer. Email applications do not use the profile.</h5>
                                 </div>
                             </Card.Body>
                         </Card> 
                     </Col>
-                    <Col xs={12} sm={6} md={6} lg={4} xl={3}>
-                        <Card bg='success' text='dark' className="h-100">
+                    <Col xs={12} sm={6} md={6} lg={6} xl={6} xxl={3} className='mb-4'>
+                        <Card text='dark' className="h-100">
                             <Card.Title>Applied Jobs</Card.Title>
                             <Card.Body>
                                 <Table responsive borderless hover>
@@ -86,11 +104,11 @@ function Jswelcome () {
                             </Card.Body>
                         </Card> 
                     </Col>
-                    <Col xs={12} sm={6} md={6} lg={4} xl={3}>
-                        <Card bg='warning' text='dark' className="h-100">
+                    <Col xs={12} sm={6} md={6} lg={6} xl={6} xxl={2} className='mb-4'>
+                        <Card text='dark' className="h-100">
                             <Card.Title>topjobs News</Card.Title>
                             <Card.Body>
-                                <ListGroup>
+                                <ListGroup as="ol" numbered>
                                     <ListGroup.Item action href="#link1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec risus diam. Suspendisse sodales, ante sit amet gravida luctus, ipsum lacus elementum metus</ListGroup.Item>
                                     <ListGroup.Item action href="#link2">Suspendisse sodales, ante sit amet gravida luctus,</ListGroup.Item>
                                     <ListGroup.Item action href="#link3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec risus diam. Suspendisse sodales, ante sit amet gravida luctus, ipsum lacus elementum metus</ListGroup.Item>
@@ -121,11 +139,11 @@ function Jswelcome () {
                         </Card.Body>
                     </Card> 
                     <Card as={Col} xs={12} sm={6} md={6} lg={3} xl={3} xxl={3} bg='warning' text='dark' className="mb-3 scard admin-d-card text-light rounded-3">
-                        <Card.Title>My Profiles <span>Manage your CV, photograph, certificates, online profile. featured employers, View/Edit your login details.</span></Card.Title>
+                        <Card.Title>My Profiles <span>Manage your CV, photograph, etc. View/Edit your login details.</span></Card.Title>
                         <Card.Body>
                             <Card.Text>
                                 <Link to='/Jobseeker/Jswelcome' className='text-dark'>My CV/Document(s)</Link>
-                                <Link to='/Jobseeker/Jswelcome' className='text-dark'>Common Profile</Link>
+                                <Link to='/Jobseeker/Applicantsingleform' className='text-dark'>Common Profile</Link>
                                 <Link to='/Jobseeker/Jswelcome' className='text-dark'>Profile Submitted to Employers</Link>
                                 <Link to='/Jobseeker/Jswelcome' className='text-dark'>My Login Details</Link>
                             </Card.Text>
@@ -158,9 +176,6 @@ function Jswelcome () {
                             <source src="../seeker_video.mp4" type="video/mp4" />
                             Sorry, your browser doesn't support videos.
                         </video>
-                    </Col>
-                    <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6} className='mb-3'>
-                        
                     </Col>
                 </Row>
             </Container>

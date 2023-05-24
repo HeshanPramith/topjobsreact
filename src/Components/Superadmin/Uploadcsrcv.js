@@ -131,7 +131,7 @@ function Uploadcsrcv () {
                                         <td>Disability in Hearing/Speaking</td>
                                         <td>Female, 24 Years, GCE AL, Computer Course. English Course</td>
                                         <td>Any</td>
-                                        <td><Link to='/Superadmin/Uploadcsrcv'><i class="fa-solid fa-file-pdf"></i></Link></td>
+                                        <td><Link to='/Superadmin/Uploadcsrcv'><i className="fa-solid fa-file-pdf"></i></Link></td>
                                         <td><Link to='/Superadmin/Uploadcsrcv'><i className="fa-solid fa-eye"></i></Link></td>
                                         <td>03/04/2009 05:28 PM</td>
                                     </tr>
@@ -142,7 +142,7 @@ function Uploadcsrcv () {
                                         <td>Disability in Hearing/Speaking</td>
                                         <td>Male, 18 Years, GCE OL 2008.</td>
                                         <td>Any</td>
-                                        <td><Link to='/Superadmin/Uploadcsrcv'><i class="fa-solid fa-file-pdf"></i></Link></td>
+                                        <td><Link to='/Superadmin/Uploadcsrcv'><i className="fa-solid fa-file-pdf"></i></Link></td>
                                         <td><Link to='/Superadmin/Uploadcsrcv'><i className="fa-solid fa-eye"></i></Link></td>
                                         <td>03/04/2009 05:23 PM</td>
                                     </tr>
@@ -153,7 +153,7 @@ function Uploadcsrcv () {
                                         <td>Disability in Hearing/Speaking</td>
                                         <td>Female, 22 Years, Advance Diploma in IT, A Course in English Language, Business Management Course.</td>
                                         <td>Any</td>
-                                        <td><Link to='/Superadmin/Uploadcsrcv'><i class="fa-solid fa-file-pdf"></i></Link></td>
+                                        <td><Link to='/Superadmin/Uploadcsrcv'><i className="fa-solid fa-file-pdf"></i></Link></td>
                                         <td><Link to='/Superadmin/Uploadcsrcv'><i className="fa-solid fa-eye"></i></Link></td>
                                         <td>03/04/2009 05:23 PM</td>
                                     </tr>
@@ -164,7 +164,7 @@ function Uploadcsrcv () {
                                         <td>Disability in Seeing</td>
                                         <td>Female, 26Years, BA (Uni of Peradeniya), Computer Knowledge</td>
                                         <td>Any</td>
-                                        <td><Link to='/Superadmin/Uploadcsrcv'><i class="fa-solid fa-file-pdf"></i></Link></td>
+                                        <td><Link to='/Superadmin/Uploadcsrcv'><i className="fa-solid fa-file-pdf"></i></Link></td>
                                         <td><Link to='/Superadmin/Uploadcsrcv'><i className="fa-solid fa-eye"></i></Link></td>
                                         <td>03/04/2009 05:23 PM</td>
                                     </tr>
@@ -175,7 +175,7 @@ function Uploadcsrcv () {
                                         <td>Disability in Seeing</td>
                                         <td>Female, 30Years, Panadura</td>
                                         <td>Any</td>
-                                        <td><Link to='/Superadmin/Uploadcsrcv'><i class="fa-solid fa-file-pdf"></i></Link></td>
+                                        <td><Link to='/Superadmin/Uploadcsrcv'><i className="fa-solid fa-file-pdf"></i></Link></td>
                                         <td><Link to='/Superadmin/Uploadcsrcv'><i className="fa-solid fa-eye"></i></Link></td>
                                         <td>03/04/2009 05:23 PM</td>
                                     </tr>
@@ -186,7 +186,7 @@ function Uploadcsrcv () {
                                         <td>Disability in Seeing</td>
                                         <td>Male, 26Years, BA (Uni of Peradeniya), Computer Knowledge, Typing, Music/Dancing</td>
                                         <td>Any</td>
-                                        <td><Link to='/Superadmin/Uploadcsrcv'><i class="fa-solid fa-file-pdf"></i></Link></td>
+                                        <td><Link to='/Superadmin/Uploadcsrcv'><i className="fa-solid fa-file-pdf"></i></Link></td>
                                         <td><Link to='/Superadmin/Uploadcsrcv'><i className="fa-solid fa-eye"></i></Link></td>
                                         <td>03/04/2009 05:23 PM</td>
                                     </tr>
@@ -197,7 +197,7 @@ function Uploadcsrcv () {
                                         <td>Disability in Hearing/Speaking</td>
                                         <td>Female, 32Years, Computer Knowledge, skills in sewing, cookery, drawing , cake structures</td>
                                         <td>Any</td>
-                                        <td><Link to='/Superadmin/Uploadcsrcv'><i class="fa-solid fa-file-pdf"></i></Link></td>
+                                        <td><Link to='/Superadmin/Uploadcsrcv'><i className="fa-solid fa-file-pdf"></i></Link></td>
                                         <td><Link to='/Superadmin/Uploadcsrcv'><i className="fa-solid fa-eye"></i></Link></td>
                                         <td>03/04/2009 05:23 PM</td>
                                     </tr>

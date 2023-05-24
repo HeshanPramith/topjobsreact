@@ -390,6 +390,31 @@ function Sawelcome () {
                                                     <td>Senior Manager</td>
                                                     <td>Virtusa</td>
                                                 </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>SSE - JAVA</td>
+                                                    <td>GENESIIS</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7</td>
+                                                    <td>QA Lead</td>
+                                                    <td>Dialog</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>8</td>
+                                                    <td>Finance</td>
+                                                    <td>Sysco Labs</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9</td>
+                                                    <td>HR Manager</td>
+                                                    <td>Softlogic</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10</td>
+                                                    <td>Senior Manager</td>
+                                                    <td>Virtusa</td>
+                                                </tr>
                                             </tbody>
                                         </Table>
                                     </Card.Body>

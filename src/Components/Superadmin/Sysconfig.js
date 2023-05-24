@@ -476,7 +476,7 @@ function Dbconfig () {
                         <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}> 
                             <div className='sys-config-block'>
                                 <h2 className='block-title'>SMS Blacklist - Assign invalid characters with substitutes. (VALUE1 is used for blacklist agent codes, VALUE2 is used for bad words and VALUE3 is used for special characters)</h2>
-                                <div class="clearfix"></div>
+                                <div className="clearfix"></div>
                                 <Row>
                                     <Col xs={12} sm={6} md={4} lg={4} xl={4} xxl={4}>
                                         <h3>Bad Words</h3>
@@ -505,7 +505,7 @@ function Dbconfig () {
                         <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}> 
                             <div className='sys-config-block'>
                                 <h2 className='block-title'>Unsupported Characters - Assign unsupported characters with substitutes.(VALUE1 used for Image Names, VALUE2 used for Strings)</h2>
-                                <div class="clearfix"></div>
+                                <div className="clearfix"></div>
                                 <Row>
                                     <Col xs={12} sm={6}>
                                         <h3>For Image Name</h3>
@@ -558,7 +558,7 @@ function Dbconfig () {
                         <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}> 
                             <div className='sys-config-block'>
                                 <h2 className='block-title'>Vacancy Caching</h2>
-                                <div class="clearfix"></div>
+                                <div className="clearfix"></div>
                                 <Row>
                                     <Col xs={12} sm={3} md={2}>
                                         <h3>Cache Type</h3>
@@ -605,7 +605,7 @@ function Dbconfig () {
                         <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}> 
                             <div className='sys-config-block'>
                                 <h2 className='block-title'>Default Ad View - Which advertisement-view (STANDALONE or LEGACY) is to load by default</h2>
-                                <div class="clearfix"></div>
+                                <div className="clearfix"></div>
                                 <Row>
                                     <Col xs={12} sm={3} md={2}>
                                         <h3>Selected Ad View</h3>

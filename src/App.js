@@ -36,6 +36,7 @@ import Agentemailalert from './Components/Employer/Agentemailalert';
 import Advertisementtemplate from './Components/Employer/Advertisementtemplate';
 import Jslogin from './Components/Jobseeker/Jslogin';
 import Jswelcome from './Components/Jobseeker/Jswelcome';
+import Applicantsingleform from './Components/Jobseeker/Applicantsingleform';
 import Salogin from './Components/Superadmin/Salogin';
 import Sawelcome from './Components/Superadmin/Sawelcome';
 import Agentsearch from './Components/Superadmin/Agentsearch';
@@ -86,6 +87,7 @@ function App() {
               <Route exact path='/Employer/Interviewschedule'  element={<Interviewschedule/>}/>
               <Route exact path='/Jobseeker/Jslogin'  element={<Jslogin/>}/>
               <Route exact path='/Jobseeker/Jswelcome'  element={<Jswelcome/>}/>
+              <Route exact path='/Jobseeker/Applicantsingleform'  element={<Applicantsingleform/>}/>
               <Route exact path='/Employer/Tabcutomise'  element={<Tabcutomise/>}/>
               <Route exact path='/Employer/Reports'  element={<Reports/>}/>
               <Route exact path='/Employer/Profilecustomise'  element={<Profilecustomise/>}/>

@@ -1926,6 +1926,24 @@ select {
     margin-top: 30px;
 }
 
+.card-body {
+    border-radius: 0 0 5px 5px;
+    padding-bottom: 30px !important;
+
+    &::after {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 60px;
+        content: "";
+        background: linear-gradient(180deg, #e5eefa24 0%, #e5eefa 100%);
+        width: calc(100% + -7px);
+        z-index: 100;
+        border-radius: 0 0 5px 5px;
+        pointer-events: none;
+    }
+}
+
 .admin-d-card {
 
     .card-title {
@@ -1934,7 +1952,8 @@ select {
 
     .card-body {
         background: rgb(255,255,255);
-        background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(224,237,255,1) 100%);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 50%, #e5eefa 100%);
+        position: relative;
     }
 
     a {
@@ -2972,17 +2991,18 @@ table {
 }
 
 .nav-tabs {
-    margin: 0;
+    margin: 0 0 1px 0;
+    border: none;
 
     li {
         border-radius: 5px 5px 0 0;
-        margin: 0 0 0 10px;
+        margin: 0 0 0 15px;
 
         .nav-link {
             font-weight: 500;
             font-size: 12px;
             color: #363636;
-            background: #e1e1e1;
+            background: #f3f3f3;
 
             &:hover {
                 background: #434343;
@@ -2990,7 +3010,7 @@ table {
             }
 
             &.active {
-                background: #434343;
+                background: #3c555f;
                 color: #FFFFFF;
             }
         }
@@ -2998,8 +3018,8 @@ table {
 }
 
 .tab-content {
-    background: linear-gradient(#f8f8f8, #f8f8f8) 50% 50%/calc(100% - 6px) calc(100% - 6px) no-repeat,
-            linear-gradient(0deg, transparent 0%, #434343 100%);
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgb(240, 240, 240) 50%, #ffffff 100%);
     border-radius: 3px 3px 0 0;
     padding: 20px;
     box-sizing: content-box;
@@ -3570,8 +3590,13 @@ table {
         
         a {
             color: #000000 !important;
-            padding: 5px 15px;
+            padding: 7px 15px;
             margin: 0;
+            border-bottom: solid 1px #f5f5f5;
+
+            &:hover {
+                background: #EEEEEE;
+            }
         }
     }
 }
@@ -3950,6 +3975,19 @@ body {
         background: rgb(255,255,255);
         background: linear-gradient(180deg, rgba(255,255,255,1) 50%, #e5eefa 100%);
         border-radius: 5px;
+        max-height: 260px;
+        overflow: auto;
+
+        .list-group {
+
+            a {
+
+                &:nth-child(2n) {
+
+                    background: rgb(233, 233, 233) !important;
+                }
+            }
+        }
     }
 }
 
@@ -4172,6 +4210,114 @@ table {
 .seeker-welcome {
     background: #e5eefa;
 
+    .prof {
+        
+        .card-body {
+            text-align: center;
+            position: relative;
+
+            &::after {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                height: 220px;
+                content: "";
+                background: linear-gradient(180deg, #00000000 0%, #000000 100%);
+                width: 100%;
+                z-index: 10;
+                border-radius: 0 0 3px 3px;
+                pointer-events: none;
+            }
+        }
+    }
+
+    .cmp-prof {
+        position: relative;
+        z-index: 100;
+        color: #107f14;
+        font-size: 12px;
+        width: auto;
+        max-width: 150px;
+        text-align: center;
+        font-weight: 500;
+        text-decoration: none;
+        background: #FFFFFF;
+        border-radius: 5px;
+        padding: 8px 10px;
+    }
+
+    .pro-pic {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 5;
+        border-radius: 0 0 5px 5px;
+        overflow: hidden;
+        pointer-events: none;
+
+        img {
+            transform: scale(1.9);
+            position: relative;
+            top: 40px;
+        }
+
+        &::before {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            content: "";
+            background: #0000006b;
+            // backdrop-filter: blur(1px);
+            // -webkit-backdrop-filter: blur(1px);
+            z-index: 10;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    .profile-cuz {
+        float: left;
+        position: relative;
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+    
+        h5 {
+            position: absolute;
+            // top: 43px;
+            margin: 0 auto;
+            left: auto;
+            right: auto;
+            text-align: center;
+            width: 100%;
+            color: #ffffff;
+            z-index: 100;
+            font-weight: normal;
+            font-size: 40px;
+        }
+    
+        svg {
+            width: 140px;
+            // box-shadow: 0px 0px 24px -1px #ffffff;
+            border-radius: 100%;
+            background: #dbdbdb5f;
+            padding: 0;
+            backdrop-filter: blur(3px);
+            -webkit-backdrop-filter: blur(3px);
+        }
+    
+        .CircularProgressbar .CircularProgressbar-trail {
+            stroke: rgb(241, 241, 241) !important;
+            stroke-linecap: round;
+        }
+    
+        .CircularProgressbar .CircularProgressbar-path {
+            stroke: #16c72b !important;
+        }
+    }
+
     .bg-success {
 
         .card-title {
@@ -4185,6 +4331,14 @@ table {
         .card-title {
             background: #ffc107;
             color: #000000 !important;
+        }
+    }
+
+    .bg-danger {
+
+        .card-title {
+            background: #ba0909;
+            color: #FFFFFF !important;
         }
     }
 
@@ -4214,7 +4368,7 @@ table {
             line-height: 22px;
             float: left;
             width: 100%;
-            margin: 0 0 15px 0;
+            margin: 0 0 10px 0;
 
             a {
                 text-decoration: none;
@@ -4256,6 +4410,7 @@ table {
                 border-radius: 0 !important;
                 max-height: 260px;
                 overflow: auto;
+                padding-bottom: 15px !important;
             }
 
             th {
@@ -4280,7 +4435,7 @@ table {
 
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 7px;
 }
 
 /* Track */
@@ -4298,6 +4453,117 @@ table {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #242424; 
+}
+
+.applicantsingleform {
+
+    .green {
+        color: #0eac43;
+    }
+
+    .red {
+        color: #e42626;
+    }
+
+    .black {
+        color: #181818;
+    }
+
+    .purple {
+        color: #450b75;
+    }
+
+    i {
+        margin: 0 5px 0 0;
+    }
+
+    .card-body {
+        min-height: 200px;
+        
+        &::after {
+            display: none !important;
+        }
+    }
+
+    .sadmin-group-top {
+
+        .prof {
+
+            .card-body {
+                padding-top: 30px !important;
+                padding-bottom: 30px !important;
+            }
+        }
+    }
+
+    .info {
+
+        .infs {
+            float: left;
+            width: 100%;
+            margin: 0 0 10px 0;
+        }
+    }
+
+    .tab-content {
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, #ffffff 0%, #e5eefa 100%);
+        border-radius: 3px 3px 0 0;
+        padding: 20px;
+        box-sizing: content-box;
+        float: left;
+        width: calc(100% + -40px);
+    }
+
+    .nav {
+        padding: 40px 0;
+
+        button {
+            text-align: right;
+            width: 250px;
+            border-radius: 40px 0 0 40px;
+            padding: 10px;
+            font-size: 13px;
+            margin: 5px 0;
+            color: #353535;
+
+            i {
+                margin: 0 0 0 5px !important;
+            }
+
+            &.active {
+                background: rgb(255,255,255) !important;
+                background: linear-gradient(-90deg, #ffffff 30%, #ffffff 100%) !important;
+                color: #000000;
+
+                &:hover {
+                    background: rgb(255,255,255) !important;
+                    background: linear-gradient(-90deg, #ffffff 30%, #ffffff 100%) !important;
+                    color: #000000;
+                }
+            }
+
+            &:active {
+                background: rgb(255,255,255) !important;
+                background: linear-gradient(-90deg, #ffffff 30%, #ffffff 100%) !important;
+                color: #000000;
+            }
+
+            &:hover {
+                background: rgb(255,255,255) !important;
+                background: linear-gradient(-90deg, #ffffff 30%, #e5eefa 100%) !important;
+                color: #000000;
+            }
+        }
+    }
+
+    .tab-pane {
+        min-height: 200px;
+    }
+
+    .search-btn {
+        float: right;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1600px) {
@@ -4643,6 +4909,13 @@ table {
         .cap-wrapper {
             float: left;
             width: 100%;
+        }
+    }
+
+    .seeker-welcome {
+
+        .cmp-prof {
+            margin-top: 15px;
         }
     }
 }
