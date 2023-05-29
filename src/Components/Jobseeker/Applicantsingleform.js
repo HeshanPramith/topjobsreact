@@ -88,15 +88,15 @@ function Applicantsingleform () {
                                 <Button className="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Professional Experience <i className="fa-solid fa-circle-xmark red"></i></Button>
                                 <Button className="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Higher Education <i className="fa-solid fa-circle-xmark red"></i></Button>
                                 <Button className="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">School Education <i className="fa-solid fa-circle-xmark red"></i></Button>
-                                <Button className="nav-link" id="v-pills-2" data-bs-toggle="pill" data-bs-target="#v-pills-2" type="button" role="tab" aria-controls="v-pills-2" aria-selected="false">Membership <i className="fa-solid fa-circle-xmark red"></i></Button>
-                                <Button className="nav-link" id="v-pills-3" data-bs-toggle="pill" data-bs-target="#v-pills-3" type="button" role="tab" aria-controls="v-pills-3" aria-selected="false">Language Proficiency <i className="fa-solid fa-circle-xmark red"></i></Button>
-                                <Button className="nav-link" id="v-pills-4" data-bs-toggle="pill" data-bs-target="#v-pills-4" type="button" role="tab" aria-controls="v-pills-4" aria-selected="false">Research <i className="fa-solid fa-circle-xmark red"></i></Button>
-                                <Button className="nav-link" id="v-pills-5" data-bs-toggle="pill" data-bs-target="#v-pills-5" type="button" role="tab" aria-controls="v-pills-5" aria-selected="false">Achievements <i className="fa-solid fa-circle-xmark red"></i></Button>
-                                <Button className="nav-link" id="v-pills-6" data-bs-toggle="pill" data-bs-target="#v-pills-6" type="button" role="tab" aria-controls="v-pills-6" aria-selected="false">Referees <i className="fa-solid fa-circle-xmark red"></i></Button>
-                                <Button className="nav-link" id="v-pills-7" data-bs-toggle="pill" data-bs-target="#v-pills-7" type="button" role="tab" aria-controls="v-pills-7" aria-selected="false">Family Information <i className="fa-solid fa-circle-xmark red"></i></Button>
-                                <Button className="nav-link" id="v-pills-8" data-bs-toggle="pill" data-bs-target="#v-pills-8" type="button" role="tab" aria-controls="v-pills-8" aria-selected="false">Job Preference <i className="fa-solid fa-circle-xmark red"></i></Button>
-                                <Button className="nav-link" id="v-pills-9" data-bs-toggle="pill" data-bs-target="#v-pills-9" type="button" role="tab" aria-controls="v-pills-9" aria-selected="false">Preferred Job Location <i className="fa-solid fa-circle-xmark red"></i></Button>
-                                <Button className="nav-link" id="v-pills-10" data-bs-toggle="pill" data-bs-target="#v-pills-10" type="button" role="tab" aria-controls="v-pills-10" aria-selected="false">Uploaded CVs / Certificates <i className="fa-solid fa-circle-xmark red"></i></Button>
+                                <Button className="nav-link" id="v-pills-2-tab" data-bs-toggle="pill" data-bs-target="#v-pills-2" type="button" role="tab" aria-controls="v-pills-2" aria-selected="false">Membership <i className="fa-solid fa-circle-xmark red"></i></Button>
+                                <Button className="nav-link" id="v-pills-3-tab" data-bs-toggle="pill" data-bs-target="#v-pills-3" type="button" role="tab" aria-controls="v-pills-3" aria-selected="false">Language Proficiency <i className="fa-solid fa-circle-xmark red"></i></Button>
+                                <Button className="nav-link" id="v-pills-4-tab" data-bs-toggle="pill" data-bs-target="#v-pills-4" type="button" role="tab" aria-controls="v-pills-4" aria-selected="false">Research <i className="fa-solid fa-circle-xmark red"></i></Button>
+                                <Button className="nav-link" id="v-pills-5-tab" data-bs-toggle="pill" data-bs-target="#v-pills-5" type="button" role="tab" aria-controls="v-pills-5" aria-selected="false">Achievements <i className="fa-solid fa-circle-xmark red"></i></Button>
+                                <Button className="nav-link" id="v-pills-6-tab" data-bs-toggle="pill" data-bs-target="#v-pills-6" type="button" role="tab" aria-controls="v-pills-6" aria-selected="false">Referees <i className="fa-solid fa-circle-xmark red"></i></Button>
+                                <Button className="nav-link" id="v-pills-7-tab" data-bs-toggle="pill" data-bs-target="#v-pills-7" type="button" role="tab" aria-controls="v-pills-7" aria-selected="false">Family Information <i className="fa-solid fa-circle-xmark red"></i></Button>
+                                <Button className="nav-link" id="v-pills-8-tab" data-bs-toggle="pill" data-bs-target="#v-pills-8" type="button" role="tab" aria-controls="v-pills-8" aria-selected="false">Job Preference <i className="fa-solid fa-circle-xmark red"></i></Button>
+                                <Button className="nav-link" id="v-pills-9-tab" data-bs-toggle="pill" data-bs-target="#v-pills-9" type="button" role="tab" aria-controls="v-pills-9" aria-selected="false">Preferred Job Location <i className="fa-solid fa-circle-xmark red"></i></Button>
+                                <Button className="nav-link" id="v-pills-10-tab" data-bs-toggle="pill" data-bs-target="#v-pills-10" type="button" role="tab" aria-controls="v-pills-10" aria-selected="false">Uploaded CVs / Certificates <i className="fa-solid fa-circle-xmark red"></i></Button>
                             </Nav>
                             <div className="tab-content h-100" id="v-pills-tabContent">
                                 <div className="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" >
@@ -559,8 +559,796 @@ function Applicantsingleform () {
                                     </Form>
                                 </div>
                                 <div className="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" >
-                                    
+                                    <h6>School Education</h6>
+                                    <Form>
+                                        <Row>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Qualification <i>*</i></Form.Label>
+                                                <Form.Select defaultValue="Select" size='sm'>
+                                                    <option>Select Educaion Level</option>
+                                                    <option>G.C.E A/L</option>
+                                                    <option>G.C.E O/L</option>
+                                                </Form.Select>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Scheme <i>*</i></Form.Label>
+                                                <Form.Select defaultValue="Select" size='sm'>
+                                                    <option>No Scheme</option>
+                                                </Form.Select>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Results <i>*</i></Form.Label>
+                                                <Form.Select defaultValue="Select" size='sm'>
+                                                    <option>No Subjects</option>
+                                                </Form.Select>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Grade</Form.Label>
+                                                <Form.Select defaultValue="Select" size='sm'>
+                                                    <option>Higher Distinction</option>
+                                                    <option>Distinction</option>
+                                                    <option>Credit Pass</option>
+                                                    <option>Simple Pass</option>
+                                                    <option>Fail</option>
+                                                </Form.Select>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>School/Institute <i className='purple'>*</i></Form.Label>
+                                                <Form.Control type="text" placeholder="" size='sm' />
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Achieved On <i className='purple'>*</i></Form.Label>
+                                                <Form.Select defaultValue="Select" size='sm'>
+                                                    <option>Month</option>
+                                                    <option>Jan</option>
+                                                    <option>Feb</option>
+                                                    <option>Mar</option>
+                                                    <option>Apr</option>
+                                                </Form.Select>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>&nbsp;</Form.Label>
+                                                <Form.Control type="text" placeholder="" size='sm' />
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Medium</Form.Label>
+                                                <Form.Select defaultValue="Select" size='sm'>
+                                                    <option>Sinhala</option>
+                                                    <option>English</option>
+                                                    <option>Tamil</option>
+                                                    <option>Freanch</option>
+                                                    <option>Hindi</option>
+                                                </Form.Select>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Country <i className='purple'>*</i></Form.Label>
+                                                <Form.Select defaultValue="Select" size='sm'>
+                                                    <option>Sri Lanka</option>
+                                                    <option>Afganistan</option>
+                                                    <option>Albania</option>
+                                                    <option>Brazil</option>
+                                                    <option>Cambodia</option>
+                                                </Form.Select>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={12} sm={12} md={12} lg={12} xl={12} className="mb-3" controlId="">
+                                                <Form.Label>Description <i className='purple'>*</i></Form.Label>
+                                                <Form.Control as="textarea" rows={6} type="text" placeholder="" size='sm' />
+                                                <small>ex: AL Marks - 278</small>
+                                            </Form.Group>
+                                            <Col xs={12}>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn mt-4'>
+                                                    <i className="fa-solid fa-circle-plus"></i> Add To List
+                                                </Button>
+                                            </Col>
+                                            <Col xs={12} className='mt-4'>
+                                                <Table responsive borderless striped hover>
+                                                    <thead>
+                                                        <tr>
+                                                            <th width="60px"><Form.Check type="checkbox" label="" /></th>
+                                                            <th>Education Level</th>
+                                                            <th>Scheme</th>
+                                                            <th>Achieved On</th>
+                                                            <th width="80px"></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /></td>
+                                                            <td>G.C.E A/L </td>
+                                                            <td> </td>
+                                                            <td> </td>
+                                                            <td>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-pen-to-square"></i></Link>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-trash-can"></i></Link>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /></td>
+                                                            <td>G.C.E A/L </td>
+                                                            <td> </td>
+                                                            <td> </td>
+                                                            <td>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-pen-to-square"></i></Link>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-trash-can"></i></Link>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /></td>
+                                                            <td>G.C.E A/L </td>
+                                                            <td> </td>
+                                                            <td> </td>
+                                                            <td>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-pen-to-square"></i></Link>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-trash-can"></i></Link>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /></td>
+                                                            <td>G.C.E A/L </td>
+                                                            <td> </td>
+                                                            <td> </td>
+                                                            <td>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-pen-to-square"></i></Link>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-trash-can"></i></Link>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </Table>
+                                            </Col>
+                                            <Col xs={12}>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn delete-btn del-sel'>
+                                                    <i className="fa-solid fa-trash-can"></i> Delete Selected
+                                                </Button>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn'>
+                                                    <i className="fa-regular fa-floppy-disk"></i> Save
+                                                </Button>
+                                            </Col>
+                                        </Row>
+                                    </Form>
                                 </div>
+                                <div className="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab" >
+                                    <h6>Membership</h6>
+                                    <Form>
+                                        <Row>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Membership <i>*</i></Form.Label>
+                                                <Form.Select defaultValue="Select" size='sm'>
+                                                    <option>Select Membershipl</option>
+                                                    <option>Membership 1</option>
+                                                    <option>Membership 2</option>
+                                                </Form.Select>
+                                                <small>ex: If not listed, inform to support@topjobs.lk</small>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Country <i>*</i></Form.Label>
+                                                <Form.Select defaultValue="Select" size='sm'>
+                                                    <option>Select Country</option>
+                                                </Form.Select>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Results <i>*</i></Form.Label>
+                                                <Form.Select defaultValue="Select" size='sm'>
+                                                    <option>No Subjects</option>
+                                                </Form.Select>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Year Obtained <i className='purple'>*</i></Form.Label>
+                                                <Form.Control type="text" placeholder="" size='sm' />
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={12} sm={12} md={12} lg={12} xl={12} className="mb-3" controlId="">
+                                                <Form.Label>Description <i className='purple'>*</i></Form.Label>
+                                                <Form.Control as="textarea" rows={6} type="text" placeholder="" size='sm' />
+                                                <small>ex: Fellow, Institution of Engineers, Sri Lanka</small>
+                                            </Form.Group>
+                                            <Col xs={12}>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn mt-4'>
+                                                    <i className="fa-solid fa-circle-plus"></i> Add To List
+                                                </Button>
+                                            </Col>
+                                            <Col xs={12} className='mt-4'>
+                                                <Table responsive borderless striped hover>
+                                                    <thead>
+                                                        <tr>
+                                                            <th width="60px"><Form.Check type="checkbox" label="" /></th>
+                                                            <th>Membership</th>
+                                                            <th>Country</th>
+                                                            <th>Year Obtained</th>
+                                                            <th width="80px"></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /></td>
+                                                            <td>ACS - Australian Computer Society</td>
+                                                            <td>Sri Lanka</td>
+                                                            <td> </td>
+                                                            <td>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-pen-to-square"></i></Link>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-trash-can"></i></Link>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /></td>
+                                                            <td>ACS - Australian Computer Society</td>
+                                                            <td>Sri Lanka</td>
+                                                            <td> </td>
+                                                            <td>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-pen-to-square"></i></Link>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-trash-can"></i></Link>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /></td>
+                                                            <td>ACS - Australian Computer Society</td>
+                                                            <td>Sri Lanka</td>
+                                                            <td> </td>
+                                                            <td>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-pen-to-square"></i></Link>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-trash-can"></i></Link>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /></td>
+                                                            <td>ACS - Australian Computer Society</td>
+                                                            <td>Sri Lanka</td>
+                                                            <td> </td>
+                                                            <td>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-pen-to-square"></i></Link>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-trash-can"></i></Link>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </Table>
+                                            </Col>
+                                            <Col xs={12}>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn delete-btn del-sel'>
+                                                    <i className="fa-solid fa-trash-can"></i> Delete Selected
+                                                </Button>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn'>
+                                                    <i className="fa-regular fa-floppy-disk"></i> Save
+                                                </Button>
+                                            </Col>
+                                        </Row>
+                                    </Form>
+                                </div>
+                                <div className="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab" >
+                                    <h6>Language Proficiency</h6>
+                                    <Form>
+                                        <Row>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Language </Form.Label>
+                                                <Form.Select defaultValue="Select" size='sm'>
+                                                    <option>Select Language</option>
+                                                    <option>Arabic</option>
+                                                    <option>Dutch</option>
+                                                    <option>French</option>
+                                                    <option>German</option>
+                                                </Form.Select>
+                                                <small>ex: If not listed, inform to support@topjobs.lk</small>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Spoken</Form.Label>
+                                                <Form.Select defaultValue="Select" size='sm'>
+                                                    <option>Select</option>
+                                                </Form.Select>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Reading</Form.Label>
+                                                <Form.Select defaultValue="Select" size='sm'>
+                                                    <option>Select</option>
+                                                </Form.Select>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Writing</Form.Label>
+                                                <Form.Select defaultValue="Select" size='sm'>
+                                                    <option>Select</option>
+                                                </Form.Select>
+                                            </Form.Group>
+                                            <Col xs={12}>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn mt-4'>
+                                                    <i className="fa-solid fa-circle-plus"></i> Add To List
+                                                </Button>
+                                            </Col>
+                                            <Col xs={12} className='mt-4'>
+                                                <Table responsive borderless striped hover>
+                                                    <thead>
+                                                        <tr>
+                                                            <th width="60px"><Form.Check type="checkbox" label="" /></th>
+                                                            <th>Langauge</th>
+                                                            <th>Spoken</th>
+                                                            <th>Reading</th>
+                                                            <th>Writing</th>
+                                                            <th width="80px"></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /></td>
+                                                            <td>English</td>
+                                                            <td>Excellent</td>
+                                                            <td>Excellent</td>
+                                                            <td>Excellent</td>
+                                                            <td>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-pen-to-square"></i></Link>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-trash-can"></i></Link>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </Table>
+                                            </Col>
+                                            <Col xs={12}>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn delete-btn del-sel'>
+                                                    <i className="fa-solid fa-trash-can"></i> Delete Selected
+                                                </Button>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn'>
+                                                    <i className="fa-regular fa-floppy-disk"></i> Save
+                                                </Button>
+                                            </Col>
+                                        </Row>
+                                    </Form>
+                                </div>
+                                <div className="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab" >
+                                    <h6>Research</h6>
+                                    <Form>
+                                        <Row>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Research Area <i>*</i></Form.Label>
+                                                <Form.Select defaultValue="Select" size='sm'>
+                                                    <option>Select Research</option>
+                                                </Form.Select>
+                                                <small>ex: If not listed, inform to support@topjobs.lk</small>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Commenced Date</Form.Label>
+                                                <Form.Select defaultValue="Select" size='sm'>
+                                                    <option>Select</option>
+                                                </Form.Select>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Year</Form.Label>
+                                                <Form.Control type="text" placeholder="" size='sm' />
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Complete Date</Form.Label>
+                                                <Form.Select defaultValue="Select" size='sm'>
+                                                    <option>Select</option>
+                                                </Form.Select>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Year</Form.Label>
+                                                <Form.Control type="text" placeholder="" size='sm' />
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={12} sm={12} md={12} lg={12} xl={12} className="mb-3" controlId="">
+                                                <Form.Label>Description <i>*</i></Form.Label>
+                                                <Form.Control as="textarea" rows={6} type="text" placeholder="" size='sm' />
+                                                <small>ex: Fellow, Institution of Engineers, Sri Lanka</small>
+                                            </Form.Group>
+                                            <Col xs={12}>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn mt-4'>
+                                                    <i className="fa-solid fa-circle-plus"></i> Add To List
+                                                </Button>
+                                            </Col>
+                                            <Col xs={12} className='mt-4'>
+                                                <Table responsive borderless striped hover>
+                                                    <thead>
+                                                        <tr>
+                                                            <th width="60px"><Form.Check type="checkbox" label="" /></th>
+                                                            <th>Langauge</th>
+                                                            <th>Spoken</th>
+                                                            <th>Reading</th>
+                                                            <th>Writing</th>
+                                                            <th width="80px"></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /></td>
+                                                            <td>English</td>
+                                                            <td>Excellent</td>
+                                                            <td>Excellent</td>
+                                                            <td>Excellent</td>
+                                                            <td>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-pen-to-square"></i></Link>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-trash-can"></i></Link>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </Table>
+                                            </Col>
+                                            <Col xs={12}>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn delete-btn del-sel'>
+                                                    <i className="fa-solid fa-trash-can"></i> Delete Selected
+                                                </Button>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn'>
+                                                    <i className="fa-regular fa-floppy-disk"></i> Save
+                                                </Button>
+                                            </Col>
+                                        </Row>
+                                    </Form>
+                                </div>
+                                <div className="tab-pane fade" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab" >
+                                    <h6>Achievements</h6>
+                                    <Form>
+                                        <Row>
+                                            <Form.Group as={Col} xs={12} sm={12} md={12} lg={12} xl={12} className="mb-3" controlId="">
+                                                <Form.Label>Achievements</Form.Label>
+                                                <Form.Control as="textarea" rows={6} type="text" placeholder="" size='sm' />
+                                                <small>ex: Interest - Sports, music, dancing and a Dog lover</small>
+                                            </Form.Group>
+                                            <Col xs={12}>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn'>
+                                                    <i className="fa-regular fa-floppy-disk"></i> Save
+                                                </Button>
+                                            </Col>
+                                        </Row>
+                                    </Form>
+                                </div>
+                                <div className="tab-pane fade" id="v-pills-6" role="tabpanel" aria-labelledby="v-pills-6-tab" >
+                                    <h6>Referees</h6>
+                                    <Form>
+                                        <Row>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Name <i>*</i></Form.Label>
+                                                <Form.Control type="text" placeholder="" size='sm' />
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Relationship <i>*</i></Form.Label>
+                                                <Form.Control type="text" placeholder="" size='sm' />
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Designation <i>*</i></Form.Label>
+                                                <Form.Control type="text" placeholder="" size='sm' />
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Phone <i>*</i></Form.Label>
+                                                <Form.Control type="text" placeholder="" size='sm' />
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Email <i className='purple'>*</i></Form.Label>
+                                                <Form.Control type="text" placeholder="" size='sm' />
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={12} sm={12} md={12} lg={12} xl={12} className="mb-3" controlId="">
+                                                <Form.Label>Address <i className='purple'>*</i></Form.Label>
+                                                <Form.Control as="textarea" rows={6} type="text" placeholder="" size='sm' />
+                                            </Form.Group>
+                                            <Col xs={12}>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn mt-4'>
+                                                    <i className="fa-solid fa-circle-plus"></i> Add To List
+                                                </Button>
+                                            </Col>
+                                            <Col xs={12} className='mt-4'>
+                                                <Table responsive borderless striped hover>
+                                                    <thead>
+                                                        <tr>
+                                                            <th width="60px"><Form.Check type="checkbox" label="" /></th>
+                                                            <th>Name</th>
+                                                            <th>Phone</th>
+                                                            <th width="80px"></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /></td>
+                                                            <td>Channa</td>
+                                                            <td>0715738301</td>
+                                                            <td>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-pen-to-square"></i></Link>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-trash-can"></i></Link>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </Table>
+                                            </Col>
+                                            <Col xs={12}>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn delete-btn del-sel'>
+                                                    <i className="fa-solid fa-trash-can"></i> Delete Selected
+                                                </Button>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn'>
+                                                    <i className="fa-regular fa-floppy-disk"></i> Save
+                                                </Button>
+                                            </Col>
+                                        </Row>
+                                    </Form>
+                                </div>
+                                <div className="tab-pane fade" id="v-pills-7" role="tabpanel" aria-labelledby="v-pills-7-tab" >
+                                    <h6>Family Information</h6>
+                                    <Form>
+                                        <Row>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Name <i>*</i></Form.Label>
+                                                <Form.Control type="text" placeholder="" size='sm' />
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Relationship <i>*</i></Form.Label>
+                                                <Form.Control type="text" placeholder="" size='sm' />
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Date of Birth <i>*</i></Form.Label>
+                                                <Form.Control type="date" placeholder="" size='sm' />
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Gender</Form.Label>
+                                                <Form.Check type="radio" name="group1" aria-label="radio 1" label="Male"/>
+                                                <Form.Check type="radio" name="group1" aria-label="radio 2" label="Female"/>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Designation <i>*</i></Form.Label>
+                                                <Form.Control type="text" placeholder="" size='sm' />
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Organisation/School <i className='purple'>*</i></Form.Label>
+                                                <Form.Control type="text" placeholder="" size='sm' />
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Is e/she a Dependant of yours?</Form.Label>
+                                                <Form.Check type="radio" name="group12" aria-label="radio 1" label="Yes"/>
+                                                <Form.Check type="radio" name="group12" aria-label="radio 2" label="No"/>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Is he/she an employee of My Common Profile ?</Form.Label>
+                                                <Form.Check type="radio" name="group14" aria-label="radio 1" label="Yes"/>
+                                                <Form.Check type="radio" name="group14" aria-label="radio 2" label="No"/>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={12} sm={12} md={12} lg={12} xl={12} className="mb-3" controlId="">
+                                                <Form.Label>Remark</Form.Label>
+                                                <Form.Control as="textarea" rows={6} type="text" placeholder="" size='sm' />
+                                            </Form.Group>
+                                            <Col xs={12}>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn mt-4'>
+                                                    <i className="fa-solid fa-circle-plus"></i> Add To List
+                                                </Button>
+                                            </Col>
+                                            <Col xs={12} className='mt-4'>
+                                                <Table responsive borderless striped hover>
+                                                    <thead>
+                                                        <tr>
+                                                            <th width="60px"><Form.Check type="checkbox" label="" /></th>
+                                                            <th>Name</th>
+                                                            <th>Relationship</th>
+                                                            <th>Designation</th>
+                                                            <th>Organisation</th>
+                                                            <th width="80px"></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /></td>
+                                                            <td>Somasiri</td>
+                                                            <td>Father</td>
+                                                            <td>Manager</td>
+                                                            <td></td>
+                                                            <td>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-pen-to-square"></i></Link>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-trash-can"></i></Link>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </Table>
+                                            </Col>
+                                            <Col xs={12}>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn delete-btn del-sel'>
+                                                    <i className="fa-solid fa-trash-can"></i> Delete Selected
+                                                </Button>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn'>
+                                                    <i className="fa-regular fa-floppy-disk"></i> Save
+                                                </Button>
+                                            </Col>
+                                        </Row>
+                                    </Form>
+                                </div>
+                                <div className="tab-pane fade" id="v-pills-8" role="tabpanel" aria-labelledby="v-pills-8-tab" >
+                                    <h6>Job Preference</h6>
+                                    <Form>
+                                        <Row>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Job Category <i>*</i></Form.Label>
+                                                <Form.Select defaultValue="Select" size='sm'>
+                                                    <option>Select Category</option>
+                                                </Form.Select>
+                                                <small>ex: If not listed, inform to support@topjobs.lk</small>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Industry <i>*</i></Form.Label>
+                                                <Form.Select defaultValue="Select" size='sm'>
+                                                    <option>Select Industry</option>
+                                                </Form.Select>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>Preference <i>*</i></Form.Label>
+                                                <Form.Select defaultValue="Select" size='sm'>
+                                                    <option>Select Preference</option>
+                                                </Form.Select>
+                                            </Form.Group>
+                                            <Form.Group as={Col} xs={12} sm={12} md={12} lg={12} xl={12} className="mb-3" controlId="">
+                                                <Form.Label>Remark <i className='purple'>*</i></Form.Label>
+                                                <Form.Control as="textarea" rows={6} type="text" placeholder="" size='sm' />
+                                            </Form.Group>
+                                            <Col xs={12}>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn mt-4'>
+                                                    <i className="fa-solid fa-circle-plus"></i> Add To List
+                                                </Button>
+                                            </Col>
+                                            <Col xs={12} className='mt-4'>
+                                                <Table responsive borderless striped hover>
+                                                    <thead>
+                                                        <tr>
+                                                            <th width="60px"><Form.Check type="checkbox" label="" /></th>
+                                                            <th>Job Category</th>
+                                                            <th>Industry</th>
+                                                            <th>Preference</th>
+                                                            <th width="80px"></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /></td>
+                                                            <td>Administration</td>
+                                                            <td>Unspecified</td>
+                                                            <td>1</td>
+                                                            <td>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-pen-to-square"></i></Link>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-trash-can"></i></Link>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </Table>
+                                            </Col>
+                                            <Col xs={12}>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn delete-btn del-sel'>
+                                                    <i className="fa-solid fa-trash-can"></i> Delete Selected
+                                                </Button>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn'>
+                                                    <i className="fa-regular fa-floppy-disk"></i> Save
+                                                </Button>
+                                            </Col>
+                                        </Row>
+                                    </Form>
+                                </div>
+                                <div className="tab-pane fade" id="v-pills-9" role="tabpanel" aria-labelledby="v-pills-9-tab" >
+                                    <h6>Preferred Job Location</h6>
+                                    <Form>
+                                        <Row>
+                                            <Form.Group as={Col} xs={12} className="mb-3" controlId="">
+                                                <Table responsive borderless striped hover>
+                                                    <thead>
+                                                        <tr>
+                                                            <th width="20%">Location</th>
+                                                            <th width="20%"></th>
+                                                            <th width="20%"></th>
+                                                            <th width="20%"></th>
+                                                            <th width="20%"></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /> Afganistan, Afganistan</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Albania (Any location)</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Algeria (Any location)</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Algeria (Any location)</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Algeria (Any location)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /> Afganistan, Afganistan</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Albania (Any location)</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Algeria (Any location)</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Algeria (Any location)</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Algeria (Any location)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /> Afganistan, Afganistan</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Albania (Any location)</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Algeria (Any location)</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Algeria (Any location)</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Algeria (Any location)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /> Afganistan, Afganistan</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Albania (Any location)</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Algeria (Any location)</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Algeria (Any location)</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Algeria (Any location)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /> Afganistan, Afganistan</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Albania (Any location)</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Algeria (Any location)</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Algeria (Any location)</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Algeria (Any location)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /> Afganistan, Afganistan</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Albania (Any location)</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Algeria (Any location)</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Algeria (Any location)</td>
+                                                            <td><Form.Check type="checkbox" label="" /> Algeria (Any location)</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </Table>
+                                            </Form.Group>
+                                            <Col xs={12}>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn mt-4'>
+                                                    <i className="fa-solid fa-circle-plus"></i> Add To List
+                                                </Button>
+                                            </Col>
+                                            <Col xs={12} className='mt-4'>
+                                                <Table responsive borderless striped hover>
+                                                    <thead>
+                                                        <tr>
+                                                            <th width="60px"><Form.Check type="checkbox" label="" /></th>
+                                                            <th>Preferred Location</th>
+                                                            <th width="80px"></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /></td>
+                                                            <td>Any where in Sri Lanka</td>
+                                                            <td>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-trash-can"></i></Link>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </Table>
+                                            </Col>
+                                            <Col xs={12}>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn delete-btn del-sel'>
+                                                    <i className="fa-solid fa-trash-can"></i> Delete Selected
+                                                </Button>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn'>
+                                                    <i className="fa-regular fa-floppy-disk"></i> Save
+                                                </Button>
+                                            </Col>
+                                        </Row>
+                                    </Form>
+                                </div>
+                                <div className="tab-pane fade" id="v-pills-10" role="tabpanel" aria-labelledby="v-pills-10-tab" >
+                                    <h6>Uploaded CVs / Certificates</h6>
+                                    <Form>
+                                        <Row>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
+                                                <Form.Label>CV/Documents <i>*</i></Form.Label>
+                                                <Form.Control type="file" placeholder="" size='sm' />
+                                            </Form.Group><Col xs={12}>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn mt-4'>
+                                                    <i className="fa-solid fa-circle-plus"></i> Add To List
+                                                </Button>
+                                            </Col>
+                                            <Col xs={12} className='mt-4'>
+                                                <Table responsive borderless striped hover>
+                                                    <thead>
+                                                        <tr>
+                                                            <th width="60px"><Form.Check type="checkbox" label="" /></th>
+                                                            <th>Document Availability</th>
+                                                            <th>Document Type</th>
+                                                            <th>View</th>
+                                                            <th width="80px"></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td><Form.Check type="checkbox" label="" /></td>
+                                                            <td>Common</td>
+                                                            <td>CV <Link to='/Jobseeker/Applicantsingleform'>Change</Link></td>
+                                                            <td>View</td>
+                                                            <td>
+                                                                <Link to='/Jobseeker/Applicantsingleform'><i className="fa-solid fa-trash-can"></i></Link>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </Table>
+                                            </Col>
+                                            <Col xs={12}>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn delete-btn del-sel'>
+                                                    <i className="fa-solid fa-trash-can"></i> Delete Selected
+                                                </Button>
+                                                <Button size='sm' variant="primary" type="submit" className='filter-btn search-btn'>
+                                                    <i className="fa-regular fa-floppy-disk"></i> Save
+                                                </Button>
+                                            </Col>
+                                        </Row>
+                                    </Form>
+                                </div>
+                                
                             </div>
                         </div>
                     </Col>
