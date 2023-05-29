@@ -45,7 +45,7 @@ function Home () {
                             </InputGroup>
                         </Form><br></br>
                         <span>OR</span><br></br>
-                        <Link className='gotobtn' to='/Topjobs'>Go To Job Page</Link>
+                        <Link className='gotobtn' to='/Topjobs'>View Latest Jobs</Link>
                     </div>
                 </div>
                 <div className='infogr-para'>

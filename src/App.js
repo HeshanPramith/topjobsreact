@@ -13,6 +13,7 @@ import "@coreui/chartjs/dist/css/coreui-chartjs.css";
 import Vacancybyfunctionalarea from './Components/Vacancybyfunctionalarea';
 import Vacancybyfunctionalarealist from './Components/Vacancybyfunctionalarealist';
 import Adview from './Components/Adview';
+import Adviewtopad from './Components/Adviewtopad';
 import Login from './Components/Employer/Login';
 import Jssignup from './Components/Jobseeker/Jssignup';
 import Welcome from './Components/Employer/Welcome';
@@ -69,6 +70,7 @@ function App() {
               <Route exact path='/Jobseeker/Jssignup'  element={<Jssignup/>}/>
               <Route exact path='/vacancybyfunctionalarea'  element={<Vacancybyfunctionalarea/>}/>
               <Route exact path='/Vacancybyfunctionalarealist'  element={<Vacancybyfunctionalarealist/>}/>
+              <Route exact path='/Adviewtopad'  element={<Adviewtopad/>}/>
               <Route exact path='/Adview'  element={<Adview/>}/>
               <Route exact path='/Employer/Login'  element={<Login/>}/>
               <Route exact path='/Employer/Welcome'  element={<Welcome/>}/>

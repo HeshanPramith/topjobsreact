@@ -13,7 +13,7 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Dropdown from 'react-bootstrap/Dropdown';
 import { Gear } from 'react-bootstrap-icons';
-import { CurrencyDollar } from 'react-bootstrap-icons';
+// import { CurrencyDollar } from 'react-bootstrap-icons';
 import Table from 'react-bootstrap/Table';
 // import { Link } from "react-router-dom";
 
@@ -206,27 +206,55 @@ function Sawelcome () {
                                     </div>
                                 </div>
                             </Col>
-                            <Col xs={12} sm={12} md={12} lg={12} xl={4} xxl={4} className='mt-sm-3 mt-md-3 mt-lg-0 d-lg-block d-xl-flex align-items-stretch'>
-                                <Row>
-                                    <Col xs={12} sm={6} md={6} lg={6} xl={6} className='mb-3 mb-sm-0 d-flex align-items-stretch'>
-                                        <div className='blocker-3 common p-3 d-flex align-items-center'>
-                                            <div className='blocker-3-inner'>
-                                                <span className='ico'><CurrencyDollar /></span>
-                                                <h2>22450000.00 LKR</h2>
-                                                <h3>Total Job Income (May)</h3>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col xs={12} sm={6} md={6} lg={6} xl={6} className='d-flex align-items-stretch'>
-                                        <div className='blocker-4 common p-3 d-flex align-items-center'>
-                                            <div className='blocker-4-inner'>
-                                                <span className='ico'><CurrencyDollar /></span>
-                                                <h2>1500000.00 LKR</h2>
-                                                <h3>Total Banners Income (May)</h3>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                </Row>
+                            <Col xs={12} sm={12} md={12} lg={12} xl={4} xxl={4} className='sadmin-group-top  mt-sm-3 mt-md-3 mt-lg-0 align-items-stretch'>
+                                
+                                        <Card bg='light' text='dark' className="h-100">
+                                            <Card.Title>topAD - Inactive Companies</Card.Title>
+                                            <Card.Body>
+                                                <Table responsive borderless hover>
+                                                    <thead>
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Company</th>
+                                                            <th>Contact Number</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>WSO2</td>
+                                                            <td>0715864522</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>Dialog</td>
+                                                            <td>0715864522</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td>Sysco Labs</td>
+                                                            <td>0715864522</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>4</td>
+                                                            <td>SLT - Mobitel</td>
+                                                            <td>0715864522</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>5</td>
+                                                            <td>Virtusa</td>
+                                                            <td>0715864522</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>6</td>
+                                                            <td>IBM</td>
+                                                            <td>0715864522</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </Table>
+                                            </Card.Body>
+                                        </Card> 
+                                    
                             </Col>
                         </Row>                  
                     </Col>
@@ -265,7 +293,7 @@ function Sawelcome () {
 
                 <Row className='pt-3 g-4' xs={1} md={2}>
                     <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12} className='prel g-4'>
-                        <Row className='row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-4 g-4 sadmin-group-top'>
+                        <Row className='row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2 g-4 sadmin-group-top'>
                             <Col>
                                 <Card bg='light' text='dark' className="h-100">
                                     <Card.Title>Recent Company</Card.Title>
@@ -352,107 +380,6 @@ function Sawelcome () {
                                     </Card.Body>
                                 </Card> 
                             </Col>
-                            <Col>
-                                <Card bg='light' text='dark' className="h-100">
-                                    <Card.Title>Recent Jobs</Card.Title>
-                                    <Card.Body>
-                                        <Table responsive borderless hover>
-                                            <thead>
-                                                <tr>
-                                                    <th>#</th>
-                                                    <th>Title</th>
-                                                    <th>Company</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>1</td>
-                                                    <td>SSE - JAVA</td>
-                                                    <td>GENESIIS</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>2</td>
-                                                    <td>QA Lead</td>
-                                                    <td>Dialog</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3</td>
-                                                    <td>Finance</td>
-                                                    <td>Sysco Labs</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>4</td>
-                                                    <td>HR Manager</td>
-                                                    <td>Softlogic</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>5</td>
-                                                    <td>Senior Manager</td>
-                                                    <td>Virtusa</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>6</td>
-                                                    <td>SSE - JAVA</td>
-                                                    <td>GENESIIS</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>7</td>
-                                                    <td>QA Lead</td>
-                                                    <td>Dialog</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>8</td>
-                                                    <td>Finance</td>
-                                                    <td>Sysco Labs</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>9</td>
-                                                    <td>HR Manager</td>
-                                                    <td>Softlogic</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>10</td>
-                                                    <td>Senior Manager</td>
-                                                    <td>Virtusa</td>
-                                                </tr>
-                                            </tbody>
-                                        </Table>
-                                    </Card.Body>
-                                </Card> 
-                            </Col>
-                            <Col>
-                                <Card bg='light' text='dark' className="h-100">
-                                    <Card.Title>Recent Applicant</Card.Title>
-                                    <Card.Body>
-                                        <Table responsive borderless hover>
-                                            <thead>
-                                                <tr>
-                                                    <th>#</th>
-                                                    <th>User Name</th>
-                                                    <th>Designation</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>1</td>
-                                                    <td>Tharindu</td>
-                                                    <td>Senior Manager</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>2</td>
-                                                    <td>Ravindra</td>
-                                                    <td>QA</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3</td>
-                                                    <td>Heshan</td>
-                                                    <td>UI/UX Engineer</td>
-                                                </tr>
-                                            </tbody>
-                                        </Table>
-                                    </Card.Body>
-                                </Card>  
-                            </Col> 
                         </Row>                  
                     </Col>
                 </Row>

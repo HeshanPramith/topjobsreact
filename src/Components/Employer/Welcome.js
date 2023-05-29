@@ -105,7 +105,7 @@ function Welcome () {
                                 </Dropdown>
                                 
                                 <h6>Data Set 1 </h6>
-                                <h4>70 Applied - Accounting</h4>
+                                <h4>230 - Applied</h4>
                                 
                                 <CChartLine 
                                     height={73}
@@ -195,8 +195,8 @@ function Welcome () {
                                     </Dropdown.Menu>
                                 </Dropdown>
                                 
-                                <h6>Total Applicants - All </h6>
-                                <h4>53</h4>
+                                <h6>Total Applicants - All Vacancys </h6>
+                                <h4>500</h4>
                                 <CChartBar
                                     height={73}
                                     data={chartdata2} 
