@@ -13,8 +13,9 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Dropdown from 'react-bootstrap/Dropdown';
 import { Gear } from 'react-bootstrap-icons';
-// import { CurrencyDollar } from 'react-bootstrap-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Table from 'react-bootstrap/Table';
+import { faBell, faBuilding, faClipboard, faComments, faDatabase, faEnvelope, faEnvelopesBulk, faFileLines, faFilePdf, faGears, faPanorama, faPeopleArrows, faUserCheck, faUserLock, faUserShield, faUsersBetweenLines } from '@fortawesome/free-solid-svg-icons';
 // import { Link } from "react-router-dom";
 
 function Sawelcome () {  
@@ -270,22 +271,22 @@ function Sawelcome () {
                     <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12} className='prel'>
                         <Row className='admin-dash-links'>
                             <div className="d-flex align-content-stretch flex-wrap justify-content-center justify-content-xl-start mb-3">
-                                <Link to='/Superadmin/Agentsearch' className='color-1'><i className="fa-solid fa-arrow-right-long"></i> <b>Company</b></Link>
-                                <Link to='/Superadmin/Email' className='color-2'><i className="fa-solid fa-arrow-right-long"></i> <b>Email Config</b></Link>
-                                <Link to='/Superadmin/Sysconfig' className='color-3'><i className="fa-solid fa-arrow-right-long"></i> <b>System Configuration</b></Link>
-                                <Link to='/Superadmin/Sauserlist' className='color-4'><i className="fa-solid fa-arrow-right-long"></i> <b>User Login</b></Link>
-                                <Link to='/Superadmin/Samasterlist' className='color-5'><i className="fa-solid fa-arrow-right-long"></i> <b>Master Data</b></Link>
-                                <Link to='/Superadmin/Applicantloginmenu' className='color-6'><i className="fa-solid fa-arrow-right-long"></i> <b>Applicant Logins</b></Link>
-                                <Link to='/Superadmin/Sareports' className='color-7'><i className="fa-solid fa-arrow-right-long"></i> <b>Reports</b></Link>
-                                <Link to='/Superadmin/Bulkemail' className='color-8'><i className="fa-solid fa-arrow-right-long"></i> <b>Bulk Email</b></Link>
-                                <Link to='/Superadmin/Releasenotes' className='color-9'><i className="fa-solid fa-arrow-right-long"></i> <b>Release Notes</b></Link>
-                                <Link to='/Superadmin/Bannerad' className='color-10'><i className="fa-solid fa-arrow-right-long"></i> <b>Manage Banners</b></Link>
-                                <Link to='/Superadmin/Extagentsearch' className='color-11'><i className="fa-solid fa-arrow-right-long"></i> <b>External Agent</b></Link>
-                                <Link to='/Superadmin/Emailalerttype' className='color-12'><i className="fa-solid fa-arrow-right-long"></i> <b>Email Alert Config</b></Link>
-                                <Link to='/Superadmin/Uploadcsrcv' className='color-13'><i className="fa-solid fa-arrow-right-long"></i> <b>CSR CV</b></Link>
-                                <Link to='/Superadmin/Hrresourceadmin' className='color-14'><i className="fa-solid fa-arrow-right-long"></i> <b>HR Resources</b></Link>
-                                <Link to='/Superadmin/Lockedagents' className='color-15'><i className="fa-solid fa-arrow-right-long"></i> <b>Locked Agent Logins</b></Link>
-                                <Link to='/Superadmin/Tjtstmonial' className='color-17'><i className="fa-solid fa-arrow-right-long"></i> <b>Manage Testimonials</b></Link>
+                                <Link to='/Superadmin/Agentsearch' className='color-1'><FontAwesomeIcon icon={faBuilding} /> <b>Company</b></Link>
+                                <Link to='/Superadmin/Email' className='color-2'><FontAwesomeIcon icon={faEnvelope} /> <b>Email Config</b></Link>
+                                <Link to='/Superadmin/Sysconfig' className='color-3'><FontAwesomeIcon icon={faGears} /> <b>System Configuration</b></Link>
+                                <Link to='/Superadmin/Sauserlist' className='color-4'><FontAwesomeIcon icon={faUserCheck} /> <b>User Login</b></Link>
+                                <Link to='/Superadmin/Samasterlist' className='color-5'><FontAwesomeIcon icon={faDatabase} /> <b>Master Data</b></Link>
+                                <Link to='/Superadmin/Applicantloginmenu' className='color-6'><FontAwesomeIcon icon={faUserShield} /> <b>Applicant Logins</b></Link>
+                                <Link to='/Superadmin/Sareports' className='color-7'><FontAwesomeIcon icon={faFileLines} /> <b>Reports</b></Link>
+                                <Link to='/Superadmin/Bulkemail' className='color-8'><FontAwesomeIcon icon={faEnvelopesBulk} /> <b>Bulk Email</b></Link>
+                                <Link to='/Superadmin/Releasenotes' className='color-9'><FontAwesomeIcon icon={faClipboard} /> <b>Release Notes</b></Link>
+                                <Link to='/Superadmin/Bannerad' className='color-10'><FontAwesomeIcon icon={faPanorama} /> <b>Manage Banners</b></Link>
+                                <Link to='/Superadmin/Extagentsearch' className='color-11'><FontAwesomeIcon icon={faPeopleArrows} /> <b>External Agent</b></Link>
+                                <Link to='/Superadmin/Emailalerttype' className='color-12'><FontAwesomeIcon icon={faBell} />  <b>Email Alert Config</b></Link>
+                                <Link to='/Superadmin/Uploadcsrcv' className='color-13'><FontAwesomeIcon icon={faFilePdf} /> <b>CSR CV</b></Link>
+                                <Link to='/Superadmin/Hrresourceadmin' className='color-14'><FontAwesomeIcon icon={faUsersBetweenLines} /> <b>HR Resources</b></Link>
+                                <Link to='/Superadmin/Lockedagents' className='color-15'><FontAwesomeIcon icon={faUserLock} /> <b>Locked Agent Logins</b></Link>
+                                <Link to='/Superadmin/Tjtstmonial' className='color-17'><FontAwesomeIcon icon={faComments} /> <b>Manage Testimonials</b></Link>
                             </div>
                         </Row>                 
                     </Col>

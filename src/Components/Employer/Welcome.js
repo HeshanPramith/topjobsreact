@@ -16,6 +16,9 @@ import { Gear } from 'react-bootstrap-icons';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Dropdown from 'react-bootstrap/Dropdown';
 import ListGroup from 'react-bootstrap/ListGroup';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBusinessTime, faDatabase, faEnvelopeOpenText, faGears, faRectangleAd, faTableCellsLarge, faUserCheck, faUserTie, faUsers } from '@fortawesome/free-solid-svg-icons';
+import { faBuilding, faCalendarPlus, faEnvelope, faFileLines, faIdCard, faMoneyBill1 } from '@fortawesome/free-regular-svg-icons';
 
 function Welcome () {  
 
@@ -264,22 +267,22 @@ function Welcome () {
                     <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12} className='prel'>
                         <Row className='admin-dash-links'>
                             <div className="d-flex align-content-stretch flex-wrap justify-content-center justify-content-xl-start mb-3">
-                                <Link to='/Employer/Applicantsearch' className='color-1'><i className="fa-solid fa-arrow-right-long"></i> <b>Applicant</b></Link>
-                                <Link to='/Employer/Jobordersearch' className='color-2'><i className="fa-solid fa-arrow-right-long"></i> <b>Vacancy</b></Link>
-                                <Link to='/Employer/Masterlist' className='color-3'><i className="fa-solid fa-arrow-right-long"></i> <b>Master Data</b></Link>
-                                <Link to='/Employer/Emailconfig' className='color-4'><i className="fa-solid fa-arrow-right-long"></i> <b>Email Config</b></Link>
-                                <Link to='/Employer/Agent' className='color-5'><i className="fa-solid fa-arrow-right-long"></i> <b>Company</b></Link>
-                                <Link to='/Employer/Employerlist' className='color-6'><i className="fa-solid fa-arrow-right-long"></i> <b>Employer</b></Link>
-                                <Link to='/Employer/Paymentlist' className='color-7'><i className="fa-solid fa-arrow-right-long"></i> <b>Payments</b></Link>
-                                <Link to='/Employer/Contentmanage' className='color-8'><i className="fa-solid fa-arrow-right-long"></i> <b>Page Contant Config</b></Link>
-                                <Link to='/Employer/Userlist' className='color-9'><i className="fa-solid fa-arrow-right-long"></i> <b>User Login</b></Link>
-                                <Link to='/Employer/Dbconfig' className='color-10'><i className="fa-solid fa-arrow-right-long"></i> <b>System Configuration</b></Link>
-                                <Link to='/Employer/Interviewschedule' className='color-11'><i className="fa-solid fa-arrow-right-long"></i> <b>Shedule Interviews</b></Link>
-                                <Link to='/Employer/Tabcutomise' className='color-12'><i className="fa-solid fa-arrow-right-long"></i> <b>Tab Customization</b></Link>
-                                <Link to='/Employer/Reports' className='color-13'><i className="fa-solid fa-arrow-right-long"></i> <b>Reports</b></Link>
-                                <Link to='/Employer/Profilecustomise' className='color-14'><i className="fa-solid fa-arrow-right-long"></i> <b>Profile Customization</b></Link>
-                                <Link to='/Employer/Agentemailalert' className='color-15'><i className="fa-solid fa-arrow-right-long"></i> <b>Email Alert</b></Link>
-                                <Link to='/Employer/Advertisementtemplate' className='color-17'><i className="fa-solid fa-arrow-right-long"></i> <b>Advertisement Templates</b></Link>
+                                <Link to='/Employer/Applicantsearch' className='color-1'><FontAwesomeIcon icon={faUserTie} /> <b>Applicant</b></Link>
+                                <Link to='/Employer/Jobordersearch' className='color-2'><FontAwesomeIcon icon={faBusinessTime} /> <b>Vacancy</b></Link>
+                                <Link to='/Employer/Masterlist' className='color-3'><FontAwesomeIcon icon={faDatabase} /> <b>Master Data</b></Link>
+                                <Link to='/Employer/Emailconfig' className='color-4'><FontAwesomeIcon icon={faEnvelope} /> <b>Email Config</b></Link>
+                                <Link to='/Employer/Agent' className='color-5'><FontAwesomeIcon icon={faBuilding} /> <b>Company</b></Link>
+                                <Link to='/Employer/Employerlist' className='color-6'><FontAwesomeIcon icon={faUsers} /> <b>Employer</b></Link>
+                                <Link to='/Employer/Paymentlist' className='color-7'><FontAwesomeIcon icon={faMoneyBill1} /> <b>Payments</b></Link>
+                                <Link to='/Employer/Contentmanage' className='color-8'><FontAwesomeIcon icon={faGears} /> <b>Page Contant Config</b></Link>
+                                <Link to='/Employer/Userlist' className='color-9'><FontAwesomeIcon icon={faUserCheck} /> <b>User Login</b></Link>
+                                <Link to='/Employer/Dbconfig' className='color-10'><FontAwesomeIcon icon={faGears} /> <b>System Configuration</b></Link>
+                                <Link to='/Employer/Interviewschedule' className='color-11'><FontAwesomeIcon icon={faCalendarPlus} /> <b>Shedule Interviews</b></Link>
+                                <Link to='/Employer/Tabcutomise' className='color-12'><FontAwesomeIcon icon={faTableCellsLarge} /> <b>Tab Customization</b></Link>
+                                <Link to='/Employer/Reports' className='color-13'><FontAwesomeIcon icon={faFileLines} /> <b>Reports</b></Link>
+                                <Link to='/Employer/Profilecustomise' className='color-14'><FontAwesomeIcon icon={faIdCard} /> <b>Profile Customization</b></Link>
+                                <Link to='/Employer/Agentemailalert' className='color-15'><FontAwesomeIcon icon={faEnvelopeOpenText} /> <b>Email Alert</b></Link>
+                                <Link to='/Employer/Advertisementtemplate' className='color-17'><FontAwesomeIcon icon={faRectangleAd} /> <b>Advertisement Templates</b></Link>
                             </div>
                         </Row>                 
                     </Col>
