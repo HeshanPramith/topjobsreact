@@ -1177,6 +1177,15 @@ input, textarea {
     border-left: solid 5px #009966 !important;
 }
 
+.cp-block {
+
+    img {
+
+        max-width: 100px;
+        margin: 15px;
+    }
+}
+
 .advttl {
     border: solid 1px #EEE;
     padding: 0;
@@ -1186,15 +1195,7 @@ input, textarea {
     background: linear-gradient(-90deg, #0061a6 10%, #031e44 100%);
     color: #FFFFFF;
     float: left;
-
-    & + .cp-block {
-
-        img {
-
-            max-width: 100px;
-            margin: 15px;
-        }
-    }
+    width: 100%;
 
     .h5 {
         font-weight: 400 !important;
@@ -4871,7 +4872,7 @@ table {
         }
     }
 
-    .advttl + .cp-block {
+    .cp-block {
 
         img {
             max-width: 80px !important;

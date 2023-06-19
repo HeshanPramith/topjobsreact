@@ -45,24 +45,30 @@ function Adview () {
             <Container fluid>
                 <Row>
                     <Col xs={12} sm={12} md={4} lg={3} xl={3} xxl={3} className=''>
-                        <Card className='advttl mt-0'>
-                            <Card.Body>
-                                <Card.Title>Dialog Network Services (Pvt) Ltd </Card.Title>                                
-                                <Card.Title className='h4'>Job Ref No: 1041576</Card.Title>
-                                <Badge bg="success">Full Time</Badge>
-                                <Card.Text>Colombo, Sri Lanka</Card.Text>
-                                <Card.Text>Closing Date: 24/01/2023</Card.Text>
-                            </Card.Body>
-                        </Card> 
-                        <Card className="bg-dark text-white cp-block mb-3">
-                            <Card.Img src="images/dialog_logo.png" alt="Card image" />
-                            <Card.Body>
-                                <Card.Title>Dialog</Card.Title>
-                                <Card.Text>Dialog Axiata PLC is Sri Lanka's Leading Quad-Play Connectivity Provider and #1 Network with the Fastest & Widest Coverage. Visit Our Site to Learn More.
-                                </Card.Text>
-                                <Card.Text>Last updated 3 mins ago</Card.Text>
-                            </Card.Body>                            
-                        </Card>  
+                        <Row>
+                            <Col xs={12}>
+                                <Card className='advttl mt-0'>
+                                    <Card.Body>
+                                        <Card.Title>Dialog Network Services (Pvt) Ltd </Card.Title>                                
+                                        <Card.Title className='h4'>Job Ref No: 1041576</Card.Title>
+                                        <Badge bg="success">Full Time</Badge>
+                                        <Card.Text>Colombo, Sri Lanka</Card.Text>
+                                        <Card.Text>Closing Date: 24/01/2023</Card.Text>
+                                    </Card.Body>
+                                </Card> 
+                            </Col>
+                            <Col xs={12}>
+                                <Card className="bg-dark text-white cp-block mb-3">
+                                    <Card.Img src="images/dialog_logo.png" alt="Card image" />
+                                    <Card.Body>
+                                        <Card.Title>Dialog</Card.Title>
+                                        <Card.Text>Dialog Axiata PLC is Sri Lanka's Leading Quad-Play Connectivity Provider and #1 Network with the Fastest & Widest Coverage. Visit Our Site to Learn More.
+                                        </Card.Text>
+                                        <Card.Text>Last updated 3 mins ago</Card.Text>
+                                    </Card.Body>                            
+                                </Card> 
+                            </Col>
+                        </Row> 
                         <Row className='d-none d-sm-block'>
                             <Col xs={12}>
                                 <Adviewbanner2/>
@@ -73,10 +79,10 @@ function Adview () {
                             <Col xs={12}>
                                 <Adviewbanner/>
                             </Col>
-                            <Col xs={12}>
+                            <Col xs={12} className='my-2'>
                                 <Adviewbanner2/>
                             </Col>
-                            <Col xs={12} className='my-2'>
+                            <Col xs={12}>
                                 <Adviewbanner/>
                             </Col>
                         </Row>                      

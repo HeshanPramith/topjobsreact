@@ -10,6 +10,7 @@ import Leftbanner from './Banners/Leftbanner';
 import Rightbanner from './Banners/Right banner';
 import Header from './Common/Header';
 import Footer from './Common/Footer';
+import Adviewbanner from './Banners/Adviewbanner';
 
 function Topjobs () {
 
@@ -41,6 +42,14 @@ function Topjobs () {
                     </Col>
                     <Col xs={12} sm={8} md={8} lg={8} xl={10} xxl={10}>
                         <Joblist/>
+                        <Row>
+                            <Col xs={12} sm={12} md={6} lg={96} xl={6} xxl={6} className='mb-2'>
+                                <Adviewbanner/>
+                            </Col>
+                            <Col xs={12} sm={12} md={6} lg={96} xl={6} xxl={6} className='mb-2'>
+                                <Adviewbanner/>
+                            </Col>
+                        </Row>
                     </Col>
                     <Col xs={12} sm={2} md={2} lg={2} xl={1} xxl={1} className='text-center'>
                         <Rightbanner/>
