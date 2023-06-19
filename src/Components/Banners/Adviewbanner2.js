@@ -26,17 +26,12 @@ function Topbanner() {
         <Slider {...settings}>
         <div>
             <div className='d-flex align-items-center justify-content-center tpbanner'>
-                <img src='images/adview_banners/banner_1.jpg' className='img-fluid' alt='banner'></img>
+                <img src='images/adview_banner_slot_left/banner-1-400x400.jpg' className='img-fluid' alt='banner'></img>
             </div>
         </div>
         <div>
             <div className='d-flex align-items-center justify-content-center tpbanner'>
-                <img src='images/adview_banners/banner_2.jpg' className='img-fluid' alt='banner'></img>
-            </div>
-        </div>
-        <div>
-            <div className='d-flex align-items-center justify-content-center tpbanner'>
-                <img src='images/adview_banners/banner_3.jpg' className='img-fluid' alt='banner'></img>
+                <img src='images/adview_banner_slot_left/banner-2-400x400.jpg' className='img-fluid' alt='banner'></img>
             </div>
         </div>
         </Slider>

@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Adviewbanner from './Banners/Adviewbanner';
+import Adviewbanner2 from './Banners/Adviewbanner2';
 import Card from 'react-bootstrap/Card';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import Button from 'react-bootstrap/Button';
@@ -61,9 +62,34 @@ function Adview () {
                                 </Card.Text>
                                 <Card.Text>Last updated 3 mins ago</Card.Text>
                             </Card.Body>                            
-                        </Card>                        
+                        </Card>  
+                        <Row className='d-none d-sm-block'>
+                            <Col xs={12}>
+                                <Adviewbanner2/>
+                            </Col>
+                            <Col xs={12} className='my-2'>
+                                <Adviewbanner/>
+                            </Col>
+                            <Col xs={12}>
+                                <Adviewbanner/>
+                            </Col>
+                            <Col xs={12}>
+                                <Adviewbanner2/>
+                            </Col>
+                            <Col xs={12} className='my-2'>
+                                <Adviewbanner/>
+                            </Col>
+                        </Row>                      
                     </Col>
-                    <Col xs={12} sm={12} md={8} lg={9} xl={9} xxl={9} className=''>                                               
+                    <Col xs={12} sm={12} md={8} lg={9} xl={9} xxl={9} className=''>     
+                        <Row>
+                            <Col xs={12} sm={12} md={6} lg={96} xl={6} xxl={6} className='mb-2'>
+                                <Adviewbanner/>
+                            </Col>
+                            <Col xs={12} sm={12} md={6} lg={96} xl={6} xxl={6} className='mb-2'>
+                                <Adviewbanner/>
+                            </Col>
+                        </Row>                                         
                         <ButtonToolbar className="align-items-center justify-content-between advbtngrp" aria-label="Toolbar with Button groups">
                             <ButtonGroup aria-label="First group">
                                 <Button className='show-views' variant="secondary" size='sm' disabled={isLoading} onClick={!isLoading ? handleClick : null}>{isLoading ? 'Loading...' : 'Show Views (50)'}</Button>
@@ -74,9 +100,6 @@ function Adview () {
                                 <Button variant="secondary" size='sm' className='flag-btn'>Flag</Button>
                             </ButtonGroup>
                         </ButtonToolbar>
-                        <div className='addview'>
-                            <Adviewbanner/>
-                        </div>
                         <ButtonToolbar className="align-items-center justify-content-between advbtngrp" aria-label="Toolbar with Button groups">
                             <ButtonGroup aria-label="First group">
                                 <Button className='jb-nav' variant="secondary" size='sm' ><i className="fa-solid fa-arrow-left"></i></Button>
@@ -136,6 +159,16 @@ function Adview () {
                                 <Button variant="secondary" size='sm' className='flag-btn'>Flag</Button>
                             </ButtonGroup>
                         </ButtonToolbar>                      
+                    </Col>
+                    <Col xs={12} sm={12} md={4} lg={3} xl={3} xxl={3} className='d-block d-sm-none'>
+                        <Row>
+                            <Col xs={12}>
+                                <Adviewbanner/>
+                            </Col>
+                            <Col xs={12} className='my-2'>
+                                <Adviewbanner/>
+                            </Col>
+                        </Row>                      
                     </Col>
                 </Row>
             </Container>

@@ -1187,6 +1187,15 @@ input, textarea {
     color: #FFFFFF;
     float: left;
 
+    & + .cp-block {
+
+        img {
+
+            max-width: 100px;
+            margin: 15px;
+        }
+    }
+
     .h5 {
         font-weight: 400 !important;
         font-size: 16px;
@@ -4859,6 +4868,14 @@ table {
         .cap-wrapper {
             float: left;
             width: 100%;
+        }
+    }
+
+    .advttl + .cp-block {
+
+        img {
+            max-width: 80px !important;
+            margin: 15px 0 0 15px;
         }
     }
 }
