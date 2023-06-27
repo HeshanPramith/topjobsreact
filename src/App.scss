@@ -1215,6 +1215,11 @@ input, textarea {
         padding: 3px 10px;
         float: left;
         margin: 0 0 10px 0;
+        width: auto;
+
+        &.bg-warning {
+            background: #ce861b !important;
+        }
     }
 
     .h4 {
@@ -1228,6 +1233,17 @@ input, textarea {
         float: left;
         width: 100%;
     }    
+
+    .card-img {
+        padding: 0 !important;
+        max-width: 150px;
+        margin: 0 0 15px 0;
+    }
+
+    .loc {
+        width: auto !important;
+        margin: 0 0 0 10px !important;
+    }
 }
 
 .advbtngrp {

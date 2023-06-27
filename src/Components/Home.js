@@ -1,3 +1,5 @@
+//init 20221201 HP SDB-1306 : topjobs reactjs framework implementation
+
 import React from 'react';
 import { useEffect } from 'react';
 import Form from 'react-bootstrap/Form';

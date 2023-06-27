@@ -1,3 +1,5 @@
+//init 20221201 HP SDB-1306 : topjobs reactjs framework implementation
+
 import React, { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -49,24 +51,23 @@ function Adview () {
                             <Col xs={12}>
                                 <Card className='advttl mt-0'>
                                     <Card.Body>
-                                        <Card.Title>topAD</Card.Title>                                
+                                        <Card.Img src="images/topad.png" alt="Card image" />                               
                                         <Card.Title className='h4'>Job Ref No: 1041576</Card.Title>
-                                        <Badge bg="success">Full Time</Badge>
-                                        <Card.Text>Colombo, Sri Lanka</Card.Text>
+                                        <Badge bg="warning">Part Time</Badge>
+                                        <Card.Text className='loc'>Colombo, Sri Lanka</Card.Text>
                                         <Card.Text>Closing Date: 24/01/2023</Card.Text>
                                     </Card.Body>
                                 </Card> 
                             </Col>
                             <Col xs={12}>
-                                <Card className="bg-red text-white cp-block mb-3">
-                                    <Card.Img src="images/topad.png" alt="Card image" />
+                                <Card className="bg-dark text-white cp-block mb-3">
+                                    <Card.Img src="images/native_logo.png" alt="Card image" />
                                     <Card.Body>
-                                        <Card.Title>topAD</Card.Title>
-                                        <Card.Text>
+                                        <Card.Title>Native Way (Pvt) Ltd</Card.Title>
+                                        <Card.Text>Nativeway, integrated engineering solutions, provider of comprehensive power solutions, Engineering Solutions
                                         </Card.Text>
-                                        <Card.Text>Last updated 3 mins ago</Card.Text>
                                     </Card.Body>                            
-                                </Card>  
+                                </Card> 
                             </Col>
                         </Row>
                         <Row className='d-none d-sm-block'>
@@ -79,23 +80,9 @@ function Adview () {
                             <Col xs={12}>
                                 <Adviewbanner/>
                             </Col>
-                            <Col xs={12}>
-                                <Adviewbanner2/>
-                            </Col>
-                            <Col xs={12} className='my-2'>
-                                <Adviewbanner/>
-                            </Col>
                         </Row>                        
                     </Col>
                     <Col xs={12} sm={12} md={8} lg={9} xl={9} xxl={9} className=''>    
-                        <Row>
-                            <Col xs={12} sm={12} md={6} lg={96} xl={6} xxl={6} className='mb-2'>
-                                <Adviewbanner/>
-                            </Col>
-                            <Col xs={12} sm={12} md={6} lg={96} xl={6} xxl={6} className='mb-2'>
-                                <Adviewbanner/>
-                            </Col>
-                        </Row>                                           
                         <ButtonToolbar className="align-items-center justify-content-between advbtngrp" aria-label="Toolbar with Button groups">
                             <ButtonGroup aria-label="First group">
                                 <Button className='show-views' variant="secondary" size='sm' disabled={isLoading} onClick={!isLoading ? handleClick : null}>{isLoading ? 'Loading...' : 'Show Views (50)'}</Button>
@@ -116,7 +103,7 @@ function Adview () {
                             </ButtonGroup>
                         </ButtonToolbar>
                         <div className='addview'>
-                            <img src="images/1669cdsz.png" alt="" className='img-fluid'/>                            
+                            <img src="images/9176cSEC.png" alt="" className='img-fluid'/>                            
                         </div> 
                         <Collapse in={open} className='addview-form'>
                             <div>

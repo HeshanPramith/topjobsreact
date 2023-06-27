@@ -1,3 +1,5 @@
+//init 20221201 HP SDB-1306 : topjobs reactjs framework implementation
+
 import React from 'react';
 import { useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
@@ -10,7 +12,7 @@ import Leftbanner from './Banners/Leftbanner';
 import Rightbanner from './Banners/Right banner';
 import Header from './Common/Header';
 import Footer from './Common/Footer';
-import Adviewbanner from './Banners/Adviewbanner';
+// import Adviewbanner from './Banners/Adviewbanner';
 
 function Topjobs () {
 
@@ -23,34 +25,32 @@ function Topjobs () {
 
     return (
         <React.Fragment>
+            {/* Header block */}
             <Header/> 
             <div className='artview'></div>
             <Container fluid>
+                {/* Search job block */}
                 <Row>
                     <Col xs={12} className='px-0'>
                         <Searchjob/>
                     </Col>
                 </Row>
+                {/* Latest category block */}
                 <Row className='prelz mb-3 mt-4'>
                     <Col xs={12} className='text-center'>
                         <Latestcat/>
                     </Col>
                 </Row>
                 <Row className='prelz'>
+                    {/* Left banner block */}
                     <Col xs={12} sm={2} md={2} lg={2} xl={1} xxl={1} className='text-center'>
                         <Leftbanner/>
                     </Col>
                     <Col xs={12} sm={8} md={8} lg={8} xl={10} xxl={10}>
+                        {/* Hotjob list block */}
                         <Joblist/>
-                        <Row>
-                            <Col xs={12} sm={12} md={6} lg={96} xl={6} xxl={6} className='mb-2'>
-                                <Adviewbanner/>
-                            </Col>
-                            <Col xs={12} sm={12} md={6} lg={96} xl={6} xxl={6} className='mb-2'>
-                                <Adviewbanner/>
-                            </Col>
-                        </Row>
                     </Col>
+                    {/* Right banner block */}
                     <Col xs={12} sm={2} md={2} lg={2} xl={1} xxl={1} className='text-center'>
                         <Rightbanner/>
                     </Col>
