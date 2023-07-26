@@ -1616,6 +1616,10 @@ select {
 .emp-login {
     background-color: #FFFFFF;
 
+    label {
+        width: auto !important;
+    }
+
     .main-cont {
         padding-top: 0 !important;
         padding-bottom: 0 !important;
@@ -4659,6 +4663,28 @@ table {
 
 .bg-red {
     background: #b01515 !important;
+}
+
+.lang-selector {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 10000000;
+    background: #FFFFFFAB;
+    padding: 10px;
+    width: auto;
+    border-radius: 5px;
+
+    label {
+        float: left !important;
+        width: auto !important;
+        padding: 4px 15px 0 0;
+    }
+
+    select {
+        float: left !important;
+        width: auto !important;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1600px) {

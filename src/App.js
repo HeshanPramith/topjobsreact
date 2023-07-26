@@ -57,12 +57,12 @@ import Hrresourceadmin from './Components/Superadmin/Hrresourceadmin';
 import Lockedagents from './Components/Superadmin/Lockedagents';
 import Tjtstmonial from './Components/Superadmin/Tjtstmonial';
 
-function App() {
+const App = () => {
 
   return (
     <div className="App">
       <div id='main-cont' className='main-cont'>
-        
+          
         <BrowserRouter>          
             <Routes>
               <Route exact path='/'  element={<Home/>}/>
