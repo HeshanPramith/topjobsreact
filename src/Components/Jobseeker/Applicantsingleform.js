@@ -41,7 +41,7 @@ function Applicantsingleform () {
                     </Col>
                 </Row>
                 <Row className='sadmin-group-top'>
-                    <Col xs={12} sm={6} md={4} lg={3} xl={3} xxl={3} className='mb-4'>
+                    <Col xs={12} sm={6} md={6} lg={3} xl={3} xxl={3} className='mb-4'>
                         <Card bg='danger' text='dark' className="h-100 prof">
                             <Card.Title>Profile Complete Progress</Card.Title>
                             <Card.Body className='d-flex flex-column align-items-center justify-content-center'>
@@ -55,7 +55,7 @@ function Applicantsingleform () {
                             </Card.Body>
                         </Card>  
                     </Col> 
-                    <Col xs={12} sm={6} md={12} lg={4} xl={4} xxl={4} className='mb-4 d-none d-lg-block'>
+                    <Col xs={12} sm={6} md={6} lg={4} xl={4} xxl={4} className='mb-4'>
                         <Card bg='warning' text='dark' className="h-100 scard admin-d-card">
                             <Card.Title>Quick Links</Card.Title>
                             <Card.Body>
@@ -67,7 +67,7 @@ function Applicantsingleform () {
                             </Card.Body>
                         </Card> 
                     </Col>
-                    <Col xs={12} sm={6} md={8} lg={5} xl={5} xxl={5} className='mb-4'>
+                    <Col xs={12} sm={12} md={12} lg={5} xl={5} xxl={5} className='mb-4'>
                         <Card bg='primary' text='dark' className="h-100 info">
                             <Card.Title>{t('topjobs.inf')}</Card.Title>
                             <Card.Body className='d-flex flex-column align-items-start justify-content-center'>
