@@ -9,5 +9,19 @@
   "topjobs.lname": "අවසන් නම",
   "topjobs.initials": "මුලකුරු",
   "topjobs.dob": "උපන්දිනය",
-  "topjobs.ttl": "මාතෘකාව"
+  "topjobs.ttl": "ශීර්ෂය",
+  "topjobs.nationality": "ජාතිය",
+  "topjobs.gender": "ස්ත්‍රී පුරුෂ භාවය",
+  "topjobs.maritals": "විවාහක අවිවාහක බව",
+  "topjobs.address": "ලිපිනය",
+  "topjobs.nic": "ජාතික හැඳුනුම්පත් අංකය",
+  "topjobs.passport": "ගමන් බලපත්ර අංකය",
+  "topjobs.country": "රට",
+  "topjobs.ds": "දිස්ත්‍රික්කය/ප්‍රාන්තය",
+  "topjobs.dc": "අංශය/නගරය",
+  "topjobs.mobile": "ජංගම දුරකථන අංකය",
+  "topjobs.telephone": "දුරකථන අංකය",
+  "topjobs.notice": "දැනුම්දීමේ කාල පරිච්ඡේදය",
+  "topjobs.salary": "අපේක්ෂිත වැටුප (රු.)",
+  "topjobs.social": "සමාජ ජාල නාමය"
 }

@@ -130,11 +130,11 @@ function Applicantsingleform () {
                                                 <small>eg: Rohan David</small>
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>Date of Birth <i>*</i></Form.Label>
+                                                <Form.Label>{t('topjobs.dob')} <i>*</i></Form.Label>
                                                 <Form.Control type="date" placeholder="" size='sm' />
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>Nationality</Form.Label>
+                                                <Form.Label>{t('topjobs.nationality')}</Form.Label>
                                                 <Form.Select defaultValue="Select" size='sm'>
                                                     <option>Sri Lankan</option>
                                                     <option>Afganistan</option>
@@ -143,17 +143,17 @@ function Applicantsingleform () {
                                                 </Form.Select>
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>Gender <i>*</i></Form.Label>
+                                                <Form.Label>{t('topjobs.gender')} <i>*</i></Form.Label>
                                                 <Form.Check type="radio" name="group1" aria-label="radio 1" label="Male"/>
                                                 <Form.Check type="radio" name="group1" aria-label="radio 2" label="Female"/>
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>Marital Status</Form.Label>
+                                                <Form.Label>{t('topjobs.maritals')}</Form.Label>
                                                 <Form.Check type="radio" name="group1" aria-label="radio 1" label="Single"/>
                                                 <Form.Check type="radio" name="group1" aria-label="radio 2" label="Married"/>
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>Address <i>*</i></Form.Label>
+                                                <Form.Label>{t('topjobs.address')} <i>*</i></Form.Label>
                                                 <Form.Control type="text" placeholder="Battaramulla" size='sm' />
                                                 <small>eg: 124, Perera Avenue</small>
                                             </Form.Group>
@@ -168,15 +168,15 @@ function Applicantsingleform () {
                                                 <small>eg: Colombo 05</small>
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>NIC No.</Form.Label>
+                                                <Form.Label>{t('topjobs.nic')}</Form.Label>
                                                 <Form.Control type="text" placeholder="897112663v" size='sm' />
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>Passport No.</Form.Label>
+                                                <Form.Label>{t('topjobs.passport')}</Form.Label>
                                                 <Form.Control type="text" placeholder="897112663v" size='sm' />
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>Country <i>*</i></Form.Label>
+                                                <Form.Label>{t('topjobs.country')} <i>*</i></Form.Label>
                                                 <Form.Select defaultValue="Select" size='sm'>
                                                     <option>Sri Lanka</option>
                                                     <option>Afganistan</option>
@@ -185,7 +185,7 @@ function Applicantsingleform () {
                                                 </Form.Select>
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>District/State <i>*</i></Form.Label>
+                                                <Form.Label>{t('topjobs.ds')} <i>*</i></Form.Label>
                                                 <Form.Select defaultValue="Select" size='sm'>
                                                     <option>Colombo</option>
                                                     <option>Anuradhapura</option>
@@ -194,7 +194,7 @@ function Applicantsingleform () {
                                                 </Form.Select>
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>Division/City <i>*</i></Form.Label>
+                                                <Form.Label>{t('topjobs.dc')} <i>*</i></Form.Label>
                                                 <Form.Select defaultValue="Select" size='sm'>
                                                     <option>Battaramulla</option>
                                                     <option>Rajagiriya</option>
@@ -203,15 +203,15 @@ function Applicantsingleform () {
                                                 </Form.Select>
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>Mobile <i>*</i></Form.Label>
+                                                <Form.Label>{t('topjobs.mobile')} <i>*</i></Form.Label>
                                                 <Form.Control type="text" placeholder="0774372661" size='sm' />
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>Telephone</Form.Label>
+                                                <Form.Label>{t('topjobs.telephone')}</Form.Label>
                                                 <Form.Control type="text" placeholder="0112970900" size='sm' />
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>Notice Period</Form.Label>
+                                                <Form.Label>{t('topjobs.notice')}</Form.Label>
                                                 <Form.Select defaultValue="Select" size='sm'>
                                                     <option>4 Weeks</option>
                                                     <option>Immediately</option>
@@ -221,11 +221,11 @@ function Applicantsingleform () {
                                                 </Form.Select>
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>Expected Salary (Rs)</Form.Label>
+                                                <Form.Label>{t('topjobs.salary')}</Form.Label>
                                                 <Form.Control type="text" placeholder="" size='sm' />
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>Social Network ID</Form.Label>
+                                                <Form.Label>{t('topjobs.social')}</Form.Label>
                                                 <Form.Control type="text" placeholder="" size='sm' />
                                             </Form.Group>
                                             <Col xs={12}>

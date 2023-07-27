@@ -9,5 +9,19 @@
   "topjobs.lname": "Last Name",
   "topjobs.initials": "Last Name",
   "topjobs.dob": "Date of Birth",
-  "topjobs.ttl": "Title"
+  "topjobs.ttl": "Title",
+  "topjobs.nationality": "Nationality",
+  "topjobs.gender": "Gender",
+  "topjobs.maritals": "Marital Status",
+  "topjobs.address": "Address",
+  "topjobs.nic": "NIC No",
+  "topjobs.passport": "Passport No",
+  "topjobs.country": "Country",
+  "topjobs.ds": "District/State",
+  "topjobs.dc": "Division/City",
+  "topjobs.mobile": "Mobile",
+  "topjobs.telephone": "Telephone",
+  "topjobs.notice": "Notice Period",
+  "topjobs.salary": "Expected Salary (Rs)",
+  "topjobs.social": "Social Network ID"
 }
