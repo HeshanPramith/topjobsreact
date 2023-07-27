@@ -23,5 +23,16 @@
   "topjobs.telephone": "Telephone",
   "topjobs.notice": "Notice Period",
   "topjobs.salary": "Expected Salary (Rs)",
-  "topjobs.social": "Social Network ID"
+  "topjobs.social": "Social Network ID",
+  "topjobs.inf": "Information",
+  "topjobs.adinf": "Information",
+  "topjobs.okic": "OK - Information completed",
+  "topjobs.incic": "Incomplete - More information needed (based on what each employer want to see)",
+  "topjobs.tt": "Tool Tips",
+  "topjobs.mbe": "Must be entered",
+  "topjobs.notm": "Not mandatory but required to have a complete application",
+  "topjobs.male": "Male",
+  "topjobs.female": "Female",
+  "topjobs.single": "Single",
+  "topjobs.married": "Married"
 }

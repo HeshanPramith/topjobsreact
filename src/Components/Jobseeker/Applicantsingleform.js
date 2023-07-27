@@ -69,14 +69,14 @@ function Applicantsingleform () {
                     </Col>
                     <Col xs={12} sm={6} md={8} lg={5} xl={5} xxl={5} className='mb-4'>
                         <Card bg='primary' text='dark' className="h-100 info">
-                            <Card.Title>Information</Card.Title>
+                            <Card.Title>{t('topjobs.inf')}</Card.Title>
                             <Card.Body className='d-flex flex-column align-items-start justify-content-center'>
-                                <div className='infs'><i className="fa-solid fa-circle-check green"></i> OK - Information completed</div>
-                                <div className='infs'><i className="fa-solid fa-circle-xmark red"></i> Incomplete - More information needed (based on what each employer want to see)</div>
-                                <div className='infs'><i className="fa-solid fa-circle-info black"></i> Tool Tips</div>
-                                <div className='infs'><i className="fa-solid fa-star-of-life red"></i> Must be entered</div>
-                                <div className='infs'><i className="fa-solid fa-star-of-life purple"></i> Not mandatory but required to have a complete application</div>
-                                <AnchorLink href='#cp' className='text-white edtbtn'><i className="fa-solid fa-arrow-down"></i> Add/Update Your Informations</AnchorLink >
+                                <div className='infs'><i className="fa-solid fa-circle-check green"></i> {t('topjobs.okic')}</div>
+                                <div className='infs'><i className="fa-solid fa-circle-xmark red"></i> {t('topjobs.incic')}</div>
+                                <div className='infs'><i className="fa-solid fa-circle-info black"></i> {t('topjobs.tt')}</div>
+                                <div className='infs'><i className="fa-solid fa-star-of-life red"></i> {t('topjobs.mbe')}</div>
+                                <div className='infs'><i className="fa-solid fa-star-of-life purple"></i> {t('topjobs.notm')}</div>
+                                <AnchorLink href='#cp' className='text-white edtbtn'><i className="fa-solid fa-arrow-down"></i> {t('topjobs.adinf')}</AnchorLink >
                             </Card.Body>
                             <Card.Footer className="text-muted">Profile Last Updated : 2 days ago</Card.Footer>
                         </Card>
@@ -144,27 +144,27 @@ function Applicantsingleform () {
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
                                                 <Form.Label>{t('topjobs.gender')} <i>*</i></Form.Label>
-                                                <Form.Check type="radio" name="group1" aria-label="radio 1" label="Male"/>
-                                                <Form.Check type="radio" name="group1" aria-label="radio 2" label="Female"/>
+                                                <Form.Check type="radio" name="group1" aria-label="radio 1" label={t('topjobs.female')}/>
+                                                <Form.Check type="radio" name="group1" aria-label="radio 2" label={t('topjobs.male')}/>
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
                                                 <Form.Label>{t('topjobs.maritals')}</Form.Label>
-                                                <Form.Check type="radio" name="group1" aria-label="radio 1" label="Single"/>
-                                                <Form.Check type="radio" name="group1" aria-label="radio 2" label="Married"/>
+                                                <Form.Check type="radio" name="group1" aria-label="radio 1" label={t('topjobs.single')}/>
+                                                <Form.Check type="radio" name="group1" aria-label="radio 2" label={t('topjobs.married')}/>
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
                                                 <Form.Label>{t('topjobs.address')} <i>*</i></Form.Label>
-                                                <Form.Control type="text" placeholder="Battaramulla" size='sm' />
+                                                <Form.Control type="text" placeholder="" size='sm' />
                                                 <small>eg: 124, Perera Avenue</small>
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
                                                 <Form.Label>&nbsp;</Form.Label>
-                                                <Form.Control type="text" placeholder="Havelock Town" size='sm' />
+                                                <Form.Control type="text" placeholder="" size='sm' />
                                                 <small>eg: Havelock Town</small>
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
                                                 <Form.Label>&nbsp;</Form.Label>
-                                                <Form.Control type="text" placeholder="Colombo 05" size='sm' />
+                                                <Form.Control type="text" placeholder="" size='sm' />
                                                 <small>eg: Colombo 05</small>
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">

@@ -23,5 +23,16 @@
   "topjobs.telephone": "දුරකථන අංකය",
   "topjobs.notice": "දැනුම්දීමේ කාල පරිච්ඡේදය",
   "topjobs.salary": "අපේක්ෂිත වැටුප (රු.)",
-  "topjobs.social": "සමාජ ජාල නාමය"
+  "topjobs.social": "සමාජ ජාල නාමය",
+  "topjobs.inf": "තොරතුරු",
+  "topjobs.adinf": "ඔබගේ තොරතුරු එක් කරන්න/යාවත්කාලීන කරන්න",
+  "topjobs.okic": "තොරතුරු සම්පූර්ණයි",
+  "topjobs.incic": "අසම්පූර්ණයි - තවත් තොරතුරු අවශ්‍යයි (එක් එක් සේවා යෝජකයාට දැකීමට අවශ්‍ය දේ මත පදනම්ව)",
+  "topjobs.tt": "මෙවලම් ඉඟි",
+  "topjobs.mbe": "ඇතුල් කළ යුතුය",
+  "topjobs.notm": "අනිවාර්ය නොවන නමුත් සම්පූර්ණ අයදුම්පතක් තිබීම අවශ්‍ය වේ",
+  "topjobs.male": "පුරුෂ",
+  "topjobs.female": "ස්ත්‍රී",
+  "topjobs.single": "අවිවාහක",
+  "topjobs.married": "විවාහකයි"
 }
