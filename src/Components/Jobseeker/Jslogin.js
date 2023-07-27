@@ -23,9 +23,6 @@ function Jslogin () {
 
     return (
         <React.Fragment>
-            <I18nextProvider i18n={i18n}>
-                <LanguageSelector />
-            </I18nextProvider>
             <Container fluid className='h-100'>
                 <Row className='h-100'>
                     <Col xs={12} sm={12} md={6} lg={6} xl={8} xxl={8} className='prel p-0'>
@@ -48,9 +45,12 @@ function Jslogin () {
                                 <div className='seeker-login-bx h-100 d-flex align-items-center'>
                                 <Form className='js-login-form'>
                                     <h2><span>topjobs</span> Jobseeker Login</h2>
+                                    <I18nextProvider i18n={i18n}>
+                                        <LanguageSelector />
+                                    </I18nextProvider>
                                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                                         <Form.Label>{t('topjobs.username')}</Form.Label>
-                                        <Form.Control type="text" size='sm' placeholder='Heshan' />
+                                        <Form.Control type="text" size='sm' placeholder={t('topjobs.heshan')} />
                                     </Form.Group>
                                     <Form.Group className="" controlId="exampleForm.ControlTextarea1">
                                         <Form.Label>{t('topjobs.password')}</Form.Label>
@@ -65,7 +65,7 @@ function Jslogin () {
                                     <Link to="/Jobseeker/Jslogin" className='fgt-pass'>Forgot password?</Link>
                                     <div className="divider div-transparent"><span>OR</span></div>
                                     <p>Don't have a topjobs account?</p>
-                                    <Link to="/Jobseeker/Jssignup" className="btn btn-primary mt-3 mb-0 seeker-sup-button" variant="primary">Sign Up Now <i className="fa-solid fa-arrow-right-long"></i></Link>
+                                    <Link to="/Jobseeker/Jssignup" className="btn btn-primary mt-3 mb-0 seeker-sup-button" variant="primary">{t('topjobs.signup')} <i className="fa-solid fa-arrow-right-long"></i></Link>
                                 </Form>
                                 </div>
                             </div>

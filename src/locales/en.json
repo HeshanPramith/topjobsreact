@@ -1,5 +1,13 @@
 {
   "topjobs.username": "User Name",
   "topjobs.password": "Password",
-  "topjobs.loginbtn": "Login"
+  "topjobs.loginbtn": "Login",
+  "topjobs.heshan": "Heshan",
+  "topjobs.signup": "Sign Up Now",
+  "topjobs.pdetails": "Personal Details",
+  "topjobs.fname": "First Name",
+  "topjobs.lname": "Last Name",
+  "topjobs.initials": "Last Name",
+  "topjobs.dob": "Date of Birth",
+  "topjobs.ttl": "Title"
 }

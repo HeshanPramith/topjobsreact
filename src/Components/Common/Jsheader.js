@@ -10,6 +10,9 @@ import ListGroup from 'react-bootstrap/ListGroup';
 //import Dropdown from 'react-bootstrap/Dropdown';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import DropdownButton from 'react-bootstrap/DropdownButton';
+import { I18nextProvider } from 'react-i18next';
+import i18n from 'i18next';
+import LanguageSelector from '../Common/languageselector';
 
 function Header () {    
 
@@ -73,7 +76,7 @@ function Header () {
             <div className='loginblock'>
                 <Container fluid>
                     <Row>
-                        <Col xs={12} sm={12} className='p-0'>              
+                        <Col className='p-0'>    
                             {[DropdownButton].map((DropdownType, idx) => (
                                 <DropdownType
                                     as={ButtonGroup}
@@ -90,7 +93,10 @@ function Header () {
                                     <Link to="/Jobseeker/Jswelcome">My Preferences</Link>
                                     <Link to='/Jobseeker/Jslogin'>Log Out</Link>
                                 </DropdownType>
-                            ))}            
+                            ))} 
+                            <I18nextProvider i18n={i18n}>
+                                <LanguageSelector />
+                            </I18nextProvider>          
                         </Col>
                     </Row>
                 </Container>          

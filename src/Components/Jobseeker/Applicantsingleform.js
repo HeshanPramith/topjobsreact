@@ -15,6 +15,7 @@ import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import Nav from 'react-bootstrap/Nav';
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { useTranslation } from 'react-i18next';
 
 function Applicantsingleform () {
 
@@ -27,13 +28,15 @@ function Applicantsingleform () {
 
     const percentage = 65;
 
+    const { t } = useTranslation();
+
     return (
         <React.Fragment>
             <Jsheader/> 
             <Container fluid>
                 <Row>
                     <Col xs={12}>
-                        <h5>Hello and Welcome to topjobs</h5>
+                        <h5>Welcome to topjobs</h5>
                         <p>Welcome back, We've missed you. 👋</p>
                     </Col>
                 </Row>
@@ -84,7 +87,7 @@ function Applicantsingleform () {
                         <h6 className='mb-2'>Your Information</h6>
                         <div className="d-flex align-items-start h-100 tabview">
                             <Nav className="nav flex-column nav-pills h-100" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                <Button className="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Personal Details <i className="fa-solid fa-circle-check green"></i></Button>
+                                <Button className="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">{t('topjobs.pdetails')} <i className="fa-solid fa-circle-check green"></i></Button>
                                 <Button className="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Professional Experience <i className="fa-solid fa-circle-xmark red"></i></Button>
                                 <Button className="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Higher Education <i className="fa-solid fa-circle-xmark red"></i></Button>
                                 <Button className="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">School Education <i className="fa-solid fa-circle-xmark red"></i></Button>
@@ -100,11 +103,11 @@ function Applicantsingleform () {
                             </Nav>
                             <div className="tab-content h-100" id="v-pills-tabContent">
                                 <div className="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" >
-                                    <h6>Personal Details</h6>
+                                    <h6>{t('topjobs.pdetails')}</h6>
                                     <Form>
                                         <Row>
-                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>Title <i>*</i></Form.Label>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={2} className="mb-3" controlId="">
+                                                <Form.Label>{t('topjobs.ttl')} <i>*</i></Form.Label>
                                                 <Form.Select defaultValue="Select" size='sm'>
                                                     <option>Mr.</option>
                                                     <option>Ms.</option>
@@ -112,19 +115,19 @@ function Applicantsingleform () {
                                                     <option>Dr.</option>
                                                 </Form.Select>
                                             </Form.Group>
+                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={2} className="mb-3" controlId="">
+                                                <Form.Label>{t('topjobs.initials')}</Form.Label>
+                                                <Form.Control type="text" placeholder="U.A" size='sm' />
+                                            </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>Last Name <i>*</i></Form.Label>
+                                                <Form.Label>{t('topjobs.fname')} <i>*</i></Form.Label>
                                                 <Form.Control type="text" placeholder="Pramith" size='sm' />
                                                 <small>eg: De Silva</small>
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>Other Name <i>*</i></Form.Label>
+                                                <Form.Label>{t('topjobs.lname')}</Form.Label>
                                                 <Form.Control type="text" placeholder="Heshan" size='sm' />
                                                 <small>eg: Rohan David</small>
-                                            </Form.Group>
-                                            <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>Initials <i>*</i></Form.Label>
-                                                <Form.Control type="text" placeholder="U.A" size='sm' />
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
                                                 <Form.Label>Date of Birth <i>*</i></Form.Label>
@@ -200,12 +203,12 @@ function Applicantsingleform () {
                                                 </Form.Select>
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>Telephone <i>*</i></Form.Label>
-                                                <Form.Control type="text" placeholder="0112970900" size='sm' />
+                                                <Form.Label>Mobile <i>*</i></Form.Label>
+                                                <Form.Control type="text" placeholder="0774372661" size='sm' />
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>Mobile</Form.Label>
-                                                <Form.Control type="text" placeholder="0774372661" size='sm' />
+                                                <Form.Label>Telephone</Form.Label>
+                                                <Form.Control type="text" placeholder="0112970900" size='sm' />
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
                                                 <Form.Label>Notice Period</Form.Label>
@@ -218,7 +221,7 @@ function Applicantsingleform () {
                                                 </Form.Select>
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">
-                                                <Form.Label>Expected Salary (Rs) <i>*</i></Form.Label>
+                                                <Form.Label>Expected Salary (Rs)</Form.Label>
                                                 <Form.Control type="text" placeholder="" size='sm' />
                                             </Form.Group>
                                             <Form.Group as={Col} xs={6} sm={6} md={6} lg={4} xl={3} className="mb-3" controlId="">

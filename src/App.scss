@@ -4665,15 +4665,19 @@ table {
     background: #b01515 !important;
 }
 
+.emp-login {
+
+    .lang-selector {
+        width: 100% !important;
+        margin-bottom: 10px;
+        float: left;
+    }
+}
+
 .lang-selector {
-    position: fixed;
-    top: 15px;
-    right: 15px;
-    z-index: 10000000;
-    background: #FFFFFFAB;
-    padding: 10px;
-    width: auto;
-    border-radius: 5px;
+    position: relative;
+    float: right;
+    margin-right: 10px;
 
     label {
         float: left !important;
@@ -4684,6 +4688,7 @@ table {
     select {
         float: left !important;
         width: auto !important;
+        padding: 4px 40px 3px 10px !important;
     }
 }
 

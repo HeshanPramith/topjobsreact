@@ -1,5 +1,13 @@
 {
   "topjobs.username": "පරිශීලක නාමය",
   "topjobs.password": "රහස් පදය",
-  "topjobs.loginbtn": "ඇතුල් වන්න"
+  "topjobs.loginbtn": "ඇතුල් වන්න",
+  "topjobs.heshan": "හේශාන්",
+  "topjobs.signup": "ලියාපදිංචි වන්න",
+  "topjobs.pdetails": "පුද්ගලික තොරතුරු",
+  "topjobs.fname": "මුල් නම",
+  "topjobs.lname": "අවසන් නම",
+  "topjobs.initials": "මුලකුරු",
+  "topjobs.dob": "උපන්දිනය",
+  "topjobs.ttl": "මාතෘකාව"
 }
